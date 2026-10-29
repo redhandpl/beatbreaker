@@ -1,0 +1,641 @@
+{
+  "scope": "Reference bounds and listed analytic reference-solid volumes only; no BRep symmetric difference or real purchased geometry check",
+  "coverage": 90,
+  "bound_tolerance_mm": 2.0e-06,
+  "volume_tolerance_mm3": 1.0e-05,
+  "reference_json_sha256": "abba3bdcfd90fc329800f497a8e066537b5255f116e8d2fd54abc1f5b0dfb863",
+  "shell_json_sha256": "1687a23e7c45b43ed2a21ff8acc0567f4d053a37da6891892131f3a0b2b30f57",
+  "step_evidence_sha256": "369aedab02ec3d7fc09b42bcb02d60ae3ae89ce362a0e4e5e525042c91f6ba6c",
+  "results": [
+    {
+      "key": "PI-envelope",
+      "max_bound_difference_mm": 3.552713678800501e-15,
+      "volume_difference_mm3": 0.0,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "DAC-envelope",
+      "max_bound_difference_mm": 3.552713678800501e-15,
+      "volume_difference_mm3": 2.9103830456733704e-11,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "PSU-envelope",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 0.0,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "U1-envelope",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 0.0,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "U2-envelope",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 0.0,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "U3-envelope",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 0.0,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "U4-envelope",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 0.0,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "J01-body",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 3.524291969370097e-12,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "J01-nut",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 1.1155520951433573e-12,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "D01-front-plane",
+      "max_bound_difference_mm": 1.7742252111929702e-11,
+      "volume_difference_mm3": null,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "RCA-front-plane",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": null,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B01-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B01-TIP-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": null,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B02-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B02-TIP-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": null,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B03-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B03-TIP-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": null,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B04-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B04-TIP-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": null,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B05-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B05-TIP-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": null,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B06-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B06-TIP-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": null,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B07-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B07-TIP-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": null,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B08-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B08-TIP-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": null,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B09-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B09-TIP-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": null,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B10-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B10-TIP-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": null,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B11-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B11-TIP-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": null,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B12-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B12-TIP-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": null,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B13-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B13-TIP-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": null,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B14-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B14-TIP-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": null,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B15-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B15-TIP-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": null,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B16-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B16-TIP-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": null,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B17-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B17-TIP-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": null,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B18-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B18-TIP-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": null,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B19-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B19-TIP-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": null,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B20-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B20-TIP-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": null,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B21-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B21-TIP-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": null,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B22-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B22-TIP-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": null,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B23-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B23-TIP-REF",
+      "max_bound_difference_mm": 2.842170943040401e-14,
+      "volume_difference_mm3": null,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B24-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "B24-TIP-REF",
+      "max_bound_difference_mm": 2.842170943040401e-14,
+      "volume_difference_mm3": null,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "T01-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "T01-TIP-REF",
+      "max_bound_difference_mm": 5.684341886080802e-14,
+      "volume_difference_mm3": null,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "T02-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "T02-TIP-REF",
+      "max_bound_difference_mm": 5.684341886080802e-14,
+      "volume_difference_mm3": null,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "T03-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "T03-TIP-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": null,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "T04-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "T04-TIP-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": null,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "T05-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "T05-TIP-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": null,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "T06-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "T06-TIP-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": null,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "P01-BODY-REF",
+      "max_bound_difference_mm": 1.1368683772161603e-13,
+      "volume_difference_mm3": 6.821210263296962e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "P02-BODY-REF",
+      "max_bound_difference_mm": 1.1368683772161603e-13,
+      "volume_difference_mm3": 6.821210263296962e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "P03-BODY-REF",
+      "max_bound_difference_mm": 1.1368683772161603e-13,
+      "volume_difference_mm3": 6.821210263296962e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "P04-BODY-REF",
+      "max_bound_difference_mm": 2.842170943040401e-14,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "P05-BODY-REF",
+      "max_bound_difference_mm": 2.842170943040401e-14,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "P06-BODY-REF",
+      "max_bound_difference_mm": 2.842170943040401e-14,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "P07-BODY-REF",
+      "max_bound_difference_mm": 2.842170943040401e-14,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "P08-BODY-REF",
+      "max_bound_difference_mm": 2.842170943040401e-14,
+      "volume_difference_mm3": 1.1368683772161603e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "P09-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 6.821210263296962e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "P10-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 6.821210263296962e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "P11-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 6.821210263296962e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "P12-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 6.821210263296962e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "P13-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 6.821210263296962e-13,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "F01-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 0.0,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "F02-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 0.0,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "F03-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 0.0,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "F04-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 0.0,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "F05-BODY-REF",
+      "max_bound_difference_mm": 0.0,
+      "volume_difference_mm3": 0.0,
+      "bounds_ok": true,
+      "volume_ok": true
+    },
+    {
+      "key": "E01-BODY-REF",
+      "max_bound_difference_mm": 5.684341886080802e-14,
+      "volume_difference_mm3": null,
+      "bounds_ok": true,
+      "volume_ok": true
+    }
+  ]
+}

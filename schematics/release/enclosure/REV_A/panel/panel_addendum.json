@@ -1,0 +1,57 @@
+{
+  "revision": "B26-CONSOLIDATED-02",
+  "status": "DRAFT, not approved, not for manufacture; documentation of the B26-build123d03 unpowered mechanical trial, not a new model",
+  "scope": "Six flat front panels R01, R03, R04, R05, R06, R07, their cutouts and raised marks, and 49 legacy cap placements. Roofs, shell, retainers and jog components are outside this addendum.",
+  "units_and_frames": {
+    "units": "mm",
+    "drawing": "table X right, table Y toward front/operator, Z up",
+    "cad": "(X, -Y, Z); all operation bounds and centres below use table coordinates unless CAD is explicitly stated",
+    "precision": "Decimal coordinates are numerical transcriptions/approximations of the source, not manufacturing tolerances. FRONT is exactly 96 + 5/tan(49 degrees), approximately 100.34643368908114."
+  },
+  "companion_files": {
+    "frontpanel_data.json": "Verbatim B26-CONSOLIDATED-01 source-derived dataset: 69 aperture records with panel identity, 28 closure axes, five fader centres, 65 raised P-mark polygons, panel operation summary and roof information. Panel operations below clarify the source order and edge cases; the roof fields are outside this addendum.",
+    "B26_CONSOLIDATED_01_caps_mesh_DRAFT.json": "Verbatim engineer-selected nine legacy mesh definitions, not analytic or editable BRep feature histories.",
+    "B26_CONSOLIDATED_01_caps_poses_DRAFT.json": "Verbatim 49 occurrence identities, mesh keys and global CAD frames after B26 translation. Original 01 revision/status labels describe provenance, not approval of revision 02."
+  },
+  "panel_construction": {
+    "initial_stock": "Each part occupies Z18..20. Add and subtract rectangles at the extents below before performing any rounds; intersecting cuts are naturally clipped by each individual panel boundary.",
+    "profiles": {
+      "R01": "Union X0..220 Y0..140 and X75..145 Y140..165; subtract X153.55..220 Y0..FRONT.",
+      "R03": "X220..380 YFRONT..140.",
+      "R04": "Union X380..600 Y0..140 and X455..525 Y140..165; subtract X380..446.45 Y0..FRONT.",
+      "R05": "X0..220 Y140..320; subtract X75..145 Y140..165.",
+      "R06": "X220..380 Y140..320.",
+      "R07": "X380..600 Y140..320; subtract X455..525 Y140..165."
+    },
+    "operations_in_order": [
+      "Subtract the 69 through apertures assigned to their panel in frontpanel_data.json, from Z17 through Z22. A circle has diameter W; a rect is W by H; rr is W by H with corner radius R; a slot has overall length max(W,H), width min(W,H), long axis Y when H > W and X otherwise. T IDs override their listed rr metadata: let a=7.2+1.6*sqrt(5), s=+1 for odd numeric T ID and -1 for even; CAD XY vertices are (X+s*u,-Y+s*v) for (u,v)=(-a,0),(4,(a+4)/2),(4,-(a+4)/2).",
+      "Round the vertical outside corner edge R3 on R01 at table (0,0), R04 at (600,0), R05 at (0,320), R07 at (600,320). Then fillet R0.8 the Z20 edges on the external 600 by 320 outline including its R3 corner arcs; do not round internal seams or aperture edges at this step.",
+      "For each assigned fader centre subtract a rounded rectangle from Z19 through Z22: F01-F04 14 X by 69.7 Y; F05 69.7 X by 14 Y; corner radius 3. Chamfer its Z20 perimeter 0.8. The already-cut central slot extends through the remaining panel; the pocket floor is Z19 and is not the panel underside.",
+      "On each of R01 and R05 cut at table (110,165), and on each of R04 and R07 cut at (490,165): radius 26 from Z17 through Z22 and radius 54 from Z19 through Z22. Chamfer the resulting Z20 R54 edge 0.8. The centres lie on the split: cut each panel separately; do not add a full unsplit ring.",
+      "Chamfer Z20 edges of B and T apertures 0.8. P, F, L and E aperture edges do not receive this cap-edge operation.",
+      "Add the 65 P-mark polygons in frontpanel_data.json at their listed panel, coordinates and Z20..20.4. They are individually placed polygons, not a font or text approximation. For provenance, original P04 polygons are also translated to P01/P02/P03 at X559, Y41/69/97 by the released source. Preserve the transcribed final coordinates; do not translate them a second time.",
+      "Add 22 fader tick rectangles per fader, at Z19..19.4, i.e. on the recessed floor. For j=0..10 let u=-travel/2+j*travel/10, travel=28 for F05 and 41 otherwise. For sign=-1,+1 and length=4 when j is 0,5,10, otherwise 2, use local corners (u-0.4,sign*2.4), (u+0.4,sign*2.4), (u+0.4,sign*(2.4+length)), (u-0.4,sign*(2.4+length)). If local coordinates are (uu,vv), table XY is (x+uu,y-vv) for F05, otherwise (x+vv,y+uu). The fader centres (x,y) are in frontpanel_data.json.",
+      "Finally subtract the 28 closure holes at their panel-specific centres: cylinder radius 1.7 from Z17 through Z22, followed by a coaxial conical countersink from Z18.7 to Z20, bottom radius 1.7 and top radius 3. Dimensions are nominal; actual fastener fit is unverified."
+    ],
+    "edge_selection": "The released code tests five sampled points on candidate edges for the specified Z20 perimeter predicates with 1e-5 mm tolerance. This is an operation-selection tolerance, not a part tolerance. Corner edges use 1e-6 mm coordinate comparisons. Boolean kernel outcomes and fillet continuity are not independently established by this document."
+  },
+  "cap_definition_and_placement": {
+    "mesh_frame": "The triangles' vertices_mm are local mesh Cartesian coordinates in millimetres, with no scaling on import. Preserve each triangle normal, vertex order, and 16-bit attribute. To recover each selected binary STL byte-for-byte, decode its 80-byte header_base64, append triangle_count as unsigned little-endian uint32, then each normal and its three vertices as 12 little-endian IEEE-754 binary32 values followed by the unsigned little-endian uint16 attribute. Source SHA-256 is recorded per definition in the mesh dataset; these are faceted surfaces, not inferred parametric features.",
+    "frame_application": "For each occurrence use its cad_origin_mm as O, cad_x_direction as ex and cad_z_direction as ez. Set ey=ez cross ex as the right-handed build123d Plane convention. A local mesh vertex (u,v,w) maps to global CAD O + u*ex + v*ey + w*ez; apply no further drawing-Y reflection to this CAD result. To express a resulting position in table coordinates, negate its global CAD Y. The source B24 inventory pose translation was in cm and is multiplied by 10; local STL vertices are already mm. The poses dataset already includes B26 X/Y owner deltas: do not apply them again.",
+    "identity": "Each occurrence is distinguished by owner and full inventory_id; mesh_definition is one of nine keys. A shared definition does not make the 49 occurrences interchangeable. These are retained control-cap references; purchased mating geometry and physical fit are TBD.",
+    "selected_definitions": ["CAP_B", "CAP_T", "CAP_P", "CAP_F", "CAP_C", "CAP_E", "CAP-CUE40", "CAP-PP40", "CAP-HC40"]
+  },
+  "traceability": {
+    "released_source_root": "models/release/enclosure/B26/B26-build123d03_RELEASE/SOURCE/",
+    "source_manifest_sha256": "23b84d2af197ca66a297b7529c1726a0d0eac3c33fb92b2c9a1fabeed27f0641",
+    "panel_operation_source": "models/enclosure/B26/BUILD123D03/b26_panels.py, sha256 666f730b41eb7c8b1c517b74ddb2f2f3c209c6706444c7ef15e33bb5d27ea33e; inherited profile and chamfer helpers models/enclosure/B24/BUILD123D/panels.py, sha256 83b70993090b0274be37c26aa376f47db04fbbbde9c7762685b7e3f337a674d6",
+    "cap_operation_sources": "models/enclosure/B24/BUILD123D/caps.py, sha256 c9b9be49f4d75dd0129c263533ece12244a76d0c74aa6aadfe1f89e042457357; models/enclosure/B26/BUILD123D03/b26_controls.py, sha256 4fb5a4c145e6a3eeb7a1d63ac0df0045e78e5ca1c11ba9ab564288fae6fe2348; B24 Fusion05 validation inventory sha256 8c8763c0427f119f73fb7061c340cf74baaa1c86386e6f1529abfe795974d5ae",
+    "transcription_sources": "B15 inputs, B19 definition, B22 validation and B24 definition and validation in the released source manifest; released source paths and hashes are recorded in SOURCE/source-manifest.json.",
+    "previous_snapshots": "schematics/work/enclosure/B26-CONSOLIDATED-01/B26_CONSOLIDATED_01_DRAFT_validation.json records previous panel-data SHA-256 5f064395b05b5667b19906d5b7576b23d3d964e7a3574eeeb43a912339ef25ec, mesh SHA-256 b5a3772010cd64d9a7e173032cead02329d445a4da9280722dedd681066b9bf1, poses SHA-256 237ecfc83642d861df962362dc42b8f3e7a161e1c5ca5f492604c45b395db277 and frontpanel PDF SHA-256 b990dad0644586630b96a6e42c836b91683907a0e4ce0983128542599ab9be82. Acceptance of those snapshots is not proof of independent reconstructibility."
+  },
+  "limitations": [
+    "No revision-02 drawing, geometry, STEP/STL, physical fit, manufacture or electrical safety is approved by this addendum. Bought-part and electrical interfaces are incomplete schematic references; unspecified geometry, fasteners, mounting fit, materials and tolerances remain TBD by the engineer.",
+    "The 01 dataset and this addendum have not been independently reconstructed or compared against the released source Boolean surfaces. Prior 01 count and mesh byte checks are reported in its validation JSON, not new checks. Display roofs and control retainers require their own documentation.",
+    "P01 here is a panel control identifier and must not be confused with jog P01 rotor. The released STEP strict default-volume check for each jog P01 rotor failed by 0.641091522 mm3 against 0.0001 mm3; the engineer accepted only a bounded unpowered-trial exception. Adaptive difference 0.000001609 mm3 and zero directed cut volumes do not establish exact surface equivalence. See models/release/enclosure/B26/B26-build123d03_RELEASE/B26-build123d03_handoff.md, STEP exception section."
+  ]
+}

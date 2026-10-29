@@ -1,0 +1,30 @@
+{
+  "panel": "R06",
+  "step_path": [
+    1,
+    4
+  ],
+  "step_label": "PANEL_R06_B26-INTEGRATED-01_review",
+  "component_count": 1,
+  "components": [
+    {
+      "bounds_mm": [
+        [
+          220.0,
+          -320.0,
+          19.2
+        ],
+        [
+          380.0,
+          -319.2,
+          20.0
+        ]
+      ],
+      "volume_mm3": 21.9752280681015
+    }
+  ],
+  "sum_mm3": 21.9752280681015,
+  "reconstruction_minus_step_mm3": 21.9752280681015,
+  "step_minus_reconstruction_mm3": 0.0,
+  "coordinates": "CAD X,-table Y,Z in mm"
+}

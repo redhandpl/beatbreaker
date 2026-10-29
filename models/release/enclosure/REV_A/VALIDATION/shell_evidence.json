@@ -1,0 +1,4343 @@
+{
+  "input_sha256": {
+    "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/schematics/work/enclosure/B26-CONSOLIDATED-02/B26_CONSOLIDATED_02_complete_DRAFT.pdf": "35ab5a40ae0051ec4080cb6cfb287782c482859d1a6f666e9a8b0ccca00226c2",
+    "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/schematics/work/enclosure/B26-CONSOLIDATED-02/shell/shell_dataset_DRAFT.json": "1687a23e7c45b43ed2a21ff8acc0567f4d053a37da6891892131f3a0b2b30f57",
+    "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/release/enclosure/B26/B26-build123d03_RELEASE/STEP/B26-build123d03-trial-assembly.step": "be226639517a5e5042979a5c78039f82f4e40c89f9d92193f8bd150e7c0c258b"
+  },
+  "criteria": {
+    "bounds_mm": 1e-05,
+    "absolute_volume_mm3": 0.0001,
+    "each_direction_boolean_volume_mm3": 0.0001,
+    "comparison_candidate_bound_mm": 0.001
+  },
+  "denominator": {
+    "shells": 6,
+    "bridges": 16,
+    "retainer_groups": 49,
+    "retainer_solids": 54,
+    "roof_halves": 2,
+    "display_toes": 4
+  },
+  "results": {
+    "J01": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            2,
+            0,
+            0
+          ],
+          "step_label": "C07_J16_printed_B26-INTEGRATED-01_review",
+          "reconstructed_bounds_mm": [
+            [
+              206.0,
+              -126.0,
+              8.0
+            ],
+            [
+              234.0,
+              -116.0,
+              11.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              206.0,
+              -126.0,
+              8.0
+            ],
+            [
+              234.0,
+              -116.0,
+              11.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 785.5247833867531,
+          "step_volume_mm3": 785.5247833867512,
+          "volume_delta_mm3": 1.9326762412674725e-12,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.9326762412674725e-12,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "J02": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            2,
+            1,
+            0
+          ],
+          "step_label": "C07_J16_printed_B26-INTEGRATED-01_review",
+          "reconstructed_bounds_mm": [
+            [
+              206.0,
+              -185.0,
+              8.0
+            ],
+            [
+              234.0,
+              -175.0,
+              11.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              206.0,
+              -185.0,
+              8.0
+            ],
+            [
+              234.0,
+              -175.0,
+              11.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 785.5247833867531,
+          "step_volume_mm3": 785.5247833867512,
+          "volume_delta_mm3": 1.9326762412674725e-12,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.9326762412674725e-12,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "J03": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            2,
+            2,
+            0
+          ],
+          "step_label": "C07_J16_printed_B26-INTEGRATED-01_review",
+          "reconstructed_bounds_mm": [
+            [
+              206.0,
+              -255.0,
+              8.0
+            ],
+            [
+              234.0,
+              -245.0,
+              11.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              206.0,
+              -255.0,
+              8.0
+            ],
+            [
+              234.0,
+              -245.0,
+              11.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 785.5247833867531,
+          "step_volume_mm3": 785.5247833867512,
+          "volume_delta_mm3": 1.9326762412674725e-12,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.9326762412674725e-12,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "J04": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            2,
+            3,
+            0
+          ],
+          "step_label": "C07_J16_printed_B26-INTEGRATED-01_review",
+          "reconstructed_bounds_mm": [
+            [
+              366.0,
+              -126.0,
+              8.0
+            ],
+            [
+              394.0,
+              -116.0,
+              11.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              366.0,
+              -126.0,
+              8.0
+            ],
+            [
+              394.0,
+              -116.0,
+              11.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 785.5247833867531,
+          "step_volume_mm3": 785.5247833867513,
+          "volume_delta_mm3": 1.8189894035458565e-12,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.8189894035458565e-12,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "J05": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            2,
+            4,
+            0
+          ],
+          "step_label": "C07_J16_printed_B26-INTEGRATED-01_review",
+          "reconstructed_bounds_mm": [
+            [
+              366.0,
+              -185.0,
+              8.0
+            ],
+            [
+              394.0,
+              -175.0,
+              11.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              366.0,
+              -185.0,
+              8.0
+            ],
+            [
+              394.0,
+              -175.0,
+              11.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 785.5247833867531,
+          "step_volume_mm3": 785.5247833867512,
+          "volume_delta_mm3": 1.9326762412674725e-12,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.9326762412674725e-12,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "J06": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            2,
+            5,
+            0
+          ],
+          "step_label": "C07_J16_printed_B26-INTEGRATED-01_review",
+          "reconstructed_bounds_mm": [
+            [
+              366.0,
+              -255.0,
+              8.0
+            ],
+            [
+              394.0,
+              -245.0,
+              11.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              366.0,
+              -255.0,
+              8.0
+            ],
+            [
+              394.0,
+              -245.0,
+              11.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 785.5247833867531,
+          "step_volume_mm3": 785.5247833867512,
+          "volume_delta_mm3": 1.9326762412674725e-12,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.9326762412674725e-12,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "J07": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            2,
+            6,
+            0
+          ],
+          "step_label": "C07_J16_printed_B26-INTEGRATED-01_review",
+          "reconstructed_bounds_mm": [
+            [
+              45.0,
+              -154.0,
+              8.0
+            ],
+            [
+              55.0,
+              -126.0,
+              11.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              45.0,
+              -154.0,
+              8.0
+            ],
+            [
+              55.00000000000001,
+              -126.0,
+              11.0
+            ]
+          ],
+          "bound_delta_mm": 7.105427357601002e-15,
+          "reconstructed_volume_mm3": 785.5247833867529,
+          "step_volume_mm3": 785.5247833867512,
+          "volume_delta_mm3": 1.7053025658242404e-12,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.7053025658242404e-12,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "J08": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            2,
+            7,
+            0
+          ],
+          "step_label": "C07_J16_printed_B26-INTEGRATED-01_review",
+          "reconstructed_bounds_mm": [
+            [
+              258.0,
+              -154.0,
+              8.0
+            ],
+            [
+              268.0,
+              -126.0,
+              11.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              258.0,
+              -154.0,
+              8.0
+            ],
+            [
+              268.0,
+              -126.0,
+              11.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 785.5247833867531,
+          "step_volume_mm3": 785.5247833867513,
+          "volume_delta_mm3": 1.8189894035458565e-12,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.8189894035458565e-12,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "J09": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            2,
+            8,
+            0
+          ],
+          "step_label": "C07_J16_printed_B26-INTEGRATED-01_review",
+          "reconstructed_bounds_mm": [
+            [
+              332.0,
+              -154.0,
+              8.0
+            ],
+            [
+              342.0,
+              -126.0,
+              11.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              332.0,
+              -154.0,
+              8.0
+            ],
+            [
+              342.0,
+              -126.0,
+              11.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 785.5247833867531,
+          "step_volume_mm3": 785.5247833867513,
+          "volume_delta_mm3": 1.8189894035458565e-12,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.8189894035458565e-12,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "J10": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            2,
+            9,
+            0
+          ],
+          "step_label": "C07_J16_printed_B26-INTEGRATED-01_review",
+          "reconstructed_bounds_mm": [
+            [
+              545.0,
+              -154.0,
+              8.0
+            ],
+            [
+              555.0,
+              -126.0,
+              11.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              545.0,
+              -154.0,
+              8.0
+            ],
+            [
+              555.0,
+              -126.0,
+              11.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 785.5247833867518,
+          "step_volume_mm3": 785.5247833867512,
+          "volume_delta_mm3": 5.684341886080801e-13,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 5.684341886080801e-13,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "J11": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            2,
+            10,
+            0
+          ],
+          "step_label": "C07_J16_printed_B26-INTEGRATED-01_review",
+          "reconstructed_bounds_mm": [
+            [
+              165.0,
+              -154.0,
+              8.0
+            ],
+            [
+              175.0,
+              -126.0,
+              11.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              165.0,
+              -154.0,
+              8.0
+            ],
+            [
+              175.0,
+              -126.0,
+              11.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 785.5247833867531,
+          "step_volume_mm3": 785.5247833867512,
+          "volume_delta_mm3": 1.9326762412674725e-12,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.9326762412674725e-12,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "J12": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            2,
+            11,
+            0
+          ],
+          "step_label": "C07_J16_printed_B26-INTEGRATED-01_review",
+          "reconstructed_bounds_mm": [
+            [
+              425.0,
+              -154.0,
+              8.0
+            ],
+            [
+              435.0,
+              -126.0,
+              11.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              425.0,
+              -154.0,
+              8.0
+            ],
+            [
+              435.0,
+              -126.0,
+              11.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 785.5247833867531,
+          "step_volume_mm3": 785.5247833867513,
+          "volume_delta_mm3": 1.8189894035458565e-12,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.8189894035458565e-12,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "J13": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            2,
+            12,
+            0
+          ],
+          "step_label": "C07_J16_printed_B26-INTEGRATED-01_review",
+          "reconstructed_bounds_mm": [
+            [
+              206.0,
+              -100.0,
+              8.0
+            ],
+            [
+              234.0,
+              -90.0,
+              11.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              206.0,
+              -100.0,
+              8.0
+            ],
+            [
+              234.0,
+              -90.0,
+              11.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 785.5247833867531,
+          "step_volume_mm3": 785.5247833867512,
+          "volume_delta_mm3": 1.9326762412674725e-12,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.9326762412674725e-12,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "J14": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            2,
+            13,
+            0
+          ],
+          "step_label": "C07_J16_printed_B26-INTEGRATED-01_review",
+          "reconstructed_bounds_mm": [
+            [
+              366.0,
+              -95.0,
+              8.0
+            ],
+            [
+              394.0,
+              -85.0,
+              11.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              366.0,
+              -95.0,
+              8.0
+            ],
+            [
+              394.0,
+              -85.0,
+              11.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 785.5247833867531,
+          "step_volume_mm3": 785.5247833867513,
+          "volume_delta_mm3": 1.8189894035458565e-12,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.8189894035458565e-12,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "J15": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            2,
+            14,
+            0
+          ],
+          "step_label": "C07_J16_printed_B26-INTEGRATED-01_review",
+          "reconstructed_bounds_mm": [
+            [
+              206.0,
+              -19.0,
+              8.0
+            ],
+            [
+              234.0,
+              -9.0,
+              11.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              206.0,
+              -19.0,
+              8.0
+            ],
+            [
+              234.0,
+              -9.0,
+              11.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 785.5247833867531,
+          "step_volume_mm3": 785.5247833867512,
+          "volume_delta_mm3": 1.9326762412674725e-12,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.9326762412674725e-12,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "J16": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            2,
+            15,
+            0
+          ],
+          "step_label": "C07_J16_printed_B26-INTEGRATED-01_review",
+          "reconstructed_bounds_mm": [
+            [
+              366.0,
+              -19.0,
+              8.0
+            ],
+            [
+              394.0,
+              -9.0,
+              11.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              366.0,
+              -19.0,
+              8.0
+            ],
+            [
+              394.0,
+              -9.0,
+              11.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 785.5247833867531,
+          "step_volume_mm3": 785.5247833867513,
+          "volume_delta_mm3": 1.8189894035458565e-12,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.8189894035458565e-12,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "B01-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            0,
+            0
+          ],
+          "step_label": "B01-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              82.9,
+              -53.650000000000006,
+              15.5
+            ],
+            [
+              99.10000000000001,
+              -30.849999999999998,
+              17.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              82.9,
+              -53.650000000000006,
+              15.5
+            ],
+            [
+              99.10000000000001,
+              -30.849999999999998,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 314.32713805899834,
+          "step_volume_mm3": 314.327138058987,
+          "volume_delta_mm3": 1.1368683772161603e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.1368683772161603e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "B02-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            1,
+            0
+          ],
+          "step_label": "B02-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              102.9,
+              -53.650000000000006,
+              15.5
+            ],
+            [
+              119.10000000000001,
+              -30.849999999999998,
+              17.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              102.9,
+              -53.650000000000006,
+              15.5
+            ],
+            [
+              119.10000000000001,
+              -30.849999999999998,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 314.32713805899823,
+          "step_volume_mm3": 314.3271380589869,
+          "volume_delta_mm3": 1.1311840353300795e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.1311840353300795e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "B03-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            2,
+            0
+          ],
+          "step_label": "B03-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              122.9,
+              -53.650000000000006,
+              15.5
+            ],
+            [
+              139.1,
+              -30.849999999999998,
+              17.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              122.9,
+              -53.650000000000006,
+              15.5
+            ],
+            [
+              139.1,
+              -30.849999999999998,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 314.32713805899823,
+          "step_volume_mm3": 314.327138058987,
+          "volume_delta_mm3": 1.1254996934439987e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.1254996934439987e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "B04-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            3,
+            0
+          ],
+          "step_label": "B04-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              102.9,
+              -77.65,
+              15.5
+            ],
+            [
+              119.10000000000001,
+              -54.849999999999994,
+              17.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              102.9,
+              -77.65,
+              15.5
+            ],
+            [
+              119.10000000000001,
+              -54.849999999999994,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 314.32713805899823,
+          "step_volume_mm3": 314.327138058987,
+          "volume_delta_mm3": 1.1254996934439987e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.1254996934439987e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "B05-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            4,
+            0
+          ],
+          "step_label": "B05-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              122.9,
+              -77.65,
+              15.5
+            ],
+            [
+              139.1,
+              -54.849999999999994,
+              17.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              122.9,
+              -77.65,
+              15.5
+            ],
+            [
+              139.1,
+              -54.849999999999994,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 314.32713805899834,
+          "step_volume_mm3": 314.3271380589869,
+          "volume_delta_mm3": 1.1425527191022411e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.1425527191022411e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "B06-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            5,
+            0
+          ],
+          "step_label": "B06-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              462.9,
+              -53.650000000000006,
+              15.5
+            ],
+            [
+              479.1,
+              -30.849999999999998,
+              17.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              462.9,
+              -53.650000000000006,
+              15.5
+            ],
+            [
+              479.1,
+              -30.849999999999998,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 314.32713805899886,
+          "step_volume_mm3": 314.3271380589875,
+          "volume_delta_mm3": 1.1368683772161603e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.1368683772161603e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "B07-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            6,
+            0
+          ],
+          "step_label": "B07-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              482.9,
+              -53.650000000000006,
+              15.5
+            ],
+            [
+              499.1,
+              -30.849999999999998,
+              17.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              482.9,
+              -53.650000000000006,
+              15.5
+            ],
+            [
+              499.1,
+              -30.849999999999998,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 314.3271380589987,
+          "step_volume_mm3": 314.32713805898743,
+          "volume_delta_mm3": 1.1254996934439987e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.1254996934439987e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "B08-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            7,
+            0
+          ],
+          "step_label": "B08-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              502.9,
+              -53.650000000000006,
+              15.5
+            ],
+            [
+              519.1,
+              -30.849999999999998,
+              17.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              502.9,
+              -53.650000000000006,
+              15.5
+            ],
+            [
+              519.1,
+              -30.849999999999998,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 314.3271380589988,
+          "step_volume_mm3": 314.3271380589874,
+          "volume_delta_mm3": 1.1425527191022411e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.1425527191022411e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "B09-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            8,
+            0
+          ],
+          "step_label": "B09-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              482.9,
+              -77.65,
+              15.5
+            ],
+            [
+              499.1,
+              -54.849999999999994,
+              17.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              482.9,
+              -77.65,
+              15.5
+            ],
+            [
+              499.1,
+              -54.849999999999994,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 314.32713805899874,
+          "step_volume_mm3": 314.3271380589875,
+          "volume_delta_mm3": 1.1254996934439987e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.1254996934439987e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "B10-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            9,
+            0
+          ],
+          "step_label": "B10-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              502.9,
+              -77.65,
+              15.5
+            ],
+            [
+              519.1,
+              -54.849999999999994,
+              17.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              502.9,
+              -77.65,
+              15.5
+            ],
+            [
+              519.1,
+              -54.849999999999994,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 314.32713805899874,
+          "step_volume_mm3": 314.3271380589875,
+          "volume_delta_mm3": 1.1254996934439987e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.1254996934439987e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "B11-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            10,
+            0
+          ],
+          "step_label": "B11-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              23.9,
+              -259.4,
+              15.5
+            ],
+            [
+              40.1,
+              -236.60000000000002,
+              17.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              23.9,
+              -259.4,
+              15.5
+            ],
+            [
+              40.1,
+              -236.60000000000002,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 314.32713805899846,
+          "step_volume_mm3": 314.3271380589872,
+          "volume_delta_mm3": 1.1254996934439987e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.1254996934439987e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "B12-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            11,
+            0
+          ],
+          "step_label": "B12-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              23.9,
+              -305.4,
+              15.5
+            ],
+            [
+              40.1,
+              -282.6,
+              17.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              23.9,
+              -305.4,
+              15.5
+            ],
+            [
+              40.1,
+              -282.6,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 314.3271380589986,
+          "step_volume_mm3": 314.3271380589874,
+          "volume_delta_mm3": 1.1254996934439987e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.1254996934439987e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "B13-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            12,
+            0
+          ],
+          "step_label": "B13-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              69.9,
+              -259.4,
+              15.5
+            ],
+            [
+              86.10000000000001,
+              -236.60000000000002,
+              17.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              69.9,
+              -259.4,
+              15.5
+            ],
+            [
+              86.10000000000001,
+              -236.60000000000002,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 314.3271380589984,
+          "step_volume_mm3": 314.3271380589872,
+          "volume_delta_mm3": 1.1198153515579179e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.1198153515579179e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "B14-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            13,
+            0
+          ],
+          "step_label": "B14-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              115.9,
+              -259.4,
+              15.5
+            ],
+            [
+              132.1,
+              -236.60000000000002,
+              17.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              115.9,
+              -259.4,
+              15.5
+            ],
+            [
+              132.1,
+              -236.60000000000002,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 314.32713805899834,
+          "step_volume_mm3": 314.3271380589871,
+          "volume_delta_mm3": 1.1254996934439987e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.1254996934439987e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "B15-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            14,
+            0
+          ],
+          "step_label": "B15-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              69.9,
+              -305.4,
+              15.5
+            ],
+            [
+              86.10000000000001,
+              -282.6,
+              17.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              69.9,
+              -305.4,
+              15.5
+            ],
+            [
+              86.10000000000001,
+              -282.6,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 314.32713805899857,
+          "step_volume_mm3": 314.3271380589873,
+          "volume_delta_mm3": 1.1254996934439987e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.1254996934439987e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "B16-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            15,
+            0
+          ],
+          "step_label": "B16-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              115.9,
+              -305.4,
+              15.5
+            ],
+            [
+              132.1,
+              -282.6,
+              17.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              115.9,
+              -305.4,
+              15.5
+            ],
+            [
+              132.1,
+              -282.6,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 314.3271380589986,
+          "step_volume_mm3": 314.3271380589872,
+          "volume_delta_mm3": 1.1425527191022411e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.1425527191022411e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "B17-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            16,
+            0
+          ],
+          "step_label": "B17-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              403.9,
+              -259.4,
+              15.5
+            ],
+            [
+              420.1,
+              -236.60000000000002,
+              17.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              403.9,
+              -259.4,
+              15.5
+            ],
+            [
+              420.1,
+              -236.60000000000002,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 314.3271380589989,
+          "step_volume_mm3": 314.32713805898743,
+          "volume_delta_mm3": 1.1482370609883219e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.1482370609883219e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "B18-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            17,
+            0
+          ],
+          "step_label": "B18-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              403.9,
+              -305.4,
+              15.5
+            ],
+            [
+              420.1,
+              -282.6,
+              17.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              403.9,
+              -305.4,
+              15.5
+            ],
+            [
+              420.1,
+              -282.6,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 314.327138058999,
+          "step_volume_mm3": 314.32713805898766,
+          "volume_delta_mm3": 1.1368683772161603e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.1368683772161603e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "B19-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            18,
+            0
+          ],
+          "step_label": "B19-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              449.9,
+              -259.4,
+              15.5
+            ],
+            [
+              466.1,
+              -236.60000000000002,
+              17.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              449.9,
+              -259.4,
+              15.5
+            ],
+            [
+              466.1,
+              -236.60000000000002,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 314.3271380589989,
+          "step_volume_mm3": 314.3271380589875,
+          "volume_delta_mm3": 1.1425527191022411e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.1425527191022411e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "B20-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            19,
+            0
+          ],
+          "step_label": "B20-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              495.9,
+              -259.4,
+              15.5
+            ],
+            [
+              512.1,
+              -236.60000000000002,
+              17.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              495.9,
+              -259.4,
+              15.5
+            ],
+            [
+              512.1,
+              -236.60000000000002,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 314.32713805899886,
+          "step_volume_mm3": 314.32713805898743,
+          "volume_delta_mm3": 1.1425527191022411e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.1425527191022411e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "B21-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            20,
+            0
+          ],
+          "step_label": "B21-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              449.9,
+              -305.4,
+              15.5
+            ],
+            [
+              466.1,
+              -282.6,
+              17.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              449.9,
+              -305.4,
+              15.5
+            ],
+            [
+              466.1,
+              -282.6,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 314.327138058999,
+          "step_volume_mm3": 314.32713805898766,
+          "volume_delta_mm3": 1.1368683772161603e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.1368683772161603e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "B22-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            21,
+            0
+          ],
+          "step_label": "B22-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              495.9,
+              -305.4,
+              15.5
+            ],
+            [
+              512.1,
+              -282.6,
+              17.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              495.9,
+              -305.4,
+              15.5
+            ],
+            [
+              512.1,
+              -282.6,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 314.32713805899914,
+          "step_volume_mm3": 314.32713805898766,
+          "volume_delta_mm3": 1.1482370609883219e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.1482370609883219e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "B23-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            22,
+            0
+          ],
+          "step_label": "B23-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              267.9,
+              -266.4,
+              15.5
+            ],
+            [
+              284.1,
+              -243.60000000000002,
+              17.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              267.9,
+              -266.4,
+              15.5
+            ],
+            [
+              284.1,
+              -243.60000000000002,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 314.32713805899886,
+          "step_volume_mm3": 314.3271380589875,
+          "volume_delta_mm3": 1.1368683772161603e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.1368683772161603e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "B24-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            23,
+            0
+          ],
+          "step_label": "B24-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              315.9,
+              -266.4,
+              15.5
+            ],
+            [
+              332.1,
+              -243.60000000000002,
+              17.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              315.9,
+              -266.4,
+              15.5
+            ],
+            [
+              332.1,
+              -243.60000000000002,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 314.3271380589989,
+          "step_volume_mm3": 314.3271380589875,
+          "volume_delta_mm3": 1.1425527191022411e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.1425527191022411e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "T01-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            24,
+            0
+          ],
+          "step_label": "T01-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              268.9,
+              -136.39999999999998,
+              15.5
+            ],
+            [
+              285.1,
+              -113.6,
+              17.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              268.9,
+              -136.39999999999998,
+              15.5
+            ],
+            [
+              285.1,
+              -113.6,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 314.32713805899874,
+          "step_volume_mm3": 314.3271380589873,
+          "volume_delta_mm3": 1.1425527191022411e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.1425527191022411e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "T02-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            25,
+            0
+          ],
+          "step_label": "T02-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              314.9,
+              -136.39999999999998,
+              15.5
+            ],
+            [
+              331.1,
+              -113.6,
+              17.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              314.9,
+              -136.39999999999998,
+              15.5
+            ],
+            [
+              331.1,
+              -113.6,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 314.3271380589988,
+          "step_volume_mm3": 314.32713805898743,
+          "volume_delta_mm3": 1.1368683772161603e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.1368683772161603e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "T03-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            26,
+            0
+          ],
+          "step_label": "T03-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              227.9,
+              -289.4,
+              15.5
+            ],
+            [
+              244.1,
+              -266.6,
+              17.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              227.9,
+              -289.4,
+              15.5
+            ],
+            [
+              244.1,
+              -266.6,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 314.3271380589985,
+          "step_volume_mm3": 314.32713805898726,
+          "volume_delta_mm3": 1.1254996934439987e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.1254996934439987e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "T04-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            27,
+            0
+          ],
+          "step_label": "T04-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              245.9,
+              -289.4,
+              15.5
+            ],
+            [
+              262.1,
+              -266.6,
+              17.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              245.9,
+              -289.4,
+              15.5
+            ],
+            [
+              262.1,
+              -266.6,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 314.32713805899874,
+          "step_volume_mm3": 314.3271380589875,
+          "volume_delta_mm3": 1.1254996934439987e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.1254996934439987e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "T05-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            28,
+            0
+          ],
+          "step_label": "T05-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              339.9,
+              -289.4,
+              15.5
+            ],
+            [
+              356.1,
+              -266.6,
+              17.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              339.9,
+              -289.4,
+              15.5
+            ],
+            [
+              356.1,
+              -266.6,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 314.327138058999,
+          "step_volume_mm3": 314.3271380589877,
+          "volume_delta_mm3": 1.1311840353300795e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.1311840353300795e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "T06-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            29,
+            0
+          ],
+          "step_label": "T06-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              357.9,
+              -289.4,
+              15.5
+            ],
+            [
+              374.1,
+              -266.6,
+              17.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              357.9,
+              -289.4,
+              15.5
+            ],
+            [
+              374.1,
+              -266.6,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 314.327138058999,
+          "step_volume_mm3": 314.3271380589877,
+          "volume_delta_mm3": 1.1311840353300795e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.1311840353300795e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "P01-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            30,
+            0
+          ],
+          "step_label": "P01-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              550.5,
+              -50.800000000000004,
+              14.299999999999999
+            ],
+            [
+              567.5,
+              -32.699999999999996,
+              15.8
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              550.5,
+              -50.800000000000004,
+              14.299999999999999
+            ],
+            [
+              567.5,
+              -32.699999999999996,
+              15.8
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 306.0051303920546,
+          "step_volume_mm3": 306.00513039203537,
+          "volume_delta_mm3": 1.921307557495311e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.921307557495311e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "P02-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            31,
+            0
+          ],
+          "step_label": "P02-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              550.5,
+              -78.8,
+              14.299999999999999
+            ],
+            [
+              567.5,
+              -60.699999999999996,
+              15.8
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              550.5,
+              -78.8,
+              14.299999999999999
+            ],
+            [
+              567.5,
+              -60.699999999999996,
+              15.8
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 306.00513039205464,
+          "step_volume_mm3": 306.0051303920353,
+          "volume_delta_mm3": 1.9326762412674725e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.9326762412674725e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "P03-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            32,
+            0
+          ],
+          "step_label": "P03-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              550.5,
+              -106.8,
+              14.299999999999999
+            ],
+            [
+              567.5,
+              -88.7,
+              15.8
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              550.5,
+              -106.8,
+              14.299999999999999
+            ],
+            [
+              567.5,
+              -88.7,
+              15.8
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 306.0051303920546,
+          "step_volume_mm3": 306.00513039203537,
+          "volume_delta_mm3": 1.921307557495311e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.921307557495311e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "P04-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            33,
+            0
+          ],
+          "step_label": "P04-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              235.5,
+              -160.79999999999998,
+              14.299999999999999
+            ],
+            [
+              252.5,
+              -142.70000000000002,
+              15.8
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              235.5,
+              -160.79999999999998,
+              14.299999999999999
+            ],
+            [
+              252.5,
+              -142.70000000000002,
+              15.8
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 306.00513039205464,
+          "step_volume_mm3": 306.0051303920353,
+          "volume_delta_mm3": 1.9326762412674725e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.9326762412674725e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "P05-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            34,
+            0
+          ],
+          "step_label": "P05-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              235.5,
+              -186.79999999999998,
+              14.299999999999999
+            ],
+            [
+              252.5,
+              -168.70000000000002,
+              15.8
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              235.5,
+              -186.79999999999998,
+              14.299999999999999
+            ],
+            [
+              252.5,
+              -168.70000000000002,
+              15.8
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 306.00513039205475,
+          "step_volume_mm3": 306.0051303920353,
+          "volume_delta_mm3": 1.944044925039634e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.944044925039634e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "P06-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            35,
+            0
+          ],
+          "step_label": "P06-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              235.5,
+              -212.79999999999998,
+              14.299999999999999
+            ],
+            [
+              252.5,
+              -194.70000000000002,
+              15.8
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              235.5,
+              -212.79999999999998,
+              14.299999999999999
+            ],
+            [
+              252.5,
+              -194.70000000000002,
+              15.8
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 306.00513039205464,
+          "step_volume_mm3": 306.0051303920353,
+          "volume_delta_mm3": 1.9326762412674725e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.9326762412674725e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "P07-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            36,
+            0
+          ],
+          "step_label": "P07-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              235.5,
+              -238.79999999999998,
+              14.299999999999999
+            ],
+            [
+              252.5,
+              -220.70000000000002,
+              15.8
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              235.5,
+              -238.79999999999998,
+              14.299999999999999
+            ],
+            [
+              252.5,
+              -220.70000000000002,
+              15.8
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 306.00513039205475,
+          "step_volume_mm3": 306.00513039203537,
+          "volume_delta_mm3": 1.9383605831535533e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.9383605831535533e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "P08-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            37,
+            0
+          ],
+          "step_label": "P08-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              235.5,
+              -264.8,
+              14.299999999999999
+            ],
+            [
+              252.5,
+              -246.70000000000002,
+              15.8
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              235.5,
+              -264.8,
+              14.299999999999999
+            ],
+            [
+              252.5,
+              -246.70000000000002,
+              15.8
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 306.0051303920548,
+          "step_volume_mm3": 306.00513039203526,
+          "volume_delta_mm3": 1.9554136088117957e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.9554136088117957e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "P09-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            38,
+            0
+          ],
+          "step_label": "P09-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              347.5,
+              -160.79999999999998,
+              14.299999999999999
+            ],
+            [
+              364.5,
+              -142.70000000000002,
+              15.8
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              347.5,
+              -160.79999999999998,
+              14.299999999999999
+            ],
+            [
+              364.5,
+              -142.70000000000002,
+              15.8
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 306.00513039205424,
+          "step_volume_mm3": 306.00513039203497,
+          "volume_delta_mm3": 1.9269918993813917e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.9269918993813917e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "P10-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            39,
+            0
+          ],
+          "step_label": "P10-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              347.5,
+              -186.79999999999998,
+              14.299999999999999
+            ],
+            [
+              364.5,
+              -168.70000000000002,
+              15.8
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              347.5,
+              -186.79999999999998,
+              14.299999999999999
+            ],
+            [
+              364.5,
+              -168.70000000000002,
+              15.8
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 306.00513039205424,
+          "step_volume_mm3": 306.00513039203497,
+          "volume_delta_mm3": 1.9269918993813917e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.9269918993813917e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "P11-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            40,
+            0
+          ],
+          "step_label": "P11-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              347.5,
+              -212.79999999999998,
+              14.299999999999999
+            ],
+            [
+              364.5,
+              -194.70000000000002,
+              15.8
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              347.5,
+              -212.79999999999998,
+              14.299999999999999
+            ],
+            [
+              364.5,
+              -194.70000000000002,
+              15.8
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 306.00513039205424,
+          "step_volume_mm3": 306.00513039203497,
+          "volume_delta_mm3": 1.9269918993813917e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.9269918993813917e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "P12-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            41,
+            0
+          ],
+          "step_label": "P12-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              347.5,
+              -238.79999999999998,
+              14.299999999999999
+            ],
+            [
+              364.5,
+              -220.70000000000002,
+              15.8
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              347.5,
+              -238.79999999999998,
+              14.299999999999999
+            ],
+            [
+              364.5,
+              -220.70000000000002,
+              15.8
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 306.00513039205424,
+          "step_volume_mm3": 306.00513039203497,
+          "volume_delta_mm3": 1.9269918993813917e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.9269918993813917e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "P13-RETAINER": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            42,
+            0
+          ],
+          "step_label": "P13-RETAINER_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              347.5,
+              -264.8,
+              14.299999999999999
+            ],
+            [
+              364.5,
+              -246.70000000000002,
+              15.8
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              347.5,
+              -264.8,
+              14.299999999999999
+            ],
+            [
+              364.5,
+              -246.70000000000002,
+              15.8
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 306.00513039205424,
+          "step_volume_mm3": 306.00513039203497,
+          "volume_delta_mm3": 1.9269918993813917e-11,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.9269918993813917e-11,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "F01-RETAINER": {
+      "body_count": 2,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            43,
+            0
+          ],
+          "step_label": "F04-RETAINER-1_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              189.3,
+              -309.15,
+              15.5
+            ],
+            [
+              202.70000000000002,
+              -300.75,
+              17.000000000000004
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              189.3,
+              -309.15,
+              15.5
+            ],
+            [
+              202.70000000000002,
+              -300.75,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 3.552713678800501e-15,
+          "reconstructed_volume_mm3": 157.56272957116357,
+          "step_volume_mm3": 157.5627295711626,
+          "volume_delta_mm3": 9.663381206337363e-13,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 9.663381206337363e-13,
+          "matches_test_tolerances": true
+        },
+        {
+          "body": 1,
+          "step_numeric_path": [
+            3,
+            44,
+            0
+          ],
+          "step_label": "F04-RETAINER-2_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              189.3,
+              -243.25,
+              15.5
+            ],
+            [
+              202.70000000000002,
+              -234.85,
+              17.000000000000004
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              189.29999999999998,
+              -243.25,
+              15.5
+            ],
+            [
+              202.7,
+              -234.85,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 2.842170943040401e-14,
+          "reconstructed_volume_mm3": 157.56272957116377,
+          "step_volume_mm3": 157.5627295711633,
+          "volume_delta_mm3": 4.831690603168681e-13,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 4.831690603168681e-13,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "F02-RETAINER": {
+      "body_count": 2,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            45,
+            0
+          ],
+          "step_label": "F04-RETAINER-1_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              569.3,
+              -309.15,
+              15.5
+            ],
+            [
+              582.7,
+              -300.75,
+              17.000000000000004
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              569.3,
+              -309.15,
+              15.5
+            ],
+            [
+              582.7,
+              -300.75,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 3.552713678800501e-15,
+          "reconstructed_volume_mm3": 157.56272957116403,
+          "step_volume_mm3": 157.56272957116298,
+          "volume_delta_mm3": 1.0516032489249483e-12,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.0516032489249483e-12,
+          "matches_test_tolerances": true
+        },
+        {
+          "body": 1,
+          "step_numeric_path": [
+            3,
+            46,
+            0
+          ],
+          "step_label": "F04-RETAINER-2_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              569.3,
+              -243.25,
+              15.5
+            ],
+            [
+              582.7,
+              -234.85,
+              17.000000000000004
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              569.3,
+              -243.25,
+              15.5
+            ],
+            [
+              582.7,
+              -234.85,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 3.552713678800501e-15,
+          "reconstructed_volume_mm3": 157.56272957116423,
+          "step_volume_mm3": 157.56272957116363,
+          "volume_delta_mm3": 5.968558980384842e-13,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 5.968558980384842e-13,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "F03-RETAINER": {
+      "body_count": 2,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            47,
+            0
+          ],
+          "step_label": "F04-RETAINER-1_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              269.3,
+              -234.15,
+              15.5
+            ],
+            [
+              282.7,
+              -225.75,
+              17.000000000000004
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              269.3,
+              -234.15,
+              15.5
+            ],
+            [
+              282.7,
+              -225.75,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 3.552713678800501e-15,
+          "reconstructed_volume_mm3": 157.56272957116374,
+          "step_volume_mm3": 157.56272957116266,
+          "volume_delta_mm3": 1.0800249583553523e-12,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.0800249583553523e-12,
+          "matches_test_tolerances": true
+        },
+        {
+          "body": 1,
+          "step_numeric_path": [
+            3,
+            48,
+            0
+          ],
+          "step_label": "F04-RETAINER-2_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              269.3,
+              -168.25,
+              15.5
+            ],
+            [
+              282.7,
+              -159.85,
+              17.000000000000004
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              269.3,
+              -168.25,
+              15.5
+            ],
+            [
+              282.7,
+              -159.85,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 3.552713678800501e-15,
+          "reconstructed_volume_mm3": 157.56272957116377,
+          "step_volume_mm3": 157.56272957116315,
+          "volume_delta_mm3": 6.252776074688882e-13,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 6.252776074688882e-13,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "F04-RETAINER": {
+      "body_count": 2,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            49,
+            0
+          ],
+          "step_label": "F04-RETAINER-1_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              317.3,
+              -234.15,
+              15.5
+            ],
+            [
+              330.7,
+              -225.75,
+              17.000000000000004
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              317.3,
+              -234.15,
+              15.5
+            ],
+            [
+              330.7,
+              -225.75,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 3.552713678800501e-15,
+          "reconstructed_volume_mm3": 157.56272957116374,
+          "step_volume_mm3": 157.56272957116266,
+          "volume_delta_mm3": 1.0800249583553523e-12,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.0800249583553523e-12,
+          "matches_test_tolerances": true
+        },
+        {
+          "body": 1,
+          "step_numeric_path": [
+            3,
+            50,
+            0
+          ],
+          "step_label": "F04-RETAINER-2_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              317.3,
+              -168.25,
+              15.5
+            ],
+            [
+              330.7,
+              -159.85,
+              17.000000000000004
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              317.3,
+              -168.25,
+              15.5
+            ],
+            [
+              330.7,
+              -159.85,
+              17.0
+            ]
+          ],
+          "bound_delta_mm": 3.552713678800501e-15,
+          "reconstructed_volume_mm3": 157.56272957116377,
+          "step_volume_mm3": 157.5627295711631,
+          "volume_delta_mm3": 6.821210263296962e-13,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 6.821210263296962e-13,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "F05-RETAINER": {
+      "body_count": 2,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            52,
+            0
+          ],
+          "step_label": "F05-RETAINER-2_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              328.6,
+              -307.7,
+              15.0
+            ],
+            [
+              337.0,
+              -294.3,
+              16.5
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              328.6,
+              -307.7,
+              15.0
+            ],
+            [
+              337.0,
+              -294.3,
+              16.5
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 157.56272957116357,
+          "step_volume_mm3": 157.5627295711625,
+          "volume_delta_mm3": 1.0800249583553523e-12,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.0800249583553523e-12,
+          "matches_test_tolerances": true
+        },
+        {
+          "body": 1,
+          "step_numeric_path": [
+            3,
+            51,
+            0
+          ],
+          "step_label": "F05-RETAINER-1_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              263.0,
+              -307.7,
+              15.0
+            ],
+            [
+              271.4,
+              -294.3,
+              16.5
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              263.0,
+              -307.7,
+              15.0
+            ],
+            [
+              271.4,
+              -294.3,
+              16.5
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 157.5627295711636,
+          "step_volume_mm3": 157.56272957116295,
+          "volume_delta_mm3": 6.536993168992922e-13,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 6.536993168992922e-13,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "E01-body_retainer": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            3,
+            53,
+            0
+          ],
+          "step_label": "E01-body_retainer_/_removable_control_retainer_/_B26_review",
+          "reconstructed_bounds_mm": [
+            [
+              291.9,
+              -137.79999999999998,
+              15.2
+            ],
+            [
+              308.1,
+              -112.2,
+              16.7
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              291.9,
+              -137.79999999999998,
+              15.2
+            ],
+            [
+              308.1,
+              -112.2,
+              16.7
+            ]
+          ],
+          "bound_delta_mm": 0.0,
+          "reconstructed_volume_mm3": 411.3308153190864,
+          "step_volume_mm3": 411.3308153190768,
+          "volume_delta_mm3": 9.606537787476555e-12,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 9.606537787476555e-12,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "toe_-1_-1": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            4,
+            0,
+            0
+          ],
+          "step_label": "D01-toe--1--1_printed_B24-build123d01_DRAFT",
+          "reconstructed_bounds_mm": [
+            [
+              155.8,
+              -43.80639539678244,
+              54.50533520456567
+            ],
+            [
+              163.5,
+              -35.539084843967295,
+              63.16724796230987
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              155.8,
+              -43.80639539678185,
+              54.505335204559344
+            ],
+            [
+              163.5,
+              -35.53908484396594,
+              63.16724796230306
+            ]
+          ],
+          "bound_delta_mm": 6.814104835939361e-12,
+          "reconstructed_volume_mm3": 165.56239169337636,
+          "step_volume_mm3": 165.5623916933782,
+          "volume_delta_mm3": 1.8474111129762605e-12,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.8474111129762605e-12,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "toe_-1_1": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            4,
+            1,
+            0
+          ],
+          "step_label": "D01-toe-1--1_printed_B24-build123d01_DRAFT",
+          "reconstructed_bounds_mm": [
+            [
+              155.8,
+              -75.29722878832679,
+              18.279275353872606
+            ],
+            [
+              163.5,
+              -67.02991823551164,
+              26.941188111616814
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              155.8,
+              -75.29722878833425,
+              18.279275353873288
+            ],
+            [
+              163.5,
+              -67.02991823551835,
+              26.941188111616995
+            ]
+          ],
+          "bound_delta_mm": 7.460698725481052e-12,
+          "reconstructed_volume_mm3": 165.56239169337624,
+          "step_volume_mm3": 165.5623916933745,
+          "volume_delta_mm3": 1.7337242752546445e-12,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.7337242752546445e-12,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "toe_1_-1": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            4,
+            2,
+            0
+          ],
+          "step_label": "D01-toe-1--1_printed_B24-build123d01_DRAFT",
+          "reconstructed_bounds_mm": [
+            [
+              436.5,
+              -43.80639539678244,
+              54.50533520456567
+            ],
+            [
+              444.2,
+              -35.539084843967295,
+              63.16724796230987
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              436.5,
+              -43.80639539678185,
+              54.505335204559344
+            ],
+            [
+              444.2,
+              -35.53908484396594,
+              63.16724796230306
+            ]
+          ],
+          "bound_delta_mm": 6.814104835939361e-12,
+          "reconstructed_volume_mm3": 165.56239169337624,
+          "step_volume_mm3": 165.5623916933746,
+          "volume_delta_mm3": 1.6484591469634324e-12,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.6484591469634324e-12,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "toe_1_1": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            4,
+            3,
+            0
+          ],
+          "step_label": "D01-toe-1-1_printed_B24-build123d01_DRAFT",
+          "reconstructed_bounds_mm": [
+            [
+              436.5,
+              -75.29722878832679,
+              18.279275353872606
+            ],
+            [
+              444.2,
+              -67.02991823551164,
+              26.941188111616814
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              436.5,
+              -75.29722878833425,
+              18.279275353873288
+            ],
+            [
+              444.2,
+              -67.02991823551835,
+              26.941188111616995
+            ]
+          ],
+          "bound_delta_mm": 7.460698725481052e-12,
+          "reconstructed_volume_mm3": 165.5623916933763,
+          "step_volume_mm3": 165.5623916933781,
+          "volume_delta_mm3": 1.7905676941154525e-12,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.7905676941154525e-12,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "D02L": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            1,
+            6,
+            0
+          ],
+          "step_label": "D02L_B26-INTEGRATED-01_review",
+          "reconstructed_bounds_mm": [
+            [
+              153.55,
+              -116.0,
+              9.375611458671996
+            ],
+            [
+              345.0,
+              1.1102230246251565e-16,
+              85.37676641782177
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              153.55,
+              -116.0,
+              9.375611458672
+            ],
+            [
+              345.0,
+              1.110223024625e-16,
+              85.37676641782201
+            ]
+          ],
+          "bound_delta_mm": 2.4158453015843406e-13,
+          "reconstructed_volume_mm3": 36197.79111035957,
+          "step_volume_mm3": 36197.79111012479,
+          "volume_delta_mm3": 2.347806002944708e-07,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 2.347806002944708e-07,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "D02R": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            1,
+            7,
+            0
+          ],
+          "step_label": "D02R_B26-INTEGRATED-01_review",
+          "reconstructed_bounds_mm": [
+            [
+              335.0,
+              -116.0,
+              9.375611458671996
+            ],
+            [
+              446.45,
+              1.1102230246251565e-16,
+              85.37676641782177
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              335.0,
+              -116.0,
+              9.375611458672
+            ],
+            [
+              446.45,
+              1.110223024625e-16,
+              85.37676641782201
+            ]
+          ],
+          "bound_delta_mm": 2.4158453015843406e-13,
+          "reconstructed_volume_mm3": 26251.217013438254,
+          "step_volume_mm3": 26251.21701328152,
+          "volume_delta_mm3": 1.5673504094593227e-07,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.5673504094593227e-07,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "C01": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            0,
+            0,
+            0
+          ],
+          "step_label": "C01_lower_shell_PETG_B26-INTEGRATED-01_review",
+          "reconstructed_bounds_mm": [
+            [
+              -4.440892098500626e-16,
+              -140.0,
+              -1.1102230246251565e-16
+            ],
+            [
+              220.0,
+              6.661338147750939e-16,
+              83.37676641782176
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              -4.440892098501e-16,
+              -140.0,
+              -1.110223024625e-16
+            ],
+            [
+              220.0,
+              4.440892098501e-16,
+              83.376766417822
+            ]
+          ],
+          "bound_delta_mm": 2.4158453015843406e-13,
+          "reconstructed_volume_mm3": 95320.0877662041,
+          "step_volume_mm3": 95320.08776620615,
+          "volume_delta_mm3": 2.051820047199726e-09,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 2.051820047199726e-09,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "C02": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            0,
+            1,
+            0
+          ],
+          "step_label": "C02_lower_shell_PETG_B26-INTEGRATED-01_review",
+          "reconstructed_bounds_mm": [
+            [
+              220.0,
+              -140.0,
+              -1.1102230246251565e-16
+            ],
+            [
+              380.0,
+              1.1102230246251565e-16,
+              83.37676641782176
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              220.0,
+              -140.0,
+              -1.110223024625e-16
+            ],
+            [
+              380.0,
+              1.110223024625e-16,
+              83.376766417822
+            ]
+          ],
+          "bound_delta_mm": 2.4158453015843406e-13,
+          "reconstructed_volume_mm3": 87782.03698923341,
+          "step_volume_mm3": 87782.03698923984,
+          "volume_delta_mm3": 6.4319465309381485e-09,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 6.4319465309381485e-09,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "C03": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            0,
+            2,
+            0
+          ],
+          "step_label": "C03_lower_shell_PETG_B26-INTEGRATED-01_review",
+          "reconstructed_bounds_mm": [
+            [
+              380.0,
+              -140.0,
+              -1.1102230246251565e-16
+            ],
+            [
+              600.0,
+              4.440892098500626e-16,
+              83.37676641782176
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              380.0,
+              -140.0,
+              -1.110223024625e-16
+            ],
+            [
+              600.0000001,
+              4.440892098501e-16,
+              83.376766417822
+            ]
+          ],
+          "bound_delta_mm": 9.999996564147295e-08,
+          "reconstructed_volume_mm3": 102085.7866541804,
+          "step_volume_mm3": 102085.78665417821,
+          "volume_delta_mm3": 2.1827872842550278e-09,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "boolean_error": "RuntimeError('OCCT BRepAlgoAPI_Cut produced invalid shape')"
+        }
+      ]
+    },
+    "C04": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            0,
+            3,
+            0
+          ],
+          "step_label": "C04_lower_shell_PETG_B26-INTEGRATED-01_review",
+          "reconstructed_bounds_mm": [
+            [
+              -4.440892098500626e-16,
+              -320.0,
+              -1.1102230246251565e-16
+            ],
+            [
+              220.0,
+              -140.0,
+              18.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              -4.440892098501e-16,
+              -320.0,
+              -1.110223024625e-16
+            ],
+            [
+              220.0,
+              -140.0,
+              18.0
+            ]
+          ],
+          "bound_delta_mm": 3.7372285384845434e-29,
+          "reconstructed_volume_mm3": 111380.28819744993,
+          "step_volume_mm3": 111380.28819744966,
+          "volume_delta_mm3": 2.764863893389702e-10,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 2.764863893389702e-10,
+          "matches_test_tolerances": true
+        }
+      ]
+    },
+    "C05": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            0,
+            4,
+            0
+          ],
+          "step_label": "C05_lower_shell_PETG_B26-INTEGRATED-01_review",
+          "reconstructed_bounds_mm": [
+            [
+              220.0,
+              -320.0,
+              -1.1102230246251565e-16
+            ],
+            [
+              380.0,
+              -140.0,
+              18.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              220.0,
+              -320.0,
+              -1.110223024625e-16
+            ],
+            [
+              380.0,
+              -140.0,
+              18.0
+            ]
+          ],
+          "bound_delta_mm": 1.5653958587979453e-29,
+          "reconstructed_volume_mm3": 95530.96312055507,
+          "step_volume_mm3": 95530.96312057477,
+          "volume_delta_mm3": 1.9703293219208717e-08,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "boolean_error": "RuntimeError('OCCT BRepAlgoAPI_Cut produced invalid shape')"
+        }
+      ]
+    },
+    "C06": {
+      "body_count": 1,
+      "bodies": [
+        {
+          "body": 0,
+          "step_numeric_path": [
+            0,
+            5,
+            0
+          ],
+          "step_label": "C06_lower_shell_PETG_B26-INTEGRATED-01_review",
+          "reconstructed_bounds_mm": [
+            [
+              380.0,
+              -320.0,
+              -1.1102230246251565e-16
+            ],
+            [
+              600.0,
+              -140.0,
+              18.0
+            ]
+          ],
+          "step_bounds_mm": [
+            [
+              380.0,
+              -320.0,
+              -1.110223024625e-16
+            ],
+            [
+              600.0,
+              -140.0,
+              18.0
+            ]
+          ],
+          "bound_delta_mm": 1.5653958587979453e-29,
+          "reconstructed_volume_mm3": 111440.66960825303,
+          "step_volume_mm3": 111440.66960825416,
+          "volume_delta_mm3": 1.1350493878126144e-09,
+          "reconstructed_valid": true,
+          "step_valid": true,
+          "reconstructed_minus_step_mm3": 0,
+          "step_minus_reconstructed_mm3": 0,
+          "boolean_done_and_valid": true,
+          "boolean_warnings": [
+            null,
+            null
+          ],
+          "difference_volume_conservation_error_mm3": 1.1350493878126144e-09,
+          "matches_test_tolerances": true
+        }
+      ]
+    }
+  },
+  "errors": [],
+  "notes": [
+    "Numeric STEP tree paths and global_location are used; labels alone are not assumed unique. Matching requires unique 0.001 mm bounds; boolean exceptions are errors.",
+    "The reconstruction is documentation review only, not a print or safety approval."
+  ],
+  "import_leaf_count": 476,
+  "import_single_solid_leaves": 444,
+  "candidate_branch_counts": {
+    "lower_shells_-_printed_petg": 6,
+    "flat_panels_and_screen_roof_-_printed_petg": 8,
+    "shell_bridges_-_printed_petg": 16,
+    "control_retainers_-_printed_petg": 54,
+    "display_toes_-_printed_petg": 4
+  },
+  "completed": true
+}

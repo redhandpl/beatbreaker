@@ -1,0 +1,2651 @@
+{
+  "units": "mm; volume mm^3",
+  "tolerances": {
+    "edge_selection_mm": 1e-05,
+    "corner_selection_mm": 1e-06,
+    "bounds_mm": 1e-05,
+    "volume_mm3": 0.0001,
+    "transform_mm": 1e-08,
+    "rotation_component": 1e-08
+  },
+  "caps": {
+    "CAP_B": {
+      "triangles": 1044,
+      "roundtrip_sha256": "37d5ff82b539e87fa27ffa795a6c2493bcc57afe4a1ff978b7a8fa7b99d8d87e",
+      "documented_sha256_match": true,
+      "release_stl_path": "models/release/enclosure/B26/B26-build123d03_RELEASE/STL/CAP_B_Rev_B26_build123d03.stl",
+      "release_stl_byte_identical": true,
+      "watertight_edges": true,
+      "consistent_edge_winding": true,
+      "signed_volume_mm3": 834.8649852109316,
+      "local_bounds_mm": [
+        [
+          -7.0,
+          -7.0,
+          -4.599999904632568
+        ],
+        [
+          7.0,
+          7.0,
+          4.0
+        ]
+      ]
+    },
+    "CAP_T": {
+      "triangles": 416,
+      "roundtrip_sha256": "8e0d93ec5d0d7b290face7c6e1e3f0654b98c07a7d0edf9917f895f48957b858",
+      "documented_sha256_match": true,
+      "release_stl_path": "models/release/enclosure/B26/B26-build123d03_RELEASE/STL/CAP_T_Rev_B26_build123d03.stl",
+      "release_stl_byte_identical": true,
+      "watertight_edges": true,
+      "consistent_edge_winding": true,
+      "signed_volume_mm3": 449.8692862262675,
+      "local_bounds_mm": [
+        [
+          -9.436067581176758,
+          -6.418034076690674,
+          -4.599999904632568
+        ],
+        [
+          3.4000000953674316,
+          6.418034076690674,
+          4.0
+        ]
+      ]
+    },
+    "CAP_P": {
+      "triangles": 2054,
+      "roundtrip_sha256": "6bc7a516eeb4ba382fe5be5cce5e460289db7dfdfdd1eea1099107b9478309e3",
+      "documented_sha256_match": true,
+      "release_stl_path": "models/release/enclosure/B26/B26-build123d03_RELEASE/STL/CAP_P_Rev_B26_build123d03.stl",
+      "release_stl_byte_identical": true,
+      "watertight_edges": true,
+      "consistent_edge_winding": true,
+      "signed_volume_mm3": 624.0761680072453,
+      "local_bounds_mm": [
+        [
+          -6.0145344734191895,
+          -6.0411272048950195,
+          0.0
+        ],
+        [
+          6.050000190734863,
+          6.0411272048950195,
+          19.0
+        ]
+      ]
+    },
+    "CAP_F": {
+      "triangles": 1368,
+      "roundtrip_sha256": "5a92948fe01db726faa5b6867d5787b951b299b783bebac09769aca1e67bd7a9",
+      "documented_sha256_match": true,
+      "release_stl_path": "models/release/enclosure/B26/B26-build123d03_RELEASE/STL/CAP_F_Rev_B26_build123d03.stl",
+      "release_stl_byte_identical": true,
+      "watertight_edges": true,
+      "consistent_edge_winding": true,
+      "signed_volume_mm3": 777.254818833631,
+      "local_bounds_mm": [
+        [
+          -6.0,
+          -5.0,
+          0.0
+        ],
+        [
+          6.0,
+          5.0,
+          10.600000381469727
+        ]
+      ]
+    },
+    "CAP_C": {
+      "triangles": 884,
+      "roundtrip_sha256": "0926fcbc70240fd979c26ddca384f61f02ab50440658e5212a06eacf41995a99",
+      "documented_sha256_match": true,
+      "release_stl_path": "models/release/enclosure/B26/B26-build123d03_RELEASE/STL/CAP_C_Rev_B26_build123d03.stl",
+      "release_stl_byte_identical": true,
+      "watertight_edges": true,
+      "consistent_edge_winding": true,
+      "signed_volume_mm3": 1175.7941274021107,
+      "local_bounds_mm": [
+        [
+          -7.5,
+          -3.966805934906006,
+          0.0
+        ],
+        [
+          7.5,
+          3.966805934906006,
+          12.0
+        ]
+      ]
+    },
+    "CAP_E": {
+      "triangles": 468,
+      "roundtrip_sha256": "cb5f72be8ceb9e4cdcee00165a97c2bc24370b56046e7c9e211207f4000861d2",
+      "documented_sha256_match": true,
+      "release_stl_path": "models/release/enclosure/B26/B26-build123d03_RELEASE/STL/CAP_E_Rev_B26_build123d03.stl",
+      "release_stl_byte_identical": true,
+      "watertight_edges": true,
+      "consistent_edge_winding": true,
+      "signed_volume_mm3": 1649.6064464010167,
+      "local_bounds_mm": [
+        [
+          -7.0,
+          -7.0,
+          0.0
+        ],
+        [
+          7.0,
+          7.0,
+          12.0
+        ]
+      ]
+    },
+    "CAP-CUE40": {
+      "triangles": 4304,
+      "roundtrip_sha256": "b5f8374b7fe40e5e8d02d47cfbf4d6c739d020cb72bfb5ba36059ce4b38ce571",
+      "documented_sha256_match": true,
+      "release_stl_path": "models/release/enclosure/B26/B26-build123d03_RELEASE/STL/CAP-CUE40_Rev_B26_build123d03.stl",
+      "release_stl_byte_identical": true,
+      "watertight_edges": true,
+      "consistent_edge_winding": true,
+      "signed_volume_mm3": 5037.115235048594,
+      "local_bounds_mm": [
+        [
+          -20.0,
+          -19.999876022338867,
+          -4.599999904632568
+        ],
+        [
+          19.999502182006836,
+          19.999876022338867,
+          4.0
+        ]
+      ]
+    },
+    "CAP-PP40": {
+      "triangles": 4688,
+      "roundtrip_sha256": "59245a23c144f44d41961fe8b7d75fd3b78d0cc92ffb29293b260076498d332d",
+      "documented_sha256_match": true,
+      "release_stl_path": "models/release/enclosure/B26/B26-build123d03_RELEASE/STL/CAP-PP40_Rev_B26_build123d03.stl",
+      "release_stl_byte_identical": true,
+      "watertight_edges": true,
+      "consistent_edge_winding": true,
+      "signed_volume_mm3": 5007.527269613329,
+      "local_bounds_mm": [
+        [
+          -20.0,
+          -19.999876022338867,
+          -4.599999904632568
+        ],
+        [
+          19.999502182006836,
+          19.999876022338867,
+          4.0
+        ]
+      ]
+    },
+    "CAP-HC40": {
+      "triangles": 9108,
+      "roundtrip_sha256": "a7d5ed2b3b24f522ea4d68b192ed64052bf3c69c7bc3b1e5eae24732725e0e31",
+      "documented_sha256_match": true,
+      "release_stl_path": "models/release/enclosure/B26/B26-build123d03_RELEASE/STL/CAP-HC40_Rev_B26_build123d03.stl",
+      "release_stl_byte_identical": true,
+      "watertight_edges": true,
+      "consistent_edge_winding": true,
+      "signed_volume_mm3": 6371.915132429247,
+      "local_bounds_mm": [
+        [
+          -20.0,
+          -20.0,
+          -4.599999904632568
+        ],
+        [
+          20.0,
+          20.0,
+          4.0
+        ]
+      ]
+    }
+  },
+  "occurrences": [
+    {
+      "owner": "B01",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_B retained approved source:1#0",
+      "definition": "CAP_B",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          91.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -42.25
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          21.5
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          84.0,
+          -49.25,
+          16.90000009536743
+        ],
+        [
+          98.0,
+          -35.25,
+          25.5
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000000116860974e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "B02",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_B retained approved source:2#0",
+      "definition": "CAP_B",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          111.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -42.25
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          21.5
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          104.0,
+          -49.25,
+          16.90000009536743
+        ],
+        [
+          118.0,
+          -35.25,
+          25.5
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000000116860974e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "B03",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_B retained approved source:3#0",
+      "definition": "CAP_B",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          131.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -42.25
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          21.5
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          124.0,
+          -49.25,
+          16.90000009536743
+        ],
+        [
+          138.0,
+          -35.25,
+          25.5
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000000116860974e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "B04",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_B retained approved source:4#0",
+      "definition": "CAP_B",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          111.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -66.25
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          21.5
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          104.0,
+          -73.25,
+          16.90000009536743
+        ],
+        [
+          118.0,
+          -59.25,
+          25.5
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000000116860974e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "B05",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_B retained approved source:5#0",
+      "definition": "CAP_B",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          131.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -66.25
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          21.5
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          124.0,
+          -73.25,
+          16.90000009536743
+        ],
+        [
+          138.0,
+          -59.25,
+          25.5
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000000116860974e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "B06",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_B retained approved source:6#0",
+      "definition": "CAP_B",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          471.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -42.25
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          21.5
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          464.0,
+          -49.25,
+          16.90000009536743
+        ],
+        [
+          478.0,
+          -35.25,
+          25.5
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "B07",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_B retained approved source:7#0",
+      "definition": "CAP_B",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          491.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -42.25
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          21.5
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          484.0,
+          -49.25,
+          16.90000009536743
+        ],
+        [
+          498.0,
+          -35.25,
+          25.5
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "B08",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_B retained approved source:8#0",
+      "definition": "CAP_B",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          511.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -42.25
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          21.5
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          504.0,
+          -49.25,
+          16.90000009536743
+        ],
+        [
+          518.0,
+          -35.25,
+          25.5
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "B09",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_B retained approved source:9#0",
+      "definition": "CAP_B",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          491.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -66.25
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          21.5
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          484.0,
+          -73.25,
+          16.90000009536743
+        ],
+        [
+          498.0,
+          -59.25,
+          25.5
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "B10",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_B retained approved source:10#0",
+      "definition": "CAP_B",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          511.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -66.25
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          21.5
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          504.0,
+          -73.25,
+          16.90000009536743
+        ],
+        [
+          518.0,
+          -59.25,
+          25.5
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "B11",
+      "inventory_id": "CAP-CUE40 / B24-KCAP-Fusion-03:1#0",
+      "definition": "CAP-CUE40",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          32.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -248.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          21.5
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          12.0,
+          -267.99987602233887,
+          16.90000009536743
+        ],
+        [
+          51.999502182006836,
+          -228.00012397766113,
+          25.5
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "B12",
+      "inventory_id": "CAP-PP40 / B24-KCAP-Fusion-03:1#0",
+      "definition": "CAP-PP40",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          32.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -294.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          21.5
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          12.0,
+          -313.99987602233887,
+          16.90000009536743
+        ],
+        [
+          51.999502182006836,
+          -274.00012397766113,
+          25.5
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "B13",
+      "inventory_id": "CAP-HC40 / B24-KCAP-Fusion-03:1#0",
+      "definition": "CAP-HC40",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          78.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -248.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          21.5
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          58.0,
+          -268.0,
+          16.90000009536743
+        ],
+        [
+          98.0,
+          -228.0,
+          25.5
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "B14",
+      "inventory_id": "CAP-HC40 / B24-KCAP-Fusion-03:2#0",
+      "definition": "CAP-HC40",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          124.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -248.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          21.5
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          104.0,
+          -268.0,
+          16.90000009536743
+        ],
+        [
+          144.0,
+          -228.0,
+          25.5
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "B15",
+      "inventory_id": "CAP-HC40 / B24-KCAP-Fusion-03:3#0",
+      "definition": "CAP-HC40",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          78.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -294.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          21.5
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          58.0,
+          -314.0,
+          16.90000009536743
+        ],
+        [
+          98.0,
+          -274.0,
+          25.5
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "B16",
+      "inventory_id": "CAP-HC40 / B24-KCAP-Fusion-03:4#0",
+      "definition": "CAP-HC40",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          124.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -294.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          21.5
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          104.0,
+          -314.0,
+          16.90000009536743
+        ],
+        [
+          144.0,
+          -274.0,
+          25.5
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "B17",
+      "inventory_id": "CAP-CUE40 / B24-KCAP-Fusion-03:2#0",
+      "definition": "CAP-CUE40",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          412.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -248.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          21.5
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          392.0,
+          -267.99987602233887,
+          16.90000009536743
+        ],
+        [
+          431.99950218200684,
+          -228.00012397766113,
+          25.5
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "B18",
+      "inventory_id": "CAP-PP40 / B24-KCAP-Fusion-03:2#0",
+      "definition": "CAP-PP40",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          412.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -294.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          21.5
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          392.0,
+          -313.99987602233887,
+          16.90000009536743
+        ],
+        [
+          431.99950218200684,
+          -274.00012397766113,
+          25.5
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "B19",
+      "inventory_id": "CAP-HC40 / B24-KCAP-Fusion-03:5#0",
+      "definition": "CAP-HC40",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          458.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -248.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          21.5
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          438.0,
+          -268.0,
+          16.90000009536743
+        ],
+        [
+          478.0,
+          -228.0,
+          25.5
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "B20",
+      "inventory_id": "CAP-HC40 / B24-KCAP-Fusion-03:6#0",
+      "definition": "CAP-HC40",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          504.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -248.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          21.5
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          484.0,
+          -268.0,
+          16.90000009536743
+        ],
+        [
+          524.0,
+          -228.0,
+          25.5
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "B21",
+      "inventory_id": "CAP-HC40 / B24-KCAP-Fusion-03:7#0",
+      "definition": "CAP-HC40",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          458.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -294.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          21.5
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          438.0,
+          -314.0,
+          16.90000009536743
+        ],
+        [
+          478.0,
+          -274.0,
+          25.5
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "B22",
+      "inventory_id": "CAP-HC40 / B24-KCAP-Fusion-03:8#0",
+      "definition": "CAP-HC40",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          504.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -294.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          21.5
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          484.0,
+          -314.0,
+          16.90000009536743
+        ],
+        [
+          524.0,
+          -274.0,
+          25.5
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "B23",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_B retained approved source:23#0",
+      "definition": "CAP_B",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          276.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -255.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          21.5
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          269.0,
+          -262.0,
+          16.90000009536743
+        ],
+        [
+          283.0,
+          -248.0,
+          25.5
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "B24",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_B retained approved source:24#0",
+      "definition": "CAP_B",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          324.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -255.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          21.5
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          317.0,
+          -262.0,
+          16.90000009536743
+        ],
+        [
+          331.0,
+          -248.0,
+          25.5
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "E01",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_E retained approved source:1#0",
+      "definition": "CAP_E",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          300.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -125.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          23.5
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          293.0,
+          -132.0,
+          23.5
+        ],
+        [
+          307.0,
+          -118.0,
+          35.5
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "F01",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_F retained approved source:1#0",
+      "definition": "CAP_F",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          196.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -272.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          20.8
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          190.0,
+          -277.0,
+          20.8
+        ],
+        [
+          202.0,
+          -267.0,
+          31.400000381469727
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "F02",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_F retained approved source:2#0",
+      "definition": "CAP_F",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          576.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -272.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          20.8
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          570.0,
+          -277.0,
+          20.8
+        ],
+        [
+          582.0,
+          -267.0,
+          31.400000381469727
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "F03",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_F retained approved source:3#0",
+      "definition": "CAP_F",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          276.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -197.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          20.8
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          270.0,
+          -202.0,
+          20.8
+        ],
+        [
+          282.0,
+          -192.0,
+          31.400000381469727
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "F04",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_F retained approved source:4#0",
+      "definition": "CAP_F",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          324.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -197.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          20.8
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          318.0,
+          -202.0,
+          20.8
+        ],
+        [
+          330.0,
+          -192.0,
+          31.400000381469727
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "F05",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_C retained approved source:1#0",
+      "definition": "CAP_C",
+      "cad_transform": [
+        [
+          6.123233995736766e-17,
+          1.0,
+          0.0,
+          300.0
+        ],
+        [
+          -1.0,
+          6.123233995736766e-17,
+          0.0,
+          -301.0
+        ],
+        [
+          0.0,
+          -0.0,
+          1.0,
+          20.8
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          296.033194065094,
+          -308.5,
+          20.8
+        ],
+        [
+          303.966805934906,
+          -293.5,
+          32.8
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "P01",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_P retained approved source:1#0",
+      "definition": "CAP_P",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          559.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -41.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          20.8
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          552.9854655265808,
+          -47.04112720489502,
+          20.8
+        ],
+        [
+          565.0500001907349,
+          -34.95887279510498,
+          39.8
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000000116860974e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "P02",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_P retained approved source:2#0",
+      "definition": "CAP_P",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          559.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -69.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          20.8
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          552.9854655265808,
+          -75.04112720489502,
+          20.8
+        ],
+        [
+          565.0500001907349,
+          -62.95887279510498,
+          39.8
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000000116860974e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "P03",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_P retained approved source:3#0",
+      "definition": "CAP_P",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          559.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -97.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          20.8
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          552.9854655265808,
+          -103.04112720489502,
+          20.8
+        ],
+        [
+          565.0500001907349,
+          -90.95887279510498,
+          39.8
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000000116860974e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "P04",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_P retained approved source:4#0",
+      "definition": "CAP_P",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          244.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -151.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          20.8
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          237.9854655265808,
+          -157.04112720489502,
+          20.8
+        ],
+        [
+          250.05000019073486,
+          -144.95887279510498,
+          39.8
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000000116860974e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "P05",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_P retained approved source:5#0",
+      "definition": "CAP_P",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          244.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -177.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          20.8
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          237.9854655265808,
+          -183.04112720489502,
+          20.8
+        ],
+        [
+          250.05000019073486,
+          -170.95887279510498,
+          39.8
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000000116860974e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "P06",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_P retained approved source:6#0",
+      "definition": "CAP_P",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          244.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -203.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          20.8
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          237.9854655265808,
+          -209.04112720489502,
+          20.8
+        ],
+        [
+          250.05000019073486,
+          -196.95887279510498,
+          39.8
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000000116860974e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "P07",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_P retained approved source:7#0",
+      "definition": "CAP_P",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          244.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -229.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          20.8
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          237.9854655265808,
+          -235.04112720489502,
+          20.8
+        ],
+        [
+          250.05000019073486,
+          -222.95887279510498,
+          39.8
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000000116860974e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "P08",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_P retained approved source:8#0",
+      "definition": "CAP_P",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          244.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -255.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          20.8
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          237.9854655265808,
+          -261.041127204895,
+          20.8
+        ],
+        [
+          250.05000019073486,
+          -248.95887279510498,
+          39.8
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "P09",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_P retained approved source:9#0",
+      "definition": "CAP_P",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          356.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -151.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          20.8
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          349.9854655265808,
+          -157.04112720489502,
+          20.8
+        ],
+        [
+          362.05000019073486,
+          -144.95887279510498,
+          39.8
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "P10",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_P retained approved source:10#0",
+      "definition": "CAP_P",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          356.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -177.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          20.8
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          349.9854655265808,
+          -183.04112720489502,
+          20.8
+        ],
+        [
+          362.05000019073486,
+          -170.95887279510498,
+          39.8
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "P11",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_P retained approved source:11#0",
+      "definition": "CAP_P",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          356.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -203.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          20.8
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          349.9854655265808,
+          -209.04112720489502,
+          20.8
+        ],
+        [
+          362.05000019073486,
+          -196.95887279510498,
+          39.8
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "P12",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_P retained approved source:12#0",
+      "definition": "CAP_P",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          356.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -229.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          20.8
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          349.9854655265808,
+          -235.04112720489502,
+          20.8
+        ],
+        [
+          362.05000019073486,
+          -222.95887279510498,
+          39.8
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "P13",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_P retained approved source:13#0",
+      "definition": "CAP_P",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          356.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -255.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          20.8
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          349.9854655265808,
+          -261.041127204895,
+          20.8
+        ],
+        [
+          362.05000019073486,
+          -248.95887279510498,
+          39.8
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "T01",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_T retained approved source:1#0",
+      "definition": "CAP_T",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          277.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -125.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          21.5
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          267.56393241882324,
+          -131.41803407669067,
+          16.90000009536743
+        ],
+        [
+          280.40000009536743,
+          -118.58196592330933,
+          25.5
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "T02",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_T retained approved source:2#0",
+      "definition": "CAP_T",
+      "cad_transform": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          322.99999999999994
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          -125.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          21.5
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          319.5999999046325,
+          -131.41803407669067,
+          16.90000009536743
+        ],
+        [
+          332.4360675811767,
+          -118.58196592330933,
+          25.5
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "T03",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_T retained approved source:3#0",
+      "definition": "CAP_T",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          236.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -278.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          21.5
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          226.56393241882324,
+          -284.4180340766907,
+          16.90000009536743
+        ],
+        [
+          239.40000009536743,
+          -271.5819659233093,
+          25.5
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "T04",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_T retained approved source:4#0",
+      "definition": "CAP_T",
+      "cad_transform": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          254.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          -278.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          21.5
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          250.59999990463257,
+          -284.4180340766907,
+          16.90000009536743
+        ],
+        [
+          263.43606758117676,
+          -271.5819659233093,
+          25.5
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "T05",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_T retained approved source:5#0",
+      "definition": "CAP_T",
+      "cad_transform": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          348.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          -278.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          21.5
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          338.56393241882324,
+          -284.4180340766907,
+          16.90000009536743
+        ],
+        [
+          351.40000009536743,
+          -271.5819659233093,
+          25.5
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    },
+    {
+      "owner": "T06",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_T retained approved source:6#0",
+      "definition": "CAP_T",
+      "cad_transform": [
+        [
+          -1.0,
+          -1.2246467991473532e-16,
+          0.0,
+          366.0
+        ],
+        [
+          1.2246467991473532e-16,
+          -1.0,
+          0.0,
+          -278.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          21.5
+        ]
+      ],
+      "world_bounds_mm": [
+        [
+          362.59999990463257,
+          -284.4180340766907,
+          16.90000009536743
+        ],
+        [
+          375.43606758117676,
+          -271.5819659233093,
+          25.5
+        ]
+      ],
+      "release_evidence_definition_match": true,
+      "release_evidence_transform_max_abs": 0.0,
+      "release_evidence_transform_match": true,
+      "release_evidence_bounds_difference_mm": 1.0000002248489182e-07,
+      "reference_mesh_byte_identical": true,
+      "status": "release STL + recorded STEP placement; direct STEP identity and BRep boolean not established"
+    }
+  ],
+  "panels": {
+    "R01": {
+      "assigned_apertures": 5,
+      "assigned_marks": 0,
+      "closure_axes": 5,
+      "assigned_ticks": 0,
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 44479.341608688665,
+      "bounds_mm": [
+        [
+          -4.440892098500626e-16,
+          -165.0,
+          18.0
+        ],
+        [
+          220.0,
+          4.440892098500626e-16,
+          20.000000000000014
+        ]
+      ],
+      "step_label_candidates": [
+        {
+          "path": [
+            1,
+            0
+          ],
+          "label": "PANEL_R01_B26-INTEGRATED-01_review",
+          "bounds_mm": [
+            [
+              -1e-07,
+              -165.0,
+              18.0
+            ],
+            [
+              220.0,
+              1e-07,
+              20.000000000000007
+            ]
+          ]
+        }
+      ],
+      "reference_path": [
+        1,
+        0
+      ],
+      "reference_label": "PANEL_R01_B26-INTEGRATED-01_review",
+      "reference_volume_mm3": 44479.34160868369,
+      "reference_valid": true,
+      "reconstruction_minus_step_mm3": 0.0,
+      "step_minus_reconstruction_mm3": 0.0
+    },
+    "R03": {
+      "assigned_apertures": 3,
+      "assigned_marks": 0,
+      "closure_axes": 2,
+      "assigned_ticks": 0,
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 12047.526930344937,
+      "bounds_mm": [
+        [
+          220.0,
+          -140.0,
+          18.0
+        ],
+        [
+          380.0,
+          -100.34643368908114,
+          20.000000000000025
+        ]
+      ],
+      "step_label_candidates": [
+        {
+          "path": [
+            1,
+            1
+          ],
+          "label": "PANEL_R03_B26-INTEGRATED-01_review",
+          "bounds_mm": [
+            [
+              220.0,
+              -140.0,
+              18.0
+            ],
+            [
+              380.0,
+              -100.346433689,
+              20.000000000006985
+            ]
+          ]
+        }
+      ],
+      "reference_path": [
+        1,
+        1
+      ],
+      "reference_label": "PANEL_R03_B26-INTEGRATED-01_review",
+      "reference_volume_mm3": 12047.526930371187,
+      "reference_valid": true,
+      "reconstruction_minus_step_mm3": 0.0,
+      "step_minus_reconstruction_mm3": 0.0
+    },
+    "R04": {
+      "assigned_apertures": 8,
+      "assigned_marks": 15,
+      "closure_axes": 5,
+      "assigned_ticks": 0,
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 44156.15150485587,
+      "bounds_mm": [
+        [
+          380.0,
+          -165.0,
+          18.0
+        ],
+        [
+          600.0000001,
+          4.440892098500626e-16,
+          20.4
+        ]
+      ],
+      "step_label_candidates": [
+        {
+          "path": [
+            1,
+            2
+          ],
+          "label": "PANEL_R04_B26-INTEGRATED-01_review",
+          "bounds_mm": [
+            [
+              380.0,
+              -165.0,
+              18.0
+            ],
+            [
+              600.0,
+              4.440892098501e-16,
+              20.4
+            ]
+          ]
+        }
+      ],
+      "reference_path": [
+        1,
+        2
+      ],
+      "reference_label": "PANEL_R04_B26-INTEGRATED-01_review",
+      "reference_volume_mm3": 44156.15150485516,
+      "reference_valid": true,
+      "reconstruction_minus_step_mm3": 0.0,
+      "step_minus_reconstruction_mm3": 0.0
+    },
+    "R05": {
+      "assigned_apertures": 7,
+      "assigned_marks": 0,
+      "closure_axes": 6,
+      "assigned_ticks": 22,
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 65214.89061549765,
+      "bounds_mm": [
+        [
+          -6.661338147750939e-16,
+          -320.0,
+          18.0
+        ],
+        [
+          220.0,
+          -140.0,
+          20.000000000000057
+        ]
+      ],
+      "step_label_candidates": [
+        {
+          "path": [
+            1,
+            3
+          ],
+          "label": "PANEL_R05_B26-INTEGRATED-01_review",
+          "bounds_mm": [
+            [
+              -4.440892098501e-16,
+              -320.0,
+              18.0
+            ],
+            [
+              220.0,
+              -139.99999999999864,
+              20.000000000000018
+            ]
+          ]
+        }
+      ],
+      "reference_path": [
+        1,
+        3
+      ],
+      "reference_label": "PANEL_R05_B26-INTEGRATED-01_review",
+      "reference_volume_mm3": 65214.89061550744,
+      "reference_valid": true,
+      "reconstruction_minus_step_mm3": 0.0,
+      "step_minus_reconstruction_mm3": 0.0
+    },
+    "R06": {
+      "assigned_apertures": 39,
+      "assigned_marks": 50,
+      "closure_axes": 4,
+      "assigned_ticks": 66,
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 50499.42721748939,
+      "bounds_mm": [
+        [
+          220.0,
+          -320.0,
+          18.0
+        ],
+        [
+          380.0,
+          -140.0,
+          20.4
+        ]
+      ],
+      "step_label_candidates": [
+        {
+          "path": [
+            1,
+            4
+          ],
+          "label": "PANEL_R06_B26-INTEGRATED-01_review",
+          "bounds_mm": [
+            [
+              220.0,
+              -320.0,
+              18.0
+            ],
+            [
+              380.0,
+              -140.0,
+              20.4
+            ]
+          ]
+        }
+      ],
+      "reference_path": [
+        1,
+        4
+      ],
+      "reference_label": "PANEL_R06_B26-INTEGRATED-01_review",
+      "reference_volume_mm3": 50499.427217494245,
+      "reference_valid": true,
+      "reconstruction_minus_step_mm3": 0.0,
+      "step_minus_reconstruction_mm3": 0.0,
+      "reconstruction_minus_step_components": []
+    },
+    "R07": {
+      "assigned_apertures": 7,
+      "assigned_marks": 0,
+      "closure_axes": 6,
+      "assigned_ticks": 22,
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 65214.890615497665,
+      "bounds_mm": [
+        [
+          380.0,
+          -320.0,
+          18.0
+        ],
+        [
+          600.0,
+          -140.0,
+          20.000000000000064
+        ]
+      ],
+      "step_label_candidates": [
+        {
+          "path": [
+            1,
+            5
+          ],
+          "label": "PANEL_R07_B26-INTEGRATED-01_review",
+          "bounds_mm": [
+            [
+              380.0,
+              -320.0,
+              18.0
+            ],
+            [
+              600.0,
+              -139.99999999999864,
+              20.00000000000886
+            ]
+          ]
+        }
+      ],
+      "reference_path": [
+        1,
+        5
+      ],
+      "reference_label": "PANEL_R07_B26-INTEGRATED-01_review",
+      "reference_volume_mm3": 65214.89061550759,
+      "reference_valid": true,
+      "reconstruction_minus_step_mm3": 0.0,
+      "step_minus_reconstruction_mm3": 0.0
+    }
+  },
+  "errors": [],
+  "notes": [
+    "Cap reference is released binary STL plus release STEP occurrence evidence; this is not an independent STEP geometry comparison.",
+    "All cap identity mapping is based on owner and full inventory ID, not collapsed STEP labels."
+  ],
+  "step_import": {
+    "leaf_count": 476,
+    "solid_leaves": 444,
+    "identity_note": "numeric tree paths; names may collapse to referred labels"
+  },
+  "coverage": {
+    "panels_attempted": 6,
+    "panels_completed": 6,
+    "mesh_definitions_attempted": 9,
+    "mesh_roundtrips_match": 9,
+    "occurrences_attempted": 49,
+    "occurrences_matched_recorded_placement": 49,
+    "expected_apertures": 69,
+    "expected_marks": 65,
+    "expected_ticks": 110,
+    "expected_closures": 28
+  }
+}

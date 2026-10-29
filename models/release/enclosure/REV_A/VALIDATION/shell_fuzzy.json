@@ -1,0 +1,305 @@
+{
+  "input_sha256": {
+    "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/schematics/work/enclosure/B26-CONSOLIDATED-02/B26_CONSOLIDATED_02_complete_DRAFT.pdf": "35ab5a40ae0051ec4080cb6cfb287782c482859d1a6f666e9a8b0ccca00226c2",
+    "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/schematics/work/enclosure/B26-CONSOLIDATED-02/shell/shell_dataset_DRAFT.json": "1687a23e7c45b43ed2a21ff8acc0567f4d053a37da6891892131f3a0b2b30f57",
+    "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/release/enclosure/B26/B26-build123d03_RELEASE/STEP/B26-build123d03-trial-assembly.step": "be226639517a5e5042979a5c78039f82f4e40c89f9d92193f8bd150e7c0c258b"
+  },
+  "strict_evidence": "tmp/rev-a-shell/shell-diagnostics.json",
+  "limitations": [
+    "Additional fuzzy tolerance affects numerical comparison only; no construction dimensions or files are changed.",
+    "Strict C03/C05 comparison failed due to invalid reverse cut and contradictory common operations; a fuzzy result does not replace or waive it.",
+    "OCCT warning and error status is unavailable if not exposed by the installed binding."
+  ],
+  "parts": {
+    "C03": {
+      "step_numeric_leaf_path": [
+        0,
+        2
+      ],
+      "step_label": "C03_lower_shell_PETG_B26-INTEGRATED-01_review",
+      "reconstructed_valid": true,
+      "step_valid": true,
+      "reconstructed_volume_mm3": 102085.7866541804,
+      "step_volume_mm3": 102085.78665417821,
+      "reconstructed_bounds_mm": [
+        [
+          380.0,
+          -140.0,
+          -1.1102230246251565e-16
+        ],
+        [
+          600.0,
+          4.440892098500626e-16,
+          83.37676641782176
+        ]
+      ],
+      "step_bounds_mm": [
+        [
+          380.0,
+          -140.0,
+          -1.110223024625e-16
+        ],
+        [
+          600.0000001,
+          4.440892098501e-16,
+          83.376766417822
+        ]
+      ],
+      "fuzzy": {
+        "1e-07": {
+          "reconstruction_minus_STEP": {
+            "requested_fuzzy_tolerance_mm": 1e-07,
+            "actual_fuzzy_tolerance_mm": 1e-07,
+            "non_destructive": true,
+            "done": true,
+            "elapsed_s": 0.3143262500088895,
+            "warnings": "unavailable",
+            "errors": "unavailable",
+            "valid": true,
+            "empty": true,
+            "solids": 0,
+            "volume_mm3": 0
+          },
+          "STEP_minus_reconstruction": {
+            "requested_fuzzy_tolerance_mm": 1e-07,
+            "actual_fuzzy_tolerance_mm": 1e-07,
+            "non_destructive": true,
+            "done": true,
+            "elapsed_s": 0.3647366250079358,
+            "warnings": "unavailable",
+            "errors": "unavailable",
+            "valid": false,
+            "empty": false,
+            "solids": 6,
+            "volume_mm3": 102042.8033071118
+          },
+          "intersection_reconstruction_STEP": {
+            "requested_fuzzy_tolerance_mm": 1e-07,
+            "actual_fuzzy_tolerance_mm": 1e-07,
+            "non_destructive": true,
+            "done": true,
+            "elapsed_s": 0.32132104199263267,
+            "warnings": "unavailable",
+            "errors": "unavailable",
+            "valid": true,
+            "empty": false,
+            "solids": 1,
+            "volume_mm3": 102085.78665418048
+          },
+          "intersection_STEP_reconstruction": {
+            "requested_fuzzy_tolerance_mm": 1e-07,
+            "actual_fuzzy_tolerance_mm": 1e-07,
+            "non_destructive": true,
+            "done": true,
+            "elapsed_s": 0.3428304579865653,
+            "warnings": "unavailable",
+            "errors": "unavailable",
+            "valid": true,
+            "empty": true,
+            "solids": 0,
+            "volume_mm3": 0
+          }
+        },
+        "1e-06": {
+          "reconstruction_minus_STEP": {
+            "requested_fuzzy_tolerance_mm": 1e-06,
+            "actual_fuzzy_tolerance_mm": 1e-06,
+            "non_destructive": true,
+            "done": true,
+            "elapsed_s": 0.3013909169967519,
+            "warnings": "unavailable",
+            "errors": "unavailable",
+            "valid": true,
+            "empty": true,
+            "solids": 0,
+            "volume_mm3": 0
+          },
+          "STEP_minus_reconstruction": {
+            "requested_fuzzy_tolerance_mm": 1e-06,
+            "actual_fuzzy_tolerance_mm": 1e-06,
+            "non_destructive": true,
+            "done": true,
+            "elapsed_s": 0.3484222090046387,
+            "warnings": "unavailable",
+            "errors": "unavailable",
+            "valid": false,
+            "empty": false,
+            "solids": 6,
+            "volume_mm3": 102042.8033071118
+          },
+          "intersection_reconstruction_STEP": {
+            "requested_fuzzy_tolerance_mm": 1e-06,
+            "actual_fuzzy_tolerance_mm": 1e-06,
+            "non_destructive": true,
+            "done": true,
+            "elapsed_s": 0.31297633300710004,
+            "warnings": "unavailable",
+            "errors": "unavailable",
+            "valid": true,
+            "empty": false,
+            "solids": 1,
+            "volume_mm3": 102085.78665418048
+          },
+          "intersection_STEP_reconstruction": {
+            "requested_fuzzy_tolerance_mm": 1e-06,
+            "actual_fuzzy_tolerance_mm": 1e-06,
+            "non_destructive": true,
+            "done": true,
+            "elapsed_s": 0.3134655419999035,
+            "warnings": "unavailable",
+            "errors": "unavailable",
+            "valid": true,
+            "empty": true,
+            "solids": 0,
+            "volume_mm3": 0
+          }
+        }
+      }
+    },
+    "C05": {
+      "step_numeric_leaf_path": [
+        0,
+        4
+      ],
+      "step_label": "C05_lower_shell_PETG_B26-INTEGRATED-01_review",
+      "reconstructed_valid": true,
+      "step_valid": true,
+      "reconstructed_volume_mm3": 95530.96312055507,
+      "step_volume_mm3": 95530.96312057477,
+      "reconstructed_bounds_mm": [
+        [
+          220.0,
+          -320.0,
+          -1.1102230246251565e-16
+        ],
+        [
+          380.0,
+          -140.0,
+          18.0
+        ]
+      ],
+      "step_bounds_mm": [
+        [
+          220.0,
+          -320.0,
+          -1.110223024625e-16
+        ],
+        [
+          380.0,
+          -140.0,
+          18.0
+        ]
+      ],
+      "fuzzy": {
+        "1e-07": {
+          "reconstruction_minus_STEP": {
+            "requested_fuzzy_tolerance_mm": 1e-07,
+            "actual_fuzzy_tolerance_mm": 1e-07,
+            "non_destructive": true,
+            "done": true,
+            "elapsed_s": 0.9136291250033537,
+            "warnings": "unavailable",
+            "errors": "unavailable",
+            "valid": true,
+            "empty": true,
+            "solids": 0,
+            "volume_mm3": 0
+          },
+          "STEP_minus_reconstruction": {
+            "requested_fuzzy_tolerance_mm": 1e-07,
+            "actual_fuzzy_tolerance_mm": 1e-07,
+            "non_destructive": true,
+            "done": true,
+            "elapsed_s": 1.0711886670032982,
+            "warnings": "unavailable",
+            "errors": "unavailable",
+            "valid": false,
+            "empty": false,
+            "solids": 21,
+            "volume_mm3": 95312.2125070811
+          },
+          "intersection_reconstruction_STEP": {
+            "requested_fuzzy_tolerance_mm": 1e-07,
+            "actual_fuzzy_tolerance_mm": 1e-07,
+            "non_destructive": true,
+            "done": true,
+            "elapsed_s": 0.9270319579954958,
+            "warnings": "unavailable",
+            "errors": "unavailable",
+            "valid": true,
+            "empty": false,
+            "solids": 1,
+            "volume_mm3": 95530.96312055523
+          },
+          "intersection_STEP_reconstruction": {
+            "requested_fuzzy_tolerance_mm": 1e-07,
+            "actual_fuzzy_tolerance_mm": 1e-07,
+            "non_destructive": true,
+            "done": true,
+            "elapsed_s": 0.9904710830014665,
+            "warnings": "unavailable",
+            "errors": "unavailable",
+            "valid": true,
+            "empty": true,
+            "solids": 0,
+            "volume_mm3": 0
+          }
+        },
+        "1e-06": {
+          "reconstruction_minus_STEP": {
+            "requested_fuzzy_tolerance_mm": 1e-06,
+            "actual_fuzzy_tolerance_mm": 1e-06,
+            "non_destructive": true,
+            "done": true,
+            "elapsed_s": 0.8917342909990111,
+            "warnings": "unavailable",
+            "errors": "unavailable",
+            "valid": true,
+            "empty": true,
+            "solids": 0,
+            "volume_mm3": 0
+          },
+          "STEP_minus_reconstruction": {
+            "requested_fuzzy_tolerance_mm": 1e-06,
+            "actual_fuzzy_tolerance_mm": 1e-06,
+            "non_destructive": true,
+            "done": true,
+            "elapsed_s": 1.0162775829958264,
+            "warnings": "unavailable",
+            "errors": "unavailable",
+            "valid": false,
+            "empty": false,
+            "solids": 21,
+            "volume_mm3": 95312.2125070811
+          },
+          "intersection_reconstruction_STEP": {
+            "requested_fuzzy_tolerance_mm": 1e-06,
+            "actual_fuzzy_tolerance_mm": 1e-06,
+            "non_destructive": true,
+            "done": true,
+            "elapsed_s": 0.9171028749988182,
+            "warnings": "unavailable",
+            "errors": "unavailable",
+            "valid": true,
+            "empty": false,
+            "solids": 1,
+            "volume_mm3": 95530.96312055523
+          },
+          "intersection_STEP_reconstruction": {
+            "requested_fuzzy_tolerance_mm": 1e-06,
+            "actual_fuzzy_tolerance_mm": 1e-06,
+            "non_destructive": true,
+            "done": true,
+            "elapsed_s": 0.9817491249996237,
+            "warnings": "unavailable",
+            "errors": "unavailable",
+            "valid": true,
+            "empty": true,
+            "solids": 0,
+            "volume_mm3": 0
+          }
+        }
+      }
+    }
+  }
+}

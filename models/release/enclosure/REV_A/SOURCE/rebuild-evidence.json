@@ -1,0 +1,16 @@
+{
+  "status": "source rebuild matched within stated checks",
+  "leaf_count": 476,
+  "solid_bearing_leaves": 395,
+  "max_bounds_difference_mm": 0.0,
+  "max_volume_difference_mm3": 0.0,
+  "source_files": 52,
+  "mesh_only_cap_face_count": 49,
+  "live_fingerprint_sha256": "c27c828beed1eacba30b378c51c4fac1df2042647fae33bf71b8cafed5ec09f8",
+  "release_fingerprint_sha256": "61bb2b7293dfe2f721ed46f10b407b2effcff0429a42abb84f8072af8989801c",
+  "limits": [
+    "Same external approved .venv used",
+    "Bounds and volume equality alone are not exact shape equivalence",
+    "49 cap occurrences are mesh-only display faces, not parametric feature history"
+  ]
+}

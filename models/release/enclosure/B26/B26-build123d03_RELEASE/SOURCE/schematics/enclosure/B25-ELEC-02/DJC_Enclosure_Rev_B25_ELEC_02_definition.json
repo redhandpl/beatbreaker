@@ -1,0 +1,50 @@
+{
+  "revision": "B25-ELEC-02",
+  "status": "DRAFT LAYOUT AND ELECTRICAL CIRCUITS / NOT APPROVED",
+  "units": "mm",
+  "request": "Defer all mounting design. Rotate U1 by90 degrees and move it left of JogA; rotate U4 by90 degrees and move it right of JogB. Add electrical circuits to the drawing. U2/U3 and other equipment remain fixed.",
+  "authority": "Engineer explicitly selects moved-board regions/rotation. Exact new planar positions below are transparent placement selections derived from retained obstacle edges, not changed purchased dimensions. Named new drawing/model approval and save/export authority are not implied.",
+  "basis_model": "B24-Fusion-05 approved mechanical master, unchanged",
+  "placement_basis": "schematics/enclosure/B25-ELEC-01/DJC_Enclosure_Rev_B25_ELEC_01_definition.json",
+  "electrical_definition": "schematics/electronics/E01/DJC_Electrical_Rev_E01_definition.json",
+  "electrical_pdf": "schematics/electronics/E01/DJC_Electrical_Rev_E01_schematic.pdf",
+  "image_manifest": "schematics/electronics/E01-P01/DJC_Electrical_Rev_E01_P01_references.json",
+  "inventory_path": "models/enclosure/B24/FUSION/DJC_Enclosure_Rev_B24_Fusion05_validation.json",
+  "control_path": "schematics/enclosure/B24/DJC_Enclosure_Rev_B24_validation.json",
+  "closure_path": "schematics/enclosure/B24/DJC_Enclosure_Rev_B24_definition.json",
+  "joint_path": "schematics/enclosure/B24-JOINTS-02/DJC_Enclosure_Rev_B24_JOINTS_02_definition.json",
+  "datums": "TOP into open lower enclosure, rear-left exterior origin, X right,Y operator,Z up; CAD=(X,-Y,Z).90deg clockwise on this top/table view corresponds to CAD Z rotation-90deg. Rotation concerns known packaging outlines; catalogue artwork does not establish actual terminal clocking.",
+  "main_body": {"outer_XY":[600,300],"floor_Z":[0,2],"panel_Z":[18,20],"floor_X_seams":[220,380],"floor_Y_seams":[120]},
+  "jogs": [{"id":"JA","centre_XY":[110,150],"platter_D":100},{"id":"JB","centre_XY":[490,150],"platter_D":100}],
+  "boards": [
+    {"id":"U1","name":"ESP32-S3","quantity":1,"role":"purchased/reference envelope","centre_XY":[28.75,150],"unrotated_size_XY":[62.74,25.4],"plan_size_XY":[25.4,62.74],"clockwise_deg":90,"old_centre_XY":[300,225],"old_clockwise_deg":0,"reference_Z":[3,14],"PCB_underside_Z":4,"laminate":2,"header_above_upper_face":8,"header_below_lower_face":1,"complete_reference_height_known":true,"image_id":"esp32","image_clockwise_deg":0,"derivation":"At retained JogA Y150, available X interval is left closure-foot right edge8+4.5=12.5 to J07 C07 bridge left edge50-5=45. Select midpoint(12.5+45)/2=28.75. Rotated width25.4 leaves3.55 to both conservative edge boundaries. Whole board may cross floor seamY120; no mounting or splitting selected."},
+    {"id":"U2","name":"PCF8575 / 0x20","quantity":1,"role":"purchased/reference envelope","centre_XY":[181,165],"unrotated_size_XY":[32,21],"plan_size_XY":[32,21],"clockwise_deg":0,"old_centre_XY":[181,165],"old_clockwise_deg":0,"reference_Z":[3,14],"PCB_underside_Z":4,"laminate":2,"header_above_upper_face":8,"header_below_lower_face":1,"complete_reference_height_known":true,"image_id":"pcf8575","image_clockwise_deg":0,"derivation":"Retain accepted B25-ELEC-01 placement and orientation unchanged."},
+    {"id":"U3","name":"PCF8575 / 0x21","quantity":1,"role":"purchased/reference envelope","centre_XY":[419,150],"unrotated_size_XY":[32,21],"plan_size_XY":[32,21],"clockwise_deg":0,"old_centre_XY":[419,150],"old_clockwise_deg":0,"reference_Z":[3,14],"PCB_underside_Z":4,"laminate":2,"header_above_upper_face":8,"header_below_lower_face":1,"complete_reference_height_known":true,"image_id":"pcf8575","image_clockwise_deg":0,"derivation":"Retain accepted B25-ELEC-01 placement and orientation unchanged."},
+    {"id":"U4","name":"CD74HC4067","quantity":1,"role":"purchased/body-only reference","centre_XY":[571.25,150],"unrotated_size_XY":[41,18],"plan_size_XY":[18,41],"clockwise_deg":90,"old_centre_XY":[410,180],"old_clockwise_deg":0,"reference_Z":[8,11.6],"body_height":3.6,"header_above_upper_face":8,"header_below_lower_face":1,"complete_reference_height_known":false,"image_id":"mux4067","image_clockwise_deg":90,"derivation":"At retained JogB Y150 the active left obstruction is J10 bridge RIGHT edge555, not merely platter edge540. Right closure-foot left edge592-4.5=587.5. Select midpoint(555+587.5)/2=571.25. Rotated width18 leaves7.25 to those conservative boundaries. TrialX563.75 was rejected analytically because the body reference overlapped J10 by0.25 inX. Body Z8..11.6 unchanged; actual PCB/pin registration and full installed height remain unqualified."}
+  ],
+  "mounting": {"state":"DEFERRED BY ENGINEER","new_features":0,"new_fasteners":0,"new_hole_patterns":0,"rejected_predecessor":"B25-MOUNT-01 remains WITHDRAWN; no axes/posts/carriers reused","future_method":"Original purchased-PCB screw holes if/when mounting work resumes; missing hole measurements are NOT a blocker to this requested layout/circuit study."},
+  "electrical_presentation": {
+    "scope":"No new electrical decisions. Overlay functional net bundles on the revised physical layout, then append all eight original native E01 PDF sheets unchanged into the SAME final PDF. Keep E01 standalone source preserved.",
+    "final_pages":9,
+    "page_formats":"Page1 new A2 landscape placement/topology; pages2-9 retained E01 A3 landscape circuits.",
+    "same_E01_gpio_nets":22,
+    "signal_groups":[
+      {"id":"I2C_INT","nets":["I2C_SDA","I2C_SCL","KEY_INT_N"],"endpoints":["U1","U2","U3"],"meaning":"Three independent shared nets, not a single shorted wire. E01 physical module/pull-up/INT verification gates unchanged."},
+      {"id":"MUX","nets":["POT_SIG","MUX_S0","MUX_S1","MUX_S2","MUX_S3"],"endpoints":["U1","U4"],"meaning":"Five independent ADC/select leads."},
+      {"id":"FADERS","nets":["F01_W","F02_W","F03_W","F04_W","F05_W"],"endpoints":["F01-F05","U1"],"meaning":"Five separate direct ADC1 wipers; no fader through mux."},
+      {"id":"BROWSE","nets":["BROWSE_A","BROWSE_B"],"endpoints":["E01 control","U1"],"meaning":"Rotation A/B direct; push unused."},
+      {"id":"SPI_SHARED","nets":["JOG_SCK","JOG_MOSI","JOG_MISO"],"endpoints":["U1","JA","JB"],"meaning":"Three shared SPI signals; separate chip selects below."},
+      {"id":"CS_A","nets":["JOG_A_CS_N"],"endpoints":["U1","JA"],"meaning":"JogA chip select only."},
+      {"id":"CS_B","nets":["JOG_B_CS_N"],"endpoints":["U1","JB"],"meaning":"JogB chip select only."},
+      {"id":"VU","nets":["VU_L_3V3","VU_R_3V3"],"endpoints":["U1","U5 electrical function","MAIN_L/MAIN_R"],"meaning":"Two data paths via AHCT125 to two10-LED SK6812 RGBW chains. U5/card is electrical intent only, not a new placed/mounted board."}
+    ],
+    "peripherals":"32 press contacts retain E01 PCF allocations;13 pot wipers retain CH0-CH12/three spares;5 faders direct;2 jog rotations and2 jog presses; BROWSE rotation only;20 master VU LEDs. Pi/display/DAC/audio/USB/power circuits retained in E01 appendix.",
+    "limit":"Layout overlay is functional topology, NOT a physical harness route, terminal-pad map, verified wire lengths, voltage-drop/noise/EMC check or power/energizing approval. Images are documented reference boards, not confirmed actual variants. E01-TBD-01 through08 remain open. No unapproved5V/3V3 tie or new mains wiring."
+  },
+  "validation_limits":[
+    "Prospective AABB/reference placement only, with six nonlocal whole-shell boxes and four replaced controller references explicitly excluded; retained integral control/post/joint proxies supplement but do not replace local shell BRep intersection.",
+    "U1 reference includes the stated installed header height; U4 remains body-only despite confirmed header8-up/1-down. Unknown actual terminal, hole and pin geometry is not invented or claimed validated.",
+    "No mounting geometry, holes, support/contact choices, new screws, PCB design, firmware, cable routing, continuous-motion, RF, physical, thermal, electrical or power test.",
+    "All previous accepted/rejected drawing/model/electrical packages retained. New revision requires its own engineer review; no Fusion mutation/save/close or STL/STEP/F3D export."
+  ]
+}

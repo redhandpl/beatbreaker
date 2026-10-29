@@ -1,0 +1,49 @@
+{
+  "revision": "B26-CONSOLIDATED-02",
+  "status": "DRAFT; not approved; not released; completeness and independent solid reconstruction not established",
+  "scope": "Documentation candidate for the already approved B26-build123d03 unpowered mechanical trial. The 69-page PDF and listed JSON files are one package; nine inherited cap definitions are faceted mesh data, not parametric histories.",
+  "basis": {
+    "model_revision": "B26-build123d03",
+    "drawing_revisions": ["B26-INTEGRATED-01", "B26-FADER-01"],
+    "source_manifest_sha256": "23b84d2af197ca66a297b7529c1726a0d0eac3c33fb92b2c9a1fabeed27f0641",
+    "trial_step_sha256": "be226639517a5e5042979a5c78039f82f4e40c89f9d92193f8bd150e7c0c258b",
+    "jog_source_sha256": "8fa9d5a7f6bb4ae8c6cde7079d26bf9a2b58bec395b94c31ae3c97e89cb0d65e",
+    "retained_accepted_01_enclosure_pdf_sha256": "6885827656b9742273fa4450d495ef3228005dbcc279cee145d5b2c6af35eaa3",
+    "retained_accepted_01_panel_pdf_sha256": "b990dad0644586630b96a6e42c836b91683907a0e4ce0983128542599ab9be82"
+  },
+  "environment": {
+    "python": "3.11.15, existing .venv in isolated mode",
+    "build123d": "0.13.1.dev254+gc49a0493a",
+    "cadquery-ocp-novtk": "8.0.1.1.0",
+    "ocp_viewer": "1.2.0",
+    "numpy": "2.4.6",
+    "drawing": "macOS Swift, CoreGraphics and PDFKit",
+    "concept_conversion": "sips; Pillow 13.0.0 used to compare converted pixels"
+  },
+  "sha256": {
+    "B26_CONSOLIDATED_02_complete_DRAFT.pdf": "35ab5a40ae0051ec4080cb6cfb287782c482859d1a6f666e9a8b0ccca00226c2",
+    "B26_CONSOLIDATED_02_DRAFT_concept.png": "cf7b066e46b122be873ce690cada2bc11e74782dbc52e751da2e86ff3ae51969",
+    "reference_geometry_DRAFT.json": "abba3bdcfd90fc329800f497a8e066537b5255f116e8d2fd54abc1f5b0dfb863",
+    "shell/shell_dataset_DRAFT.json": "1687a23e7c45b43ed2a21ff8acc0567f4d053a37da6891892131f3a0b2b30f57",
+    "panel/panel_addendum.json": "e842d11594720ffbf9303b541c1bffb85865a5f54552ecb4310ce5e431f17059",
+    "panel/frontpanel_data.json": "5f064395b05b5667b19906d5b7576b23d3d964e7a3574eeeb43a912339ef25ec",
+    "panel/B26_CONSOLIDATED_01_caps_mesh_DRAFT.json": "b5a3772010cd64d9a7e173032cead02329d445a4da9280722dedd681066b9bf1",
+    "panel/B26_CONSOLIDATED_01_caps_poses_DRAFT.json": "237ecfc83642d861df962362dc42b8f3e7a161e1c5ca5f492604c45b395db277",
+    "jog/jog_data.json": "fb522c07afe6be372b6833ceae93182ed7592ea97a30b85345ae3f6800f34e4d"
+  },
+  "checks": [
+    "The combined PDF was saved and reopened with PDFKit: 69 pages. The 69-page predecessor was rendered page by page and contact sheets visually inspected; the final E01 wording change was reopened and visually checked separately.",
+    "All candidate JSON files parsed. Nine binary STL byte streams were reconstructed from the mesh JSON and SHA-256 matched the source; 24334 triangles. 49 unique owners, distribution across nine meshes and orthonormal placement axes were checked.",
+    "Panel data: 69 apertures, 28 closure axes, 65 raised mark polygons, five fader placements. Shell data: 98 CSG groups, 16 joints, 33 posts, 48 ventilation polygons. Counts establish integrity, not full dimensional correctness.",
+    "Embedded shell schedules and operations match the previous revision's JSON transcription exactly. The previous revision recorded source checks of these schedules; no new complete source-to-solid comparison was made.",
+    "Seven equipment reference boxes independently match the recorded source centre, size, height and B26 +20 mm table-Y translation. Jog nominal feature schedule was manually checked against f13_jog.py lines 22-278; this is not a Boolean-equivalence check.",
+    "Concept PNG decoded. Its RGBA pixels match the image-generator output after conversion. The concept is illustrative, not the CAD model, dimensional evidence or a physical validation."
+  ],
+  "unresolved": [
+    "No independent full 3D reconstruction from only this PDF and data has been carried out; exact Boolean and feature equivalence for all printed parts, including T30 sweep and phase, is not established. Several views are expressly schematic and numerical operations are needed.",
+    "The strict P01 STEP volume comparison failed by 0.641091522 mm3 per rotor against 0.0001 mm3. The accepted bounded exception covers the unpowered mechanical trial only, not strict success or surface identity.",
+    "Purchases, connectors, wiring and fastener interfaces are incomplete nominal references; unknown dimensions are not inferred. PCB mounts without reliable measurements are omitted.",
+    "Print orientation, bed margins, supports, physical fit, strength, electrical and thermal safety are unverified. Jog and cap material, tolerances and fit calibration remain TBD.",
+    "Named engineer approval of this documentation revision is outstanding; no new 3D model, STL or STEP was created or approved by this work."
+  ]
+}

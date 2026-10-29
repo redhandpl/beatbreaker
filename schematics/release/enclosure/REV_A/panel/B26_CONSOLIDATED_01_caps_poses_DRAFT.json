@@ -1,0 +1,989 @@
+{
+  "revision": "B26-CONSOLIDATED-01",
+  "status": "DRAFT - source-derived data; not a standalone dimensioned drawing or approval",
+  "units": "mm; CAD (X,-Y,Z)",
+  "construction": "Each definition uses a right-handed build123d Plane with the listed origin, x_dir and z_dir. Directions are from the B24 inventory; B26 translation follows b26_controls.build_caps. Mesh identities are in B26_CONSOLIDATED_01_caps_mesh_DRAFT.json.",
+  "source": "B26-build123d03 SOURCE b26_controls.py and B24 Fusion05 validation inventory",
+  "occurrences": [
+    {
+      "owner": "B01",
+      "mesh_definition": "CAP_B",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_B retained approved source:1#0",
+      "cad_origin_mm": [
+        91.0,
+        -42.25,
+        21.5
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "B02",
+      "mesh_definition": "CAP_B",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_B retained approved source:2#0",
+      "cad_origin_mm": [
+        111.0,
+        -42.25,
+        21.5
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "B03",
+      "mesh_definition": "CAP_B",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_B retained approved source:3#0",
+      "cad_origin_mm": [
+        131.0,
+        -42.25,
+        21.5
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "B04",
+      "mesh_definition": "CAP_B",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_B retained approved source:4#0",
+      "cad_origin_mm": [
+        111.0,
+        -66.25,
+        21.5
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "B05",
+      "mesh_definition": "CAP_B",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_B retained approved source:5#0",
+      "cad_origin_mm": [
+        131.0,
+        -66.25,
+        21.5
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "B06",
+      "mesh_definition": "CAP_B",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_B retained approved source:6#0",
+      "cad_origin_mm": [
+        471.0,
+        -42.25,
+        21.5
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "B07",
+      "mesh_definition": "CAP_B",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_B retained approved source:7#0",
+      "cad_origin_mm": [
+        491.0,
+        -42.25,
+        21.5
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "B08",
+      "mesh_definition": "CAP_B",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_B retained approved source:8#0",
+      "cad_origin_mm": [
+        511.0,
+        -42.25,
+        21.5
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "B09",
+      "mesh_definition": "CAP_B",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_B retained approved source:9#0",
+      "cad_origin_mm": [
+        491.0,
+        -66.25,
+        21.5
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "B10",
+      "mesh_definition": "CAP_B",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_B retained approved source:10#0",
+      "cad_origin_mm": [
+        511.0,
+        -66.25,
+        21.5
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "B11",
+      "mesh_definition": "CAP-CUE40",
+      "inventory_id": "CAP-CUE40 / B24-KCAP-Fusion-03:1#0",
+      "cad_origin_mm": [
+        32.0,
+        -248.0,
+        21.5
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "B12",
+      "mesh_definition": "CAP-PP40",
+      "inventory_id": "CAP-PP40 / B24-KCAP-Fusion-03:1#0",
+      "cad_origin_mm": [
+        32.0,
+        -294.0,
+        21.5
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "B13",
+      "mesh_definition": "CAP-HC40",
+      "inventory_id": "CAP-HC40 / B24-KCAP-Fusion-03:1#0",
+      "cad_origin_mm": [
+        78.0,
+        -248.0,
+        21.5
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "B14",
+      "mesh_definition": "CAP-HC40",
+      "inventory_id": "CAP-HC40 / B24-KCAP-Fusion-03:2#0",
+      "cad_origin_mm": [
+        124.0,
+        -248.0,
+        21.5
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "B15",
+      "mesh_definition": "CAP-HC40",
+      "inventory_id": "CAP-HC40 / B24-KCAP-Fusion-03:3#0",
+      "cad_origin_mm": [
+        78.0,
+        -294.0,
+        21.5
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "B16",
+      "mesh_definition": "CAP-HC40",
+      "inventory_id": "CAP-HC40 / B24-KCAP-Fusion-03:4#0",
+      "cad_origin_mm": [
+        124.0,
+        -294.0,
+        21.5
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "B17",
+      "mesh_definition": "CAP-CUE40",
+      "inventory_id": "CAP-CUE40 / B24-KCAP-Fusion-03:2#0",
+      "cad_origin_mm": [
+        412.0,
+        -248.0,
+        21.5
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "B18",
+      "mesh_definition": "CAP-PP40",
+      "inventory_id": "CAP-PP40 / B24-KCAP-Fusion-03:2#0",
+      "cad_origin_mm": [
+        412.0,
+        -294.0,
+        21.5
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "B19",
+      "mesh_definition": "CAP-HC40",
+      "inventory_id": "CAP-HC40 / B24-KCAP-Fusion-03:5#0",
+      "cad_origin_mm": [
+        458.0,
+        -248.0,
+        21.5
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "B20",
+      "mesh_definition": "CAP-HC40",
+      "inventory_id": "CAP-HC40 / B24-KCAP-Fusion-03:6#0",
+      "cad_origin_mm": [
+        504.0,
+        -248.0,
+        21.5
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "B21",
+      "mesh_definition": "CAP-HC40",
+      "inventory_id": "CAP-HC40 / B24-KCAP-Fusion-03:7#0",
+      "cad_origin_mm": [
+        458.0,
+        -294.0,
+        21.5
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "B22",
+      "mesh_definition": "CAP-HC40",
+      "inventory_id": "CAP-HC40 / B24-KCAP-Fusion-03:8#0",
+      "cad_origin_mm": [
+        504.0,
+        -294.0,
+        21.5
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "B23",
+      "mesh_definition": "CAP_B",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_B retained approved source:23#0",
+      "cad_origin_mm": [
+        276.0,
+        -255.0,
+        21.5
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "B24",
+      "mesh_definition": "CAP_B",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_B retained approved source:24#0",
+      "cad_origin_mm": [
+        324.0,
+        -255.0,
+        21.5
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "E01",
+      "mesh_definition": "CAP_E",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_E retained approved source:1#0",
+      "cad_origin_mm": [
+        300.0,
+        -125.0,
+        23.5
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "F01",
+      "mesh_definition": "CAP_F",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_F retained approved source:1#0",
+      "cad_origin_mm": [
+        196.0,
+        -272.0,
+        20.8
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "F02",
+      "mesh_definition": "CAP_F",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_F retained approved source:2#0",
+      "cad_origin_mm": [
+        576.0,
+        -272.0,
+        20.8
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "F03",
+      "mesh_definition": "CAP_F",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_F retained approved source:3#0",
+      "cad_origin_mm": [
+        276.0,
+        -197.0,
+        20.8
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "F04",
+      "mesh_definition": "CAP_F",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_F retained approved source:4#0",
+      "cad_origin_mm": [
+        324.0,
+        -197.0,
+        20.8
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "F05",
+      "mesh_definition": "CAP_C",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_C retained approved source:1#0",
+      "cad_origin_mm": [
+        300.0,
+        -301.0,
+        20.8
+      ],
+      "cad_x_direction": [
+        6.123233995736766e-17,
+        -1.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "P01",
+      "mesh_definition": "CAP_P",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_P retained approved source:1#0",
+      "cad_origin_mm": [
+        559.0,
+        -41.0,
+        20.8
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "P02",
+      "mesh_definition": "CAP_P",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_P retained approved source:2#0",
+      "cad_origin_mm": [
+        559.0,
+        -69.0,
+        20.8
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "P03",
+      "mesh_definition": "CAP_P",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_P retained approved source:3#0",
+      "cad_origin_mm": [
+        559.0,
+        -97.0,
+        20.8
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "P04",
+      "mesh_definition": "CAP_P",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_P retained approved source:4#0",
+      "cad_origin_mm": [
+        244.0,
+        -151.0,
+        20.8
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "P05",
+      "mesh_definition": "CAP_P",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_P retained approved source:5#0",
+      "cad_origin_mm": [
+        244.0,
+        -177.0,
+        20.8
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "P06",
+      "mesh_definition": "CAP_P",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_P retained approved source:6#0",
+      "cad_origin_mm": [
+        244.0,
+        -203.0,
+        20.8
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "P07",
+      "mesh_definition": "CAP_P",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_P retained approved source:7#0",
+      "cad_origin_mm": [
+        244.0,
+        -229.0,
+        20.8
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "P08",
+      "mesh_definition": "CAP_P",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_P retained approved source:8#0",
+      "cad_origin_mm": [
+        244.0,
+        -255.0,
+        20.8
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "P09",
+      "mesh_definition": "CAP_P",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_P retained approved source:9#0",
+      "cad_origin_mm": [
+        356.0,
+        -151.0,
+        20.8
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "P10",
+      "mesh_definition": "CAP_P",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_P retained approved source:10#0",
+      "cad_origin_mm": [
+        356.0,
+        -177.0,
+        20.8
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "P11",
+      "mesh_definition": "CAP_P",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_P retained approved source:11#0",
+      "cad_origin_mm": [
+        356.0,
+        -203.0,
+        20.8
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "P12",
+      "mesh_definition": "CAP_P",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_P retained approved source:12#0",
+      "cad_origin_mm": [
+        356.0,
+        -229.0,
+        20.8
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "P13",
+      "mesh_definition": "CAP_P",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_P retained approved source:13#0",
+      "cad_origin_mm": [
+        356.0,
+        -255.0,
+        20.8
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "T01",
+      "mesh_definition": "CAP_T",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_T retained approved source:1#0",
+      "cad_origin_mm": [
+        277.0,
+        -125.0,
+        21.5
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "T02",
+      "mesh_definition": "CAP_T",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_T retained approved source:2#0",
+      "cad_origin_mm": [
+        322.99999999999994,
+        -125.0,
+        21.5
+      ],
+      "cad_x_direction": [
+        -1.0,
+        1.2246467991473532e-16,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "T03",
+      "mesh_definition": "CAP_T",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_T retained approved source:3#0",
+      "cad_origin_mm": [
+        236.0,
+        -278.0,
+        21.5
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "T04",
+      "mesh_definition": "CAP_T",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_T retained approved source:4#0",
+      "cad_origin_mm": [
+        254.0,
+        -278.0,
+        21.5
+      ],
+      "cad_x_direction": [
+        -1.0,
+        1.2246467991473532e-16,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "T05",
+      "mesh_definition": "CAP_T",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_T retained approved source:5#0",
+      "cad_origin_mm": [
+        348.0,
+        -278.0,
+        21.5
+      ],
+      "cad_x_direction": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "owner": "T06",
+      "mesh_definition": "CAP_T",
+      "inventory_id": "CONTROL CAPS retained source geometry:1+CAP_T retained approved source:6#0",
+      "cad_origin_mm": [
+        366.0,
+        -278.0,
+        21.5
+      ],
+      "cad_x_direction": [
+        -1.0,
+        1.2246467991473532e-16,
+        0.0
+      ],
+      "cad_z_direction": [
+        0.0,
+        0.0,
+        1.0
+      ]
+    }
+  ]
+}

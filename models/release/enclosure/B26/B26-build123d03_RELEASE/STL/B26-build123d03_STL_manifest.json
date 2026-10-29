@@ -1,0 +1,3501 @@
+{
+  "status": "scoped final STL checks passed; mechanical trial only",
+  "revision": "B26-build123d03",
+  "units": "STL unitless; coordinates interpreted as mm",
+  "review_manifest_sha256": "38c7bf1db87ddaead6112364c72ac23a54d1158d9426b2d37a09d267bad64a33",
+  "preflight_manifest_sha256": "8ec79c17bd52a8dc79e2331f72b98654aa55815ed7ce43ce1efe8a158f74fe82",
+  "working_evidence_sha256": "3818306e23232d97e7e254900b59523a7d9cffc027579a201dba9f527b53cee1",
+  "approval_record": "docs/APPROVALS.md#engineer-approval-of-b26-build123d03-model-and-step-numerical-exception",
+  "source_and_dependency_sha256": {
+    "models/enclosure/B26/BUILD123D02/DJC_Enclosure_Rev_B26_build123d02.py": "b6d680269f325a4fc288fd4c88d08b85ce87b7e31739d67569546ef2d7fc8618",
+    "models/enclosure/B26/BUILD123D02/b26_controls.py": "1b0d3bd06b070d6c98043a767670c5fdcc6f691bd3038fdbb320e29c9deb798b",
+    "models/enclosure/B26/BUILD123D02/b26_equipment.py": "556c9e721326b98463f75c6aaa0a6dda094277e1024a6671491f4eac00994496",
+    "models/enclosure/B26/BUILD123D02/b26_fasteners.py": "dd77563ef493a65ddede046a7fe91718e2cce6da234e15a7f744e8fb7aeddd78",
+    "models/enclosure/B26/BUILD123D02/b26_panels.py": "666f730b41eb7c8b1c517b74ddb2f2f3c209c6706444c7ef15e33bb5d27ea33e",
+    "models/enclosure/B26/BUILD123D02/b26_shell.py": "024734bb1e3fb064b40c4d6a36f7c4355ae3fe3fd64a87a46a617a5b41f4e43c",
+    "models/enclosure/B26/BUILD123D02/f13_jog.py": "8fa9d5a7f6bb4ae8c6cde7079d26bf9a2b58bec395b94c31ae3c97e89cb0d65e",
+    "models/enclosure/B26/BUILD123D02/check_f13_threads.py": "9381ddc205f90e2f2431e49371da4779fe1798c5ec1dd571f86e83f696091bd1",
+    "models/enclosure/B15/DJC_Enclosure_Rev_B15_inputs.scad": "8f2bd047b6fb1a6002a2f386a0a6f6fa6f13e3d72c7844b5e02de7f2349dde28",
+    "schematics/enclosure/B09/DJC_Enclosure_Rev_B09_equipment.json": "400fe43efc5237d0a3d1cd769444891d9eb679dffb15276c7e4c6e4c45b592da",
+    "schematics/enclosure/B19/DJC_Enclosure_Rev_B19_definition.json": "96665365ac4f9184dc25f814ae720b146a2cca46ed61890ed8653780fd720d5e",
+    "schematics/enclosure/B22/DJC_Enclosure_Rev_B22_definition.json": "a01b52b87e15141ad86d5ca80f6a5a655a2df90d6f70022bc12143436875e27a",
+    "schematics/enclosure/B22/DJC_Enclosure_Rev_B22_validation.json": "8b6151816817865329b7290c28be702fdac38584b417d87889506a74ec2575bf",
+    "schematics/enclosure/B24/DJC_Enclosure_Rev_B24_definition.json": "a5b1b33bb07f4ffc497bb9184bdb579a1e91642561466b7847a17e4014659179",
+    "schematics/enclosure/B24/DJC_Enclosure_Rev_B24_validation.json": "f2a7d273d8c8300eaab4db50a651f28ecbc0bce5deea65a7a6f7c23edb546b4a",
+    "schematics/enclosure/B24-AC01-LOW-01/DJC_Enclosure_Rev_B24_AC01_LOW_01_definition.json": "b975e7955d3e0ae3108a664e6e48016757857c96595781a2f6de4c90366e59ef",
+    "schematics/enclosure/B24-JOINTS-02/DJC_Enclosure_Rev_B24_JOINTS_02_definition.json": "1488cd468959536bf8f2fd25393b111c007b28bc9dbf6ebd3669b504ae229b6d",
+    "models/enclosure/B19/FUSION/DJC_Enclosure_Rev_B19_Fusion01_BOM_and_exports.json": "30df6354670600333629c89e68233ec1090a4d4f66afb657bbb24421a6df7451",
+    "models/enclosure/B24/FUSION/DJC_Enclosure_Rev_B24_Fusion05_BOM_and_exports.json": "da981aa40ceef06053b538f24089e7b39331c15463f023f8e38ad9c16272a2f4",
+    "models/enclosure/B24/FUSION/DJC_Enclosure_Rev_B24_Fusion05_validation.json": "8c8763c0427f119f73fb7061c340cf74baaa1c86386e6f1529abfe795974d5ae",
+    "models/enclosure/B24/BUILD123D/C07_Rev_B24_build123d01.py": "a25f1063a2573cc1f4fb7cb3943399bf87e71b6da32e4677e7e25dedd9de36b4",
+    "models/enclosure/B24/BUILD123D/DJC_Enclosure_Rev_B24_build123d01.py": "fdffe72b0fceb1afe3ccfae71d707696a584e5aa6305c0c5797e9e1429fa8d3b",
+    "models/enclosure/B24/BUILD123D/bridges.py": "6e1b43bdbc33dab9b07de6ec4eab651ff51c87f8cce9ef4c7c0ee0e9f252a5b1",
+    "models/enclosure/B24/BUILD123D/caps.py": "c9b9be49f4d75dd0129c263533ece12244a76d0c74aa6aadfe1f89e042457357",
+    "models/enclosure/B24/BUILD123D/check_model.py": "7305bae72ead5a6097bed8c90e5b52f46b4618de94c2de16cc5d6c45a0683d31",
+    "models/enclosure/B24/BUILD123D/controls.py": "88d26d78b9f2de7f59645a09be26a27fa5d5fb21027a060a2115fe835243f0cd",
+    "models/enclosure/B24/BUILD123D/display_toes.py": "b5336e8679abe28127d365fb7bdf13b411d1c3d62e1a98bd8a47d46b7b2f8102",
+    "models/enclosure/B24/BUILD123D/hardware.py": "7fae4ee5e1f0a71dce40ed9ec69c24f28473f73e4ac025fd0dda8bf7a8a65a89",
+    "models/enclosure/B24/BUILD123D/panels.py": "83b70993090b0274be37c26aa376f47db04fbbbde9c7762685b7e3f337a674d6",
+    "models/enclosure/B24/BUILD123D/reference_controls.py": "eb3d81227f8328b122c5e0fb5d3b1e1c20ea9f61364c8310733cf44fdf7343a7",
+    "models/enclosure/B24/BUILD123D/reference_equipment.py": "ed5748be9ea3f03f2eeff4313de60336b42c244489b28c2d7dff1fdc10b10f75",
+    "models/enclosure/B24/BUILD123D/shell.py": "0d11cdf8a3aeae5177434d5060853466001942a1022ba6f292a0336813bf747f",
+    "schematics/frontpanel/R12/DJC_frontpanel_R12_DRAFT_coordinates.csv": "13a9926564f874d7f20e2aff74f90b460e42c0f264cfaa15fac10c6c1432559e",
+    "schematics/enclosure/B25-ELEC-02/DJC_Enclosure_Rev_B25_ELEC_02_definition.json": "263a9abed777caa24dd7e4ba00fe1cc8fbf36f954ef19fa3cf31751a11c188d6",
+    "models/enclosure/B16/FUSION/CAP_B_Rev_B16_Fusion01.stl": "37d5ff82b539e87fa27ffa795a6c2493bcc57afe4a1ff978b7a8fa7b99d8d87e",
+    "models/enclosure/B17/FUSION/CAP_T_Rev_B17_Fusion01.stl": "8e0d93ec5d0d7b290face7c6e1e3f0654b98c07a7d0edf9917f895f48957b858",
+    "models/enclosure/B16/FUSION/CAP_P_Rev_B16_Fusion01.stl": "6bc7a516eeb4ba382fe5be5cce5e460289db7dfdfdd1eea1099107b9478309e3",
+    "models/enclosure/B16/FUSION/CAP_F_Rev_B16_Fusion01.stl": "5a92948fe01db726faa5b6867d5787b951b299b783bebac09769aca1e67bd7a9",
+    "models/enclosure/B16/FUSION/CAP_C_Rev_B16_Fusion01.stl": "0926fcbc70240fd979c26ddca384f61f02ab50440658e5212a06eacf41995a99",
+    "models/enclosure/B16/FUSION/CAP_E_Rev_B16_Fusion01.stl": "cb5f72be8ceb9e4cdcee00165a97c2bc24370b56046e7c9e211207f4000861d2",
+    "models/enclosure/B24/FUSION/KEYCAPS_K03/CAP-CUE40_Rev_K03_Fusion03.stl": "b5f8374b7fe40e5e8d02d47cfbf4d6c739d020cb72bfb5ba36059ce4b38ce571",
+    "models/enclosure/B24/FUSION/KEYCAPS_K03/CAP-PP40_Rev_K03_Fusion03.stl": "59245a23c144f44d41961fe8b7d75fd3b78d0cc92ffb29293b260076498d332d",
+    "models/enclosure/B24/FUSION/KEYCAPS_K03/CAP-HC40_Rev_K03_Fusion03.stl": "a7d5ed2b3b24f522ea4d68b192ed64052bf3c69c7bc3b1e5eae24732725e0e31",
+    "models/enclosure/B26/BUILD123D03/DJC_Enclosure_Rev_B26_build123d03.py": "7603be9fe50a3031016844cf3c217b2c0f934068c128e348ed2c61ef951e809f",
+    "models/enclosure/B26/BUILD123D03/b26_controls.py": "4fb5a4c145e6a3eeb7a1d63ac0df0045e78e5ca1c11ba9ab564288fae6fe2348",
+    "models/enclosure/B26/BUILD123D03/b26_equipment.py": "556c9e721326b98463f75c6aaa0a6dda094277e1024a6671491f4eac00994496",
+    "models/enclosure/B26/BUILD123D03/b26_fasteners.py": "dd77563ef493a65ddede046a7fe91718e2cce6da234e15a7f744e8fb7aeddd78",
+    "models/enclosure/B26/BUILD123D03/b26_panels.py": "666f730b41eb7c8b1c517b74ddb2f2f3c209c6706444c7ef15e33bb5d27ea33e",
+    "models/enclosure/B26/BUILD123D03/b26_shell.py": "024734bb1e3fb064b40c4d6a36f7c4355ae3fe3fd64a87a46a617a5b41f4e43c",
+    "models/enclosure/B26/BUILD123D03/f13_jog.py": "8fa9d5a7f6bb4ae8c6cde7079d26bf9a2b58bec395b94c31ae3c97e89cb0d65e"
+  },
+  "tessellation": {
+    "linear_mm": 0.005,
+    "relative": false,
+    "angular_degrees": 5
+  },
+  "print_orientation": "TBD",
+  "limitations": [
+    "Scoped mechanical trial, not production or physical-fit approval",
+    "STL has no units",
+    "No self-intersection or vertex-link manifold check",
+    "Caps are inherited mesh-only assets, material TBD, no editable history or known tessellation",
+    "No slicer, bed margin, supports, brim, print settings, strength or physical validation",
+    "PCB mounts deliberately absent; purchased and incomplete references excluded",
+    "Section checks sample one height and two transverse offsets only",
+    "P01 STEP strict default volume comparison remains failed; bounded trial exception does not apply to STL checks"
+  ],
+  "parts": {
+    "C01": {
+      "filename": "C01_Rev_B26_build123d03.stl",
+      "sha256": "757d2f5752f487c40157707e8c269f707ade67a6ec966e2e5f05e254a70277ae",
+      "quantity": 1,
+      "occurrences": [
+        "Lower shells - printed PETG / C01"
+      ],
+      "material": "PETG",
+      "role": "Lower shells - printed PETG",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/C01.stl",
+      "original_source": "models/enclosure/B26/BUILD123D03/B26-build123d03_review_manifest.json",
+      "original_source_sha256": "38c7bf1db87ddaead6112364c72ac23a54d1158d9426b2d37a09d267bad64a33",
+      "frame": "assembly axes translated to minimum XYZ 1 mm; not print orientation",
+      "translation_mm": [
+        1.0000000000000004,
+        141.0,
+        1.0
+      ],
+      "tessellation": {
+        "linear_mm": 0.005,
+        "relative": false,
+        "angular_degrees": 5
+      },
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 1945684,
+        "header_hex": "53544c204578706f72746564206279204f70656e204341534341444520546563686e6f6c6f6779205b6465762e6f70656e636173636164652e6f72675d00000000000000000000000000000000000000",
+        "declared_triangle_count": 38912,
+        "expected_file_size_bytes": 1945684,
+        "file_size_consistent": true,
+        "triangle_count": 38912,
+        "geometry": {
+          "finite_coordinate_triangle_count": 38912,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "max_mm": [
+              221.0,
+              141.0,
+              84.37677001953125
+            ],
+            "size_mm": [
+              220.0,
+              140.0,
+              83.37677001953125
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 19432,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 58368,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 95315.99034447274,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/C01_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "C02": {
+      "filename": "C02_Rev_B26_build123d03.stl",
+      "sha256": "fcfc4ab49bba1d4d406f938514391df1a851844f472170e65baba9a26c02446e",
+      "quantity": 1,
+      "occurrences": [
+        "Lower shells - printed PETG / C02"
+      ],
+      "material": "PETG",
+      "role": "Lower shells - printed PETG",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/C02.stl",
+      "original_source": "models/enclosure/B26/BUILD123D03/B26-build123d03_review_manifest.json",
+      "original_source_sha256": "38c7bf1db87ddaead6112364c72ac23a54d1158d9426b2d37a09d267bad64a33",
+      "frame": "assembly axes translated to minimum XYZ 1 mm; not print orientation",
+      "translation_mm": [
+        -219.0,
+        141.0,
+        1.0
+      ],
+      "tessellation": {
+        "linear_mm": 0.005,
+        "relative": false,
+        "angular_degrees": 5
+      },
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 1727784,
+        "header_hex": "53544c204578706f72746564206279204f70656e204341534341444520546563686e6f6c6f6779205b6465762e6f70656e636173636164652e6f72675d00000000000000000000000000000000000000",
+        "declared_triangle_count": 34554,
+        "expected_file_size_bytes": 1727784,
+        "file_size_consistent": true,
+        "triangle_count": 34554,
+        "geometry": {
+          "finite_coordinate_triangle_count": 34554,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "max_mm": [
+              161.0,
+              141.0,
+              84.37677001953125
+            ],
+            "size_mm": [
+              160.0,
+              140.0,
+              83.37677001953125
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 17165,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 51831,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 87777.2701178462,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/C02_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "C03": {
+      "filename": "C03_Rev_B26_build123d03.stl",
+      "sha256": "95dddf1448132e095796895690affccb24b1ba8aff0870ac4836091d11a680cd",
+      "quantity": 1,
+      "occurrences": [
+        "Lower shells - printed PETG / C03"
+      ],
+      "material": "PETG",
+      "role": "Lower shells - printed PETG",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/C03.stl",
+      "original_source": "models/enclosure/B26/BUILD123D03/B26-build123d03_review_manifest.json",
+      "original_source_sha256": "38c7bf1db87ddaead6112364c72ac23a54d1158d9426b2d37a09d267bad64a33",
+      "frame": "assembly axes translated to minimum XYZ 1 mm; not print orientation",
+      "translation_mm": [
+        -379.0,
+        141.0,
+        1.0
+      ],
+      "tessellation": {
+        "linear_mm": 0.005,
+        "relative": false,
+        "angular_degrees": 5
+      },
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 3226784,
+        "header_hex": "53544c204578706f72746564206279204f70656e204341534341444520546563686e6f6c6f6779205b6465762e6f70656e636173636164652e6f72675d00000000000000000000000000000000000000",
+        "declared_triangle_count": 64534,
+        "expected_file_size_bytes": 3226784,
+        "file_size_consistent": true,
+        "triangle_count": 64534,
+        "geometry": {
+          "finite_coordinate_triangle_count": 64534,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "max_mm": [
+              221.0,
+              141.0,
+              84.37677001953125
+            ],
+            "size_mm": [
+              220.0,
+              140.0,
+              83.37677001953125
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 32193,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 96801,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 102081.73487912396,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/C03_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "C04": {
+      "filename": "C04_Rev_B26_build123d03.stl",
+      "sha256": "8b8742b32f59e4597dda2e30c888f2efb0b6c52eec9e94172ace49b294cb229a",
+      "quantity": 1,
+      "occurrences": [
+        "Lower shells - printed PETG / C04"
+      ],
+      "material": "PETG",
+      "role": "Lower shells - printed PETG",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/C04.stl",
+      "original_source": "models/enclosure/B26/BUILD123D03/B26-build123d03_review_manifest.json",
+      "original_source_sha256": "38c7bf1db87ddaead6112364c72ac23a54d1158d9426b2d37a09d267bad64a33",
+      "frame": "assembly axes translated to minimum XYZ 1 mm; not print orientation",
+      "translation_mm": [
+        1.0000000000000004,
+        321.0,
+        1.0
+      ],
+      "tessellation": {
+        "linear_mm": 0.005,
+        "relative": false,
+        "angular_degrees": 5
+      },
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 2349384,
+        "header_hex": "53544c204578706f72746564206279204f70656e204341534341444520546563686e6f6c6f6779205b6465762e6f70656e636173636164652e6f72675d00000000000000000000000000000000000000",
+        "declared_triangle_count": 46986,
+        "expected_file_size_bytes": 2349384,
+        "file_size_consistent": true,
+        "triangle_count": 46986,
+        "geometry": {
+          "finite_coordinate_triangle_count": 46986,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "max_mm": [
+              221.0,
+              181.0,
+              19.0
+            ],
+            "size_mm": [
+              220.0,
+              180.0,
+              18.0
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 23463,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 70479,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 111376.42401210869,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/C04_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "C05": {
+      "filename": "C05_Rev_B26_build123d03.stl",
+      "sha256": "9c9bbf8b8bdfdff7a99c52554b26f1634e4c44f0bf8c63be1d608d43fb3eeca9",
+      "quantity": 1,
+      "occurrences": [
+        "Lower shells - printed PETG / C05"
+      ],
+      "material": "PETG",
+      "role": "Lower shells - printed PETG",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/C05.stl",
+      "original_source": "models/enclosure/B26/BUILD123D03/B26-build123d03_review_manifest.json",
+      "original_source_sha256": "38c7bf1db87ddaead6112364c72ac23a54d1158d9426b2d37a09d267bad64a33",
+      "frame": "assembly axes translated to minimum XYZ 1 mm; not print orientation",
+      "translation_mm": [
+        -219.0,
+        321.0,
+        1.0
+      ],
+      "tessellation": {
+        "linear_mm": 0.005,
+        "relative": false,
+        "angular_degrees": 5
+      },
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 6448884,
+        "header_hex": "53544c204578706f72746564206279204f70656e204341534341444520546563686e6f6c6f6779205b6465762e6f70656e636173636164652e6f72675d00000000000000000000000000000000000000",
+        "declared_triangle_count": 128976,
+        "expected_file_size_bytes": 6448884,
+        "file_size_consistent": true,
+        "triangle_count": 128976,
+        "geometry": {
+          "finite_coordinate_triangle_count": 128976,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "max_mm": [
+              161.0,
+              181.0,
+              19.0
+            ],
+            "size_mm": [
+              160.0,
+              180.0,
+              18.0
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 64286,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 193464,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 95527.40311486392,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/C05_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "C06": {
+      "filename": "C06_Rev_B26_build123d03.stl",
+      "sha256": "c6089c2bd86e15fd79083cdcc4ae4d08185ce5fa41bcfafc64cdf108b4ad68b7",
+      "quantity": 1,
+      "occurrences": [
+        "Lower shells - printed PETG / C06"
+      ],
+      "material": "PETG",
+      "role": "Lower shells - printed PETG",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/C06.stl",
+      "original_source": "models/enclosure/B26/BUILD123D03/B26-build123d03_review_manifest.json",
+      "original_source_sha256": "38c7bf1db87ddaead6112364c72ac23a54d1158d9426b2d37a09d267bad64a33",
+      "frame": "assembly axes translated to minimum XYZ 1 mm; not print orientation",
+      "translation_mm": [
+        -379.0,
+        321.0,
+        1.0
+      ],
+      "tessellation": {
+        "linear_mm": 0.005,
+        "relative": false,
+        "angular_degrees": 5
+      },
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 2320384,
+        "header_hex": "53544c204578706f72746564206279204f70656e204341534341444520546563686e6f6c6f6779205b6465762e6f70656e636173636164652e6f72675d00000000000000000000000000000000000000",
+        "declared_triangle_count": 46406,
+        "expected_file_size_bytes": 2320384,
+        "file_size_consistent": true,
+        "triangle_count": 46406,
+        "geometry": {
+          "finite_coordinate_triangle_count": 46406,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "max_mm": [
+              221.0,
+              181.0,
+              19.0
+            ],
+            "size_mm": [
+              220.0,
+              180.0,
+              18.0
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 23175,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 69609,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 111436.78609910335,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/C06_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "PANEL_R01": {
+      "filename": "PANEL_R01_Rev_B26_build123d03.stl",
+      "sha256": "699690fb30844cd2ce096f2f9ce5a22682488d350ea9dc12b3fed9a3d046d961",
+      "quantity": 1,
+      "occurrences": [
+        "Flat panels and screen roof - printed PETG / PANEL_R01"
+      ],
+      "material": "PETG",
+      "role": "Flat panels and screen roof - printed PETG",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/PANEL_R01.stl",
+      "original_source": "models/enclosure/B26/BUILD123D03/B26-build123d03_review_manifest.json",
+      "original_source_sha256": "38c7bf1db87ddaead6112364c72ac23a54d1158d9426b2d37a09d267bad64a33",
+      "frame": "assembly axes translated to minimum XYZ 1 mm; not print orientation",
+      "translation_mm": [
+        1.0000000000000004,
+        166.0,
+        -17.0
+      ],
+      "tessellation": {
+        "linear_mm": 0.005,
+        "relative": false,
+        "angular_degrees": 5
+      },
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 829184,
+        "header_hex": "53544c204578706f72746564206279204f70656e204341534341444520546563686e6f6c6f6779205b6465762e6f70656e636173636164652e6f72675d00000000000000000000000000000000000000",
+        "declared_triangle_count": 16582,
+        "expected_file_size_bytes": 829184,
+        "file_size_consistent": true,
+        "triangle_count": 16582,
+        "geometry": {
+          "finite_coordinate_triangle_count": 16582,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "max_mm": [
+              221.0,
+              166.0,
+              3.0
+            ],
+            "size_mm": [
+              220.0,
+              165.0,
+              2.0
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 8273,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 24873,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 44479.871418307244,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/PANEL_R01_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "PANEL_R03": {
+      "filename": "PANEL_R03_Rev_B26_build123d03.stl",
+      "sha256": "180cfc709814d26afe49e593cdb3e9cd5a1e734db9a4be1ae3c6df19d896f7db",
+      "quantity": 1,
+      "occurrences": [
+        "Flat panels and screen roof - printed PETG / PANEL_R03"
+      ],
+      "material": "PETG",
+      "role": "Flat panels and screen roof - printed PETG",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/PANEL_R03.stl",
+      "original_source": "models/enclosure/B26/BUILD123D03/B26-build123d03_review_manifest.json",
+      "original_source_sha256": "38c7bf1db87ddaead6112364c72ac23a54d1158d9426b2d37a09d267bad64a33",
+      "frame": "assembly axes translated to minimum XYZ 1 mm; not print orientation",
+      "translation_mm": [
+        -219.0,
+        141.0,
+        -17.0
+      ],
+      "tessellation": {
+        "linear_mm": 0.005,
+        "relative": false,
+        "angular_degrees": 5
+      },
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 162484,
+        "header_hex": "53544c204578706f72746564206279204f70656e204341534341444520546563686e6f6c6f6779205b6465762e6f70656e636173636164652e6f72675d00000000000000000000000000000000000000",
+        "declared_triangle_count": 3248,
+        "expected_file_size_bytes": 162484,
+        "file_size_consistent": true,
+        "triangle_count": 3248,
+        "geometry": {
+          "finite_coordinate_triangle_count": 3248,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "max_mm": [
+              161.0,
+              40.653564453125,
+              3.0
+            ],
+            "size_mm": [
+              160.0,
+              39.653564453125,
+              2.0
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 1616,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 4872,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 12047.60938085243,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/PANEL_R03_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "PANEL_R04": {
+      "filename": "PANEL_R04_Rev_B26_build123d03.stl",
+      "sha256": "81a3cbbaad0aa6b917c1af393ab181ade47862a8dc329196523cbfdb5cb4e19a",
+      "quantity": 1,
+      "occurrences": [
+        "Flat panels and screen roof - printed PETG / PANEL_R04"
+      ],
+      "material": "PETG",
+      "role": "Flat panels and screen roof - printed PETG",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/PANEL_R04.stl",
+      "original_source": "models/enclosure/B26/BUILD123D03/B26-build123d03_review_manifest.json",
+      "original_source_sha256": "38c7bf1db87ddaead6112364c72ac23a54d1158d9426b2d37a09d267bad64a33",
+      "frame": "assembly axes translated to minimum XYZ 1 mm; not print orientation",
+      "translation_mm": [
+        -379.0,
+        166.0,
+        -17.0
+      ],
+      "tessellation": {
+        "linear_mm": 0.005,
+        "relative": false,
+        "angular_degrees": 5
+      },
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 928184,
+        "header_hex": "53544c204578706f72746564206279204f70656e204341534341444520546563686e6f6c6f6779205b6465762e6f70656e636173636164652e6f72675d00000000000000000000000000000000000000",
+        "declared_triangle_count": 18562,
+        "expected_file_size_bytes": 928184,
+        "file_size_consistent": true,
+        "triangle_count": 18562,
+        "geometry": {
+          "finite_coordinate_triangle_count": 18562,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "max_mm": [
+              221.0,
+              166.0,
+              3.4000000953674316
+            ],
+            "size_mm": [
+              220.0,
+              165.0,
+              2.4000000953674316
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 9257,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 27843,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 44156.789288525935,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/PANEL_R04_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "PANEL_R05": {
+      "filename": "PANEL_R05_Rev_B26_build123d03.stl",
+      "sha256": "7a48a3c8fbf07ea00df66a9b6245f769bbf2f9e92640bfb58b1dc67dde30f733",
+      "quantity": 1,
+      "occurrences": [
+        "Flat panels and screen roof - printed PETG / PANEL_R05"
+      ],
+      "material": "PETG",
+      "role": "Flat panels and screen roof - printed PETG",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/PANEL_R05.stl",
+      "original_source": "models/enclosure/B26/BUILD123D03/B26-build123d03_review_manifest.json",
+      "original_source_sha256": "38c7bf1db87ddaead6112364c72ac23a54d1158d9426b2d37a09d267bad64a33",
+      "frame": "assembly axes translated to minimum XYZ 1 mm; not print orientation",
+      "translation_mm": [
+        1.0000000000000007,
+        321.0,
+        -17.0
+      ],
+      "tessellation": {
+        "linear_mm": 0.005,
+        "relative": false,
+        "angular_degrees": 5
+      },
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 1075884,
+        "header_hex": "53544c204578706f72746564206279204f70656e204341534341444520546563686e6f6c6f6779205b6465762e6f70656e636173636164652e6f72675d00000000000000000000000000000000000000",
+        "declared_triangle_count": 21516,
+        "expected_file_size_bytes": 1075884,
+        "file_size_consistent": true,
+        "triangle_count": 21516,
+        "geometry": {
+          "finite_coordinate_triangle_count": 21516,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "max_mm": [
+              221.0,
+              181.0,
+              3.0
+            ],
+            "size_mm": [
+              220.0,
+              180.0,
+              2.0
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 10734,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 32274,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 65215.86255293222,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/PANEL_R05_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "PANEL_R06": {
+      "filename": "PANEL_R06_Rev_B26_build123d03.stl",
+      "sha256": "ed218ec62cf685d151763d3840a53885b09edeb265bbbc140b689094f793312a",
+      "quantity": 1,
+      "occurrences": [
+        "Flat panels and screen roof - printed PETG / PANEL_R06"
+      ],
+      "material": "PETG",
+      "role": "Flat panels and screen roof - printed PETG",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/PANEL_R06.stl",
+      "original_source": "models/enclosure/B26/BUILD123D03/B26-build123d03_review_manifest.json",
+      "original_source_sha256": "38c7bf1db87ddaead6112364c72ac23a54d1158d9426b2d37a09d267bad64a33",
+      "frame": "assembly axes translated to minimum XYZ 1 mm; not print orientation",
+      "translation_mm": [
+        -219.0,
+        321.0,
+        -17.0
+      ],
+      "tessellation": {
+        "linear_mm": 0.005,
+        "relative": false,
+        "angular_degrees": 5
+      },
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 1058884,
+        "header_hex": "53544c204578706f72746564206279204f70656e204341534341444520546563686e6f6c6f6779205b6465762e6f70656e636173636164652e6f72675d00000000000000000000000000000000000000",
+        "declared_triangle_count": 21176,
+        "expected_file_size_bytes": 1058884,
+        "file_size_consistent": true,
+        "triangle_count": 21176,
+        "geometry": {
+          "finite_coordinate_triangle_count": 21176,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "max_mm": [
+              161.0,
+              181.0,
+              3.4000000953674316
+            ],
+            "size_mm": [
+              160.0,
+              180.0,
+              2.4000000953674316
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 10504,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 31764,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 50500.00354537815,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/PANEL_R06_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "PANEL_R07": {
+      "filename": "PANEL_R07_Rev_B26_build123d03.stl",
+      "sha256": "7844ff15723a65181ea2fc19aa8a7b8b53357e513e34d36a0e5fd13800d9d7e1",
+      "quantity": 1,
+      "occurrences": [
+        "Flat panels and screen roof - printed PETG / PANEL_R07"
+      ],
+      "material": "PETG",
+      "role": "Flat panels and screen roof - printed PETG",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/PANEL_R07.stl",
+      "original_source": "models/enclosure/B26/BUILD123D03/B26-build123d03_review_manifest.json",
+      "original_source_sha256": "38c7bf1db87ddaead6112364c72ac23a54d1158d9426b2d37a09d267bad64a33",
+      "frame": "assembly axes translated to minimum XYZ 1 mm; not print orientation",
+      "translation_mm": [
+        -379.0,
+        321.0,
+        -17.0
+      ],
+      "tessellation": {
+        "linear_mm": 0.005,
+        "relative": false,
+        "angular_degrees": 5
+      },
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 1075884,
+        "header_hex": "53544c204578706f72746564206279204f70656e204341534341444520546563686e6f6c6f6779205b6465762e6f70656e636173636164652e6f72675d00000000000000000000000000000000000000",
+        "declared_triangle_count": 21516,
+        "expected_file_size_bytes": 1075884,
+        "file_size_consistent": true,
+        "triangle_count": 21516,
+        "geometry": {
+          "finite_coordinate_triangle_count": 21516,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "max_mm": [
+              221.0,
+              181.0,
+              3.0
+            ],
+            "size_mm": [
+              220.0,
+              180.0,
+              2.0
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 10734,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 32274,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 65215.86246421395,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/PANEL_R07_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "D02L": {
+      "filename": "D02L_Rev_B26_build123d03.stl",
+      "sha256": "81cd97b003fe39e0a90af368c36039496add44ff2a1a2e9b162c824698a81926",
+      "quantity": 1,
+      "occurrences": [
+        "Flat panels and screen roof - printed PETG / D02L"
+      ],
+      "material": "PETG",
+      "role": "Flat panels and screen roof - printed PETG",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/D02L.stl",
+      "original_source": "models/enclosure/B26/BUILD123D03/B26-build123d03_review_manifest.json",
+      "original_source_sha256": "38c7bf1db87ddaead6112364c72ac23a54d1158d9426b2d37a09d267bad64a33",
+      "frame": "assembly axes translated to minimum XYZ 1 mm; not print orientation",
+      "translation_mm": [
+        -152.55,
+        117.0,
+        -8.375611458671996
+      ],
+      "tessellation": {
+        "linear_mm": 0.005,
+        "relative": false,
+        "angular_degrees": 5
+      },
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 358484,
+        "header_hex": "53544c204578706f72746564206279204f70656e204341534341444520546563686e6f6c6f6779205b6465762e6f70656e636173636164652e6f72675d00000000000000000000000000000000000000",
+        "declared_triangle_count": 7168,
+        "expected_file_size_bytes": 358484,
+        "file_size_consistent": true,
+        "triangle_count": 7168,
+        "geometry": {
+          "finite_coordinate_triangle_count": 7168,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "max_mm": [
+              192.4499969482422,
+              117.0,
+              77.00115203857422
+            ],
+            "size_mm": [
+              191.4499969482422,
+              116.0,
+              76.00115203857422
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 3578,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 10752,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 36197.883069489406,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/D02L_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "D02R": {
+      "filename": "D02R_Rev_B26_build123d03.stl",
+      "sha256": "00218ccdc8b63314b8574c9d82e12b6a3f95a815458b90a4690da9f227214169",
+      "quantity": 1,
+      "occurrences": [
+        "Flat panels and screen roof - printed PETG / D02R"
+      ],
+      "material": "PETG",
+      "role": "Flat panels and screen roof - printed PETG",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/D02R.stl",
+      "original_source": "models/enclosure/B26/BUILD123D03/B26-build123d03_review_manifest.json",
+      "original_source_sha256": "38c7bf1db87ddaead6112364c72ac23a54d1158d9426b2d37a09d267bad64a33",
+      "frame": "assembly axes translated to minimum XYZ 1 mm; not print orientation",
+      "translation_mm": [
+        -334.0,
+        117.0,
+        -8.375611458671997
+      ],
+      "tessellation": {
+        "linear_mm": 0.005,
+        "relative": false,
+        "angular_degrees": 5
+      },
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 365284,
+        "header_hex": "53544c204578706f72746564206279204f70656e204341534341444520546563686e6f6c6f6779205b6465762e6f70656e636173636164652e6f72675d00000000000000000000000000000000000000",
+        "declared_triangle_count": 7304,
+        "expected_file_size_bytes": 365284,
+        "file_size_consistent": true,
+        "triangle_count": 7304,
+        "geometry": {
+          "finite_coordinate_triangle_count": 7304,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "max_mm": [
+              112.44999694824219,
+              117.0,
+              77.00115203857422
+            ],
+            "size_mm": [
+              111.44999694824219,
+              116.0,
+              76.00115203857422
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 3644,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 10956,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 26251.319283828252,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/D02R_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "C07_bridge": {
+      "filename": "C07_bridge_Rev_B26_build123d03.stl",
+      "sha256": "1e04ff3bdd9ca5b2dbe57dfcd3a23f4ea617df613bdf9d10e06c796952e674e7",
+      "quantity": 16,
+      "occurrences": [
+        "Shell bridges - printed PETG / J01",
+        "Shell bridges - printed PETG / J02",
+        "Shell bridges - printed PETG / J03",
+        "Shell bridges - printed PETG / J04",
+        "Shell bridges - printed PETG / J05",
+        "Shell bridges - printed PETG / J06",
+        "Shell bridges - printed PETG / J07",
+        "Shell bridges - printed PETG / J08",
+        "Shell bridges - printed PETG / J09",
+        "Shell bridges - printed PETG / J10",
+        "Shell bridges - printed PETG / J11",
+        "Shell bridges - printed PETG / J12",
+        "Shell bridges - printed PETG / J13",
+        "Shell bridges - printed PETG / J14",
+        "Shell bridges - printed PETG / J15",
+        "Shell bridges - printed PETG / J16"
+      ],
+      "material": "PETG",
+      "role": "Shell bridges - printed PETG",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/C07_bridge.stl",
+      "original_source": "models/enclosure/B26/BUILD123D03/B26-build123d03_review_manifest.json",
+      "original_source_sha256": "38c7bf1db87ddaead6112364c72ac23a54d1158d9426b2d37a09d267bad64a33",
+      "frame": "assembly axes translated to minimum XYZ 1 mm; not print orientation",
+      "translation_mm": [
+        -205.0,
+        127.0,
+        -7.0
+      ],
+      "tessellation": {
+        "linear_mm": 0.005,
+        "relative": false,
+        "angular_degrees": 5
+      },
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 58684,
+        "header_hex": "53544c204578706f72746564206279204f70656e204341534341444520546563686e6f6c6f6779205b6465762e6f70656e636173636164652e6f72675d00000000000000000000000000000000000000",
+        "declared_triangle_count": 1172,
+        "expected_file_size_bytes": 58684,
+        "file_size_consistent": true,
+        "triangle_count": 1172,
+        "geometry": {
+          "finite_coordinate_triangle_count": 1172,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "max_mm": [
+              29.0,
+              11.0,
+              4.0
+            ],
+            "size_mm": [
+              28.0,
+              10.0,
+              3.0
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 584,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 1758,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 785.5420640063921,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/C07_bridge_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "button_retainer": {
+      "filename": "button_retainer_Rev_B26_build123d03.stl",
+      "sha256": "669cca54d4e42671d900722b346b27502bcb583110e381d3e7d35bbe371fe38e",
+      "quantity": 30,
+      "occurrences": [
+        "Control retainers - printed PETG / B01-RETAINER",
+        "Control retainers - printed PETG / B02-RETAINER",
+        "Control retainers - printed PETG / B03-RETAINER",
+        "Control retainers - printed PETG / B04-RETAINER",
+        "Control retainers - printed PETG / B05-RETAINER",
+        "Control retainers - printed PETG / B06-RETAINER",
+        "Control retainers - printed PETG / B07-RETAINER",
+        "Control retainers - printed PETG / B08-RETAINER",
+        "Control retainers - printed PETG / B09-RETAINER",
+        "Control retainers - printed PETG / B10-RETAINER",
+        "Control retainers - printed PETG / B11-RETAINER",
+        "Control retainers - printed PETG / B12-RETAINER",
+        "Control retainers - printed PETG / B13-RETAINER",
+        "Control retainers - printed PETG / B14-RETAINER",
+        "Control retainers - printed PETG / B15-RETAINER",
+        "Control retainers - printed PETG / B16-RETAINER",
+        "Control retainers - printed PETG / B17-RETAINER",
+        "Control retainers - printed PETG / B18-RETAINER",
+        "Control retainers - printed PETG / B19-RETAINER",
+        "Control retainers - printed PETG / B20-RETAINER",
+        "Control retainers - printed PETG / B21-RETAINER",
+        "Control retainers - printed PETG / B22-RETAINER",
+        "Control retainers - printed PETG / B23-RETAINER",
+        "Control retainers - printed PETG / B24-RETAINER",
+        "Control retainers - printed PETG / T01-RETAINER",
+        "Control retainers - printed PETG / T02-RETAINER",
+        "Control retainers - printed PETG / T03-RETAINER",
+        "Control retainers - printed PETG / T04-RETAINER",
+        "Control retainers - printed PETG / T05-RETAINER",
+        "Control retainers - printed PETG / T06-RETAINER"
+      ],
+      "material": "PETG",
+      "role": "Control retainers - printed PETG",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/button_retainer.stl",
+      "original_source": "models/enclosure/B26/BUILD123D03/B26-build123d03_review_manifest.json",
+      "original_source_sha256": "38c7bf1db87ddaead6112364c72ac23a54d1158d9426b2d37a09d267bad64a33",
+      "frame": "assembly axes translated to minimum XYZ 1 mm; not print orientation",
+      "translation_mm": [
+        -81.9,
+        54.650000000000006,
+        -14.5
+      ],
+      "tessellation": {
+        "linear_mm": 0.005,
+        "relative": false,
+        "angular_degrees": 5
+      },
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 195684,
+        "header_hex": "53544c204578706f72746564206279204f70656e204341534341444520546563686e6f6c6f6779205b6465762e6f70656e636173636164652e6f72675d00000000000000000000000000000000000000",
+        "declared_triangle_count": 3912,
+        "expected_file_size_bytes": 195684,
+        "file_size_consistent": true,
+        "triangle_count": 3912,
+        "geometry": {
+          "finite_coordinate_triangle_count": 3912,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              1.0,
+              1.0003756284713745,
+              1.0
+            ],
+            "max_mm": [
+              17.200000762939453,
+              23.799623489379883,
+              2.5
+            ],
+            "size_mm": [
+              16.200000762939453,
+              22.79924786090851,
+              1.5
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 1952,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 5868,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 314.3415451676674,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/button_retainer_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "pot_retainer": {
+      "filename": "pot_retainer_Rev_B26_build123d03.stl",
+      "sha256": "91e98459116b7157ba2b72eaaa9aafad47473aa7e302d85afe8e06714ff43b93",
+      "quantity": 13,
+      "occurrences": [
+        "Control retainers - printed PETG / P01-RETAINER",
+        "Control retainers - printed PETG / P02-RETAINER",
+        "Control retainers - printed PETG / P03-RETAINER",
+        "Control retainers - printed PETG / P04-RETAINER",
+        "Control retainers - printed PETG / P05-RETAINER",
+        "Control retainers - printed PETG / P06-RETAINER",
+        "Control retainers - printed PETG / P07-RETAINER",
+        "Control retainers - printed PETG / P08-RETAINER",
+        "Control retainers - printed PETG / P09-RETAINER",
+        "Control retainers - printed PETG / P10-RETAINER",
+        "Control retainers - printed PETG / P11-RETAINER",
+        "Control retainers - printed PETG / P12-RETAINER",
+        "Control retainers - printed PETG / P13-RETAINER"
+      ],
+      "material": "PETG",
+      "role": "Control retainers - printed PETG",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/pot_retainer.stl",
+      "original_source": "models/enclosure/B26/BUILD123D03/B26-build123d03_review_manifest.json",
+      "original_source_sha256": "38c7bf1db87ddaead6112364c72ac23a54d1158d9426b2d37a09d267bad64a33",
+      "frame": "assembly axes translated to minimum XYZ 1 mm; not print orientation",
+      "translation_mm": [
+        -549.5,
+        51.800000000000004,
+        -13.299999999999999
+      ],
+      "tessellation": {
+        "linear_mm": 0.005,
+        "relative": false,
+        "angular_degrees": 5
+      },
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 351684,
+        "header_hex": "53544c204578706f72746564206279204f70656e204341534341444520546563686e6f6c6f6779205b6465762e6f70656e636173636164652e6f72675d00000000000000000000000000000000000000",
+        "declared_triangle_count": 7032,
+        "expected_file_size_bytes": 351684,
+        "file_size_consistent": true,
+        "triangle_count": 7032,
+        "geometry": {
+          "finite_coordinate_triangle_count": 7032,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              1.0000059604644775,
+              1.0000059604644775,
+              1.0
+            ],
+            "max_mm": [
+              17.9999942779541,
+              19.099994659423828,
+              2.5
+            ],
+            "size_mm": [
+              16.999988317489624,
+              18.09998869895935,
+              1.5
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 3508,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 10548,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 306.0388121539745,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/pot_retainer_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "fader_retainer": {
+      "filename": "fader_retainer_Rev_B26_build123d03.stl",
+      "sha256": "98af5cc6e24944580debf33a59b1a2e7ba7bfa43900099cd1d9185fd4f44a2db",
+      "quantity": 10,
+      "occurrences": [
+        "Control retainers - printed PETG / F01-RETAINER-1",
+        "Control retainers - printed PETG / F01-RETAINER-2",
+        "Control retainers - printed PETG / F02-RETAINER-1",
+        "Control retainers - printed PETG / F02-RETAINER-2",
+        "Control retainers - printed PETG / F03-RETAINER-1",
+        "Control retainers - printed PETG / F03-RETAINER-2",
+        "Control retainers - printed PETG / F04-RETAINER-1",
+        "Control retainers - printed PETG / F04-RETAINER-2",
+        "Control retainers - printed PETG / F05-RETAINER-1",
+        "Control retainers - printed PETG / F05-RETAINER-2"
+      ],
+      "material": "PETG",
+      "role": "Control retainers - printed PETG",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/fader_retainer.stl",
+      "original_source": "models/enclosure/B26/BUILD123D03/B26-build123d03_review_manifest.json",
+      "original_source_sha256": "38c7bf1db87ddaead6112364c72ac23a54d1158d9426b2d37a09d267bad64a33",
+      "frame": "assembly axes translated to minimum XYZ 1 mm; not print orientation",
+      "translation_mm": [
+        -188.3,
+        310.15,
+        -14.5
+      ],
+      "tessellation": {
+        "linear_mm": 0.005,
+        "relative": false,
+        "angular_degrees": 5
+      },
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 73284,
+        "header_hex": "53544c204578706f72746564206279204f70656e204341534341444520546563686e6f6c6f6779205b6465762e6f70656e636173636164652e6f72675d00000000000000000000000000000000000000",
+        "declared_triangle_count": 1464,
+        "expected_file_size_bytes": 73284,
+        "file_size_consistent": true,
+        "triangle_count": 1464,
+        "geometry": {
+          "finite_coordinate_triangle_count": 1464,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "max_mm": [
+              14.399999618530273,
+              9.399999618530273,
+              2.5
+            ],
+            "size_mm": [
+              13.399999618530273,
+              8.399999618530273,
+              1.5
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 732,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 2196,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 157.57283117793853,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/fader_retainer_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "encoder_retainer": {
+      "filename": "encoder_retainer_Rev_B26_build123d03.stl",
+      "sha256": "301ed7cccae18e429c9fa7e3b155a0c1dfdf11e77079356b95d48795f905b9a2",
+      "quantity": 1,
+      "occurrences": [
+        "Control retainers - printed PETG / E01-body_retainer"
+      ],
+      "material": "PETG",
+      "role": "Control retainers - printed PETG",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/encoder_retainer.stl",
+      "original_source": "models/enclosure/B26/BUILD123D03/B26-build123d03_review_manifest.json",
+      "original_source_sha256": "38c7bf1db87ddaead6112364c72ac23a54d1158d9426b2d37a09d267bad64a33",
+      "frame": "assembly axes translated to minimum XYZ 1 mm; not print orientation",
+      "translation_mm": [
+        -290.9,
+        138.79999999999998,
+        -14.2
+      ],
+      "tessellation": {
+        "linear_mm": 0.005,
+        "relative": false,
+        "angular_degrees": 5
+      },
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 194884,
+        "header_hex": "53544c204578706f72746564206279204f70656e204341534341444520546563686e6f6c6f6779205b6465762e6f70656e636173636164652e6f72675d00000000000000000000000000000000000000",
+        "declared_triangle_count": 3896,
+        "expected_file_size_bytes": 194884,
+        "file_size_consistent": true,
+        "triangle_count": 3896,
+        "geometry": {
+          "finite_coordinate_triangle_count": 3896,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              1.0,
+              1.0003756284713745,
+              1.0
+            ],
+            "max_mm": [
+              17.200000762939453,
+              26.599624633789062,
+              2.5
+            ],
+            "size_mm": [
+              16.200000762939453,
+              25.599249005317688,
+              1.5
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 1944,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 5844,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 411.36275227051834,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/encoder_retainer_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "display_toe": {
+      "filename": "display_toe_Rev_B26_build123d03.stl",
+      "sha256": "7560d102fc1d93cf61718563553ffd60a552ad3a1e54a4dc08de018ec4742f91",
+      "quantity": 4,
+      "occurrences": [
+        "Display toes - printed PETG / D01-toe--1--1",
+        "Display toes - printed PETG / D01-toe--1-1",
+        "Display toes - printed PETG / D01-toe-1--1",
+        "Display toes - printed PETG / D01-toe-1-1"
+      ],
+      "material": "PETG",
+      "role": "Display toes - printed PETG",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/display_toe.stl",
+      "original_source": "models/enclosure/B26/BUILD123D03/B26-build123d03_review_manifest.json",
+      "original_source_sha256": "38c7bf1db87ddaead6112364c72ac23a54d1158d9426b2d37a09d267bad64a33",
+      "frame": "assembly axes translated to minimum XYZ 1 mm; not print orientation",
+      "translation_mm": [
+        -154.8,
+        44.80639539678244,
+        -53.50533520456567
+      ],
+      "tessellation": {
+        "linear_mm": 0.005,
+        "relative": false,
+        "angular_degrees": 5
+      },
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 30084,
+        "header_hex": "53544c204578706f72746564206279204f70656e204341534341444520546563686e6f6c6f6779205b6465762e6f70656e636173636164652e6f72675d00000000000000000000000000000000000000",
+        "declared_triangle_count": 600,
+        "expected_file_size_bytes": 30084,
+        "file_size_consistent": true,
+        "triangle_count": 600,
+        "geometry": {
+          "finite_coordinate_triangle_count": 600,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "max_mm": [
+              8.699999809265137,
+              9.26731014251709,
+              9.66191291809082
+            ],
+            "size_mm": [
+              7.699999809265137,
+              8.26731014251709,
+              8.66191291809082
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 300,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 900,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 165.57101960731487,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/display_toe_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "jog_P01_rotor": {
+      "filename": "jog_P01_rotor_Rev_B26_build123d03.stl",
+      "sha256": "c6acc7084ff1f253730bea0e5a37fc215be74a8d6100fcf71aac336981a248d3",
+      "quantity": 2,
+      "occurrences": [
+        "Static jogs - printed / left P01 platter and threaded rotor",
+        "Static jogs - printed / right P01 platter and threaded rotor"
+      ],
+      "material": "TBD",
+      "role": "Static jogs - printed",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/jog_P01_rotor.stl",
+      "original_source": "models/enclosure/B26/BUILD123D03/B26-build123d03_review_manifest.json",
+      "original_source_sha256": "38c7bf1db87ddaead6112364c72ac23a54d1158d9426b2d37a09d267bad64a33",
+      "frame": "assembly axes translated to minimum XYZ 1 mm; not print orientation",
+      "translation_mm": [
+        -53.9999999,
+        221.0000001,
+        -3.9999998999999997
+      ],
+      "tessellation": {
+        "linear_mm": 0.005,
+        "relative": false,
+        "angular_degrees": 5
+      },
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 8380784,
+        "header_hex": "53544c204578706f72746564206279204f70656e204341534341444520546563686e6f6c6f6779205b6465762e6f70656e636173636164652e6f72675d00000000000000000000000000000000000000",
+        "declared_triangle_count": 167614,
+        "expected_file_size_bytes": 8380784,
+        "file_size_consistent": true,
+        "triangle_count": 167614,
+        "geometry": {
+          "finite_coordinate_triangle_count": 167614,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              1.0000001192092896,
+              1.0024924278259277,
+              1.0000001192092896
+            ],
+            "max_mm": [
+              111.0,
+              110.99750518798828,
+              34.400001525878906
+            ],
+            "size_mm": [
+              109.99999988079071,
+              109.99501276016235,
+              33.40000140666962
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 83809,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 251421,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 137532.07788932303,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/jog_P01_rotor_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "jog_P02_carrier": {
+      "filename": "jog_P02_carrier_Rev_B26_build123d03.stl",
+      "sha256": "7897694ab5e2c87ceb8276658575388d0ee474bab76444b028ceeab975fdc60b",
+      "quantity": 2,
+      "occurrences": [
+        "Static jogs - printed / left P02 carrier F13-STATIC-04",
+        "Static jogs - printed / right P02 carrier F13-STATIC-04"
+      ],
+      "material": "TBD",
+      "role": "Static jogs - printed",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/jog_P02_carrier.stl",
+      "original_source": "models/enclosure/B26/BUILD123D03/B26-build123d03_review_manifest.json",
+      "original_source_sha256": "38c7bf1db87ddaead6112364c72ac23a54d1158d9426b2d37a09d267bad64a33",
+      "frame": "assembly axes translated to minimum XYZ 1 mm; not print orientation",
+      "translation_mm": [
+        -77.1532124826824,
+        202.0,
+        -2.0
+      ],
+      "tessellation": {
+        "linear_mm": 0.005,
+        "relative": false,
+        "angular_degrees": 5
+      },
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 491084,
+        "header_hex": "53544c204578706f72746564206279204f70656e204341534341444520546563686e6f6c6f6779205b6465762e6f70656e636173636164652e6f72675d00000000000000000000000000000000000000",
+        "declared_triangle_count": 9820,
+        "expected_file_size_bytes": 491084,
+        "file_size_consistent": true,
+        "triangle_count": 9820,
+        "geometry": {
+          "finite_coordinate_triangle_count": 9820,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "max_mm": [
+              64.69306182861328,
+              59.99979019165039,
+              19.5
+            ],
+            "size_mm": [
+              63.69306182861328,
+              58.99979019165039,
+              18.5
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 4904,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 14730,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 5167.397441333965,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/jog_P02_carrier_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "jog_P04_collar": {
+      "filename": "jog_P04_collar_Rev_B26_build123d03.stl",
+      "sha256": "2139857402add59c21bcb090f836522589dc76c84881d015c2268ca74ae7b411",
+      "quantity": 2,
+      "occurrences": [
+        "Static jogs - printed / left P04 threaded retaining collar",
+        "Static jogs - printed / right P04 threaded retaining collar"
+      ],
+      "material": "TBD",
+      "role": "Static jogs - printed",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/jog_P04_collar.stl",
+      "original_source": "models/enclosure/B26/BUILD123D03/B26-build123d03_review_manifest.json",
+      "original_source_sha256": "38c7bf1db87ddaead6112364c72ac23a54d1158d9426b2d37a09d267bad64a33",
+      "frame": "assembly axes translated to minimum XYZ 1 mm; not print orientation",
+      "translation_mm": [
+        -92.93108581098946,
+        182.1000001,
+        -4.999999899999823
+      ],
+      "tessellation": {
+        "linear_mm": 0.005,
+        "relative": false,
+        "angular_degrees": 5
+      },
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 276684,
+        "header_hex": "53544c204578706f72746564206279204f70656e204341534341444520546563686e6f6c6f6779205b6465762e6f70656e636173636164652e6f72675d00000000000000000000000000000000000000",
+        "declared_triangle_count": 5532,
+        "expected_file_size_bytes": 276684,
+        "file_size_consistent": true,
+        "triangle_count": 5532,
+        "geometry": {
+          "finite_coordinate_triangle_count": 5532,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              1.0000001192092896,
+              1.0001356601715088,
+              1.0000001192092896
+            ],
+            "max_mm": [
+              33.168914794921875,
+              33.19986343383789,
+              2.5
+            ],
+            "size_mm": [
+              32.168914675712585,
+              32.19972777366638,
+              1.4999998807907104
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 2766,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 8298,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 173.84468414266732,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/jog_P04_collar_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "jog_cover": {
+      "filename": "jog_cover_Rev_B26_build123d03.stl",
+      "sha256": "2f83ff910ebc623d5629074aa0246b31f2901196b3942e23e93c9829ce1b9327",
+      "quantity": 4,
+      "occurrences": [
+        "Static jogs - printed / left P05 upper cover",
+        "Static jogs - printed / right P05 upper cover",
+        "Static jogs - printed / left P06 lower cover",
+        "Static jogs - printed / right P06 lower cover"
+      ],
+      "material": "TBD",
+      "role": "Static jogs - printed",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/jog_cover.stl",
+      "original_source": "models/enclosure/B26/BUILD123D03/B26-build123d03_review_manifest.json",
+      "original_source_sha256": "38c7bf1db87ddaead6112364c72ac23a54d1158d9426b2d37a09d267bad64a33",
+      "frame": "assembly axes translated to minimum XYZ 1 mm; not print orientation",
+      "translation_mm": [
+        -83.5,
+        189.0,
+        -20.5
+      ],
+      "tessellation": {
+        "linear_mm": 0.005,
+        "relative": false,
+        "angular_degrees": 5
+      },
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 319184,
+        "header_hex": "53544c204578706f72746564206279204f70656e204341534341444520546563686e6f6c6f6779205b6465762e6f70656e636173636164652e6f72675d00000000000000000000000000000000000000",
+        "declared_triangle_count": 6382,
+        "expected_file_size_bytes": 319184,
+        "file_size_consistent": true,
+        "triangle_count": 6382,
+        "geometry": {
+          "finite_coordinate_triangle_count": 6382,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              1.0005868673324585,
+              1.0002105236053467,
+              1.0
+            ],
+            "max_mm": [
+              49.5,
+              46.99979019165039,
+              2.5
+            ],
+            "size_mm": [
+              48.49941313266754,
+              45.999579668045044,
+              1.5
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 3185,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 9573,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 621.2908295953347,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/jog_cover_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "jog_P07_collar": {
+      "filename": "jog_P07_collar_Rev_B26_build123d03.stl",
+      "sha256": "50e1f1e8f5eb1adc5c959f547deb4b0d6adaeab2bbb775035004e13c33927c1c",
+      "quantity": 2,
+      "occurrences": [
+        "Static jogs - printed / left P07 threaded jam collar",
+        "Static jogs - printed / right P07 threaded jam collar"
+      ],
+      "material": "TBD",
+      "role": "Static jogs - printed",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/jog_P07_collar.stl",
+      "original_source": "models/enclosure/B26/BUILD123D03/B26-build123d03_review_manifest.json",
+      "original_source_sha256": "38c7bf1db87ddaead6112364c72ac23a54d1158d9426b2d37a09d267bad64a33",
+      "frame": "assembly axes translated to minimum XYZ 1 mm; not print orientation",
+      "translation_mm": [
+        -92.93108581098946,
+        182.1000001,
+        -3.9999998999999997
+      ],
+      "tessellation": {
+        "linear_mm": 0.005,
+        "relative": false,
+        "angular_degrees": 5
+      },
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 208084,
+        "header_hex": "53544c204578706f72746564206279204f70656e204341534341444520546563686e6f6c6f6779205b6465762e6f70656e636173636164652e6f72675d00000000000000000000000000000000000000",
+        "declared_triangle_count": 4160,
+        "expected_file_size_bytes": 208084,
+        "file_size_consistent": true,
+        "triangle_count": 4160,
+        "geometry": {
+          "finite_coordinate_triangle_count": 4160,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              1.0000001192092896,
+              1.0001356601715088,
+              1.0000001192092896
+            ],
+            "max_mm": [
+              33.168914794921875,
+              33.19986343383789,
+              2.0
+            ],
+            "size_mm": [
+              32.168914675712585,
+              32.19972777366638,
+              0.9999998807907104
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 2080,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 6240,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 115.89512964112515,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/jog_P07_collar_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "jog_sensor_plate": {
+      "filename": "jog_sensor_plate_Rev_B26_build123d03.stl",
+      "sha256": "f6f9c80c0d96d51ad523ce4e22eea0c1c9867e25f29102232ea6f07eb375adf5",
+      "quantity": 2,
+      "occurrences": [
+        "Static jogs - printed / left sensor plate F13-STATIC-02",
+        "Static jogs - printed / right sensor plate F13-STATIC-02"
+      ],
+      "material": "TBD",
+      "role": "Static jogs - printed",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/jog_sensor_plate.stl",
+      "original_source": "models/enclosure/B26/BUILD123D03/B26-build123d03_review_manifest.json",
+      "original_source_sha256": "38c7bf1db87ddaead6112364c72ac23a54d1158d9426b2d37a09d267bad64a33",
+      "frame": "assembly axes translated to minimum XYZ 1 mm; not print orientation",
+      "translation_mm": [
+        -84.0,
+        191.0,
+        -1.0
+      ],
+      "tessellation": {
+        "linear_mm": 0.005,
+        "relative": false,
+        "angular_degrees": 5
+      },
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 221284,
+        "header_hex": "53544c204578706f72746564206279204f70656e204341534341444520546563686e6f6c6f6779205b6465762e6f70656e636173636164652e6f72675d00000000000000000000000000000000000000",
+        "declared_triangle_count": 4424,
+        "expected_file_size_bytes": 221284,
+        "file_size_consistent": true,
+        "triangle_count": 4424,
+        "geometry": {
+          "finite_coordinate_triangle_count": 4424,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              1.0019841194152832,
+              1.000030755996704,
+              1.0
+            ],
+            "max_mm": [
+              50.99789810180664,
+              50.999732971191406,
+              4.0
+            ],
+            "size_mm": [
+              49.99591398239136,
+              49.9997022151947,
+              3.0
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 2210,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 6636,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 1772.1583908237392,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/jog_sensor_plate_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "jog_toe": {
+      "filename": "jog_toe_Rev_B26_build123d03.stl",
+      "sha256": "8aa4fbb70aa8cdfe1c2ae39494dadb99ea4586fd1843f17bcee7677e720cb360",
+      "quantity": 4,
+      "occurrences": [
+        "Static jogs - printed / left P08 toe right",
+        "Static jogs - printed / right P08 toe right",
+        "Static jogs - printed / left P08 toe left",
+        "Static jogs - printed / right P08 toe left"
+      ],
+      "material": "TBD",
+      "role": "Static jogs - printed",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/jog_toe.stl",
+      "original_source": "models/enclosure/B26/BUILD123D03/B26-build123d03_review_manifest.json",
+      "original_source_sha256": "38c7bf1db87ddaead6112364c72ac23a54d1158d9426b2d37a09d267bad64a33",
+      "frame": "assembly axes translated to minimum XYZ 1 mm; not print orientation",
+      "translation_mm": [
+        -110.2349364905389,
+        161.36102725426582,
+        -4.0
+      ],
+      "tessellation": {
+        "linear_mm": 0.005,
+        "relative": false,
+        "angular_degrees": 5
+      },
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 58684,
+        "header_hex": "53544c204578706f72746564206279204f70656e204341534341444520546563686e6f6c6f6779205b6465762e6f70656e636173636164652e6f72675d00000000000000000000000000000000000000",
+        "declared_triangle_count": 1172,
+        "expected_file_size_bytes": 58684,
+        "file_size_consistent": true,
+        "triangle_count": 1172,
+        "geometry": {
+          "finite_coordinate_triangle_count": 1172,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              1.0,
+              1.0,
+              1.0
+            ],
+            "max_mm": [
+              8.130126953125,
+              8.34974193572998,
+              2.299999952316284
+            ],
+            "size_mm": [
+              7.130126953125,
+              7.3497419357299805,
+              1.2999999523162842
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 586,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 1758,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 31.313754607096797,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/jog_toe_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "CAP_B": {
+      "filename": "CAP_B_Rev_B26_build123d03.stl",
+      "sha256": "37d5ff82b539e87fa27ffa795a6c2493bcc57afe4a1ff978b7a8fa7b99d8d87e",
+      "quantity": 12,
+      "occurrences": [
+        "Control caps - legacy mesh references / B01-CAP-REF",
+        "Control caps - legacy mesh references / B02-CAP-REF",
+        "Control caps - legacy mesh references / B03-CAP-REF",
+        "Control caps - legacy mesh references / B04-CAP-REF",
+        "Control caps - legacy mesh references / B05-CAP-REF",
+        "Control caps - legacy mesh references / B06-CAP-REF",
+        "Control caps - legacy mesh references / B07-CAP-REF",
+        "Control caps - legacy mesh references / B08-CAP-REF",
+        "Control caps - legacy mesh references / B09-CAP-REF",
+        "Control caps - legacy mesh references / B10-CAP-REF",
+        "Control caps - legacy mesh references / B23-CAP-REF",
+        "Control caps - legacy mesh references / B24-CAP-REF"
+      ],
+      "material": "TBD",
+      "role": "Control caps - legacy mesh references",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/CAP_B.stl",
+      "original_source": "models/enclosure/B16/FUSION/CAP_B_Rev_B16_Fusion01.stl",
+      "original_source_sha256": "37d5ff82b539e87fa27ffa795a6c2493bcc57afe4a1ff978b7a8fa7b99d8d87e",
+      "frame": "inherited local mesh, bytes unchanged",
+      "translation_mm": null,
+      "tessellation": "inherited, unknown",
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 52284,
+        "header_hex": "53544c42204154462031352e31352e302e3020434f4c4f523da0a0a0ff202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020",
+        "declared_triangle_count": 1044,
+        "expected_file_size_bytes": 52284,
+        "file_size_consistent": true,
+        "triangle_count": 1044,
+        "geometry": {
+          "finite_coordinate_triangle_count": 1044,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              -7.0,
+              -7.0,
+              -4.599999904632568
+            ],
+            "max_mm": [
+              7.0,
+              7.0,
+              4.0
+            ],
+            "size_mm": [
+              14.0,
+              14.0,
+              8.599999904632568
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 524,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 1566,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 834.8649852109266,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/CAP_B_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "CAP_T": {
+      "filename": "CAP_T_Rev_B26_build123d03.stl",
+      "sha256": "8e0d93ec5d0d7b290face7c6e1e3f0654b98c07a7d0edf9917f895f48957b858",
+      "quantity": 6,
+      "occurrences": [
+        "Control caps - legacy mesh references / T01-CAP-REF",
+        "Control caps - legacy mesh references / T02-CAP-REF",
+        "Control caps - legacy mesh references / T03-CAP-REF",
+        "Control caps - legacy mesh references / T04-CAP-REF",
+        "Control caps - legacy mesh references / T05-CAP-REF",
+        "Control caps - legacy mesh references / T06-CAP-REF"
+      ],
+      "material": "TBD",
+      "role": "Control caps - legacy mesh references",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/CAP_T.stl",
+      "original_source": "models/enclosure/B17/FUSION/CAP_T_Rev_B17_Fusion01.stl",
+      "original_source_sha256": "8e0d93ec5d0d7b290face7c6e1e3f0654b98c07a7d0edf9917f895f48957b858",
+      "frame": "inherited local mesh, bytes unchanged",
+      "translation_mm": null,
+      "tessellation": "inherited, unknown",
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 20884,
+        "header_hex": "53544c42204154462031352e31352e302e3020434f4c4f523da0a0a0ff202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020",
+        "declared_triangle_count": 416,
+        "expected_file_size_bytes": 20884,
+        "file_size_consistent": true,
+        "triangle_count": 416,
+        "geometry": {
+          "finite_coordinate_triangle_count": 416,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              -9.436067581176758,
+              -6.418034076690674,
+              -4.599999904632568
+            ],
+            "max_mm": [
+              3.4000000953674316,
+              6.418034076690674,
+              4.0
+            ],
+            "size_mm": [
+              12.83606767654419,
+              12.836068153381348,
+              8.599999904632568
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 210,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 624,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 449.86928622626647,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/CAP_T_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "CAP_P": {
+      "filename": "CAP_P_Rev_B26_build123d03.stl",
+      "sha256": "6bc7a516eeb4ba382fe5be5cce5e460289db7dfdfdd1eea1099107b9478309e3",
+      "quantity": 13,
+      "occurrences": [
+        "Control caps - legacy mesh references / P01-CAP-REF",
+        "Control caps - legacy mesh references / P02-CAP-REF",
+        "Control caps - legacy mesh references / P03-CAP-REF",
+        "Control caps - legacy mesh references / P04-CAP-REF",
+        "Control caps - legacy mesh references / P05-CAP-REF",
+        "Control caps - legacy mesh references / P06-CAP-REF",
+        "Control caps - legacy mesh references / P07-CAP-REF",
+        "Control caps - legacy mesh references / P08-CAP-REF",
+        "Control caps - legacy mesh references / P09-CAP-REF",
+        "Control caps - legacy mesh references / P10-CAP-REF",
+        "Control caps - legacy mesh references / P11-CAP-REF",
+        "Control caps - legacy mesh references / P12-CAP-REF",
+        "Control caps - legacy mesh references / P13-CAP-REF"
+      ],
+      "material": "TBD",
+      "role": "Control caps - legacy mesh references",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/CAP_P.stl",
+      "original_source": "models/enclosure/B16/FUSION/CAP_P_Rev_B16_Fusion01.stl",
+      "original_source_sha256": "6bc7a516eeb4ba382fe5be5cce5e460289db7dfdfdd1eea1099107b9478309e3",
+      "frame": "inherited local mesh, bytes unchanged",
+      "translation_mm": null,
+      "tessellation": "inherited, unknown",
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 102784,
+        "header_hex": "53544c42204154462031352e31352e302e3020434f4c4f523da0a0a0ff202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020",
+        "declared_triangle_count": 2054,
+        "expected_file_size_bytes": 102784,
+        "file_size_consistent": true,
+        "triangle_count": 2054,
+        "geometry": {
+          "finite_coordinate_triangle_count": 2054,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              -6.0145344734191895,
+              -6.0411272048950195,
+              0.0
+            ],
+            "max_mm": [
+              6.050000190734863,
+              6.0411272048950195,
+              19.0
+            ],
+            "size_mm": [
+              12.064534664154053,
+              12.082254409790039,
+              19.0
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 1029,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 3081,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 624.0761680072491,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/CAP_P_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "CAP_F": {
+      "filename": "CAP_F_Rev_B26_build123d03.stl",
+      "sha256": "5a92948fe01db726faa5b6867d5787b951b299b783bebac09769aca1e67bd7a9",
+      "quantity": 4,
+      "occurrences": [
+        "Control caps - legacy mesh references / F01-CAP-REF",
+        "Control caps - legacy mesh references / F02-CAP-REF",
+        "Control caps - legacy mesh references / F03-CAP-REF",
+        "Control caps - legacy mesh references / F04-CAP-REF"
+      ],
+      "material": "TBD",
+      "role": "Control caps - legacy mesh references",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/CAP_F.stl",
+      "original_source": "models/enclosure/B16/FUSION/CAP_F_Rev_B16_Fusion01.stl",
+      "original_source_sha256": "5a92948fe01db726faa5b6867d5787b951b299b783bebac09769aca1e67bd7a9",
+      "frame": "inherited local mesh, bytes unchanged",
+      "translation_mm": null,
+      "tessellation": "inherited, unknown",
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 68484,
+        "header_hex": "53544c42204154462031352e31352e302e3020434f4c4f523da0a0a0ff202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020",
+        "declared_triangle_count": 1368,
+        "expected_file_size_bytes": 68484,
+        "file_size_consistent": true,
+        "triangle_count": 1368,
+        "geometry": {
+          "finite_coordinate_triangle_count": 1368,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              -6.0,
+              -5.0,
+              0.0
+            ],
+            "max_mm": [
+              6.0,
+              5.0,
+              10.600000381469727
+            ],
+            "size_mm": [
+              12.0,
+              10.0,
+              10.600000381469727
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 686,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 2052,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 777.2548188336301,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/CAP_F_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "CAP_C": {
+      "filename": "CAP_C_Rev_B26_build123d03.stl",
+      "sha256": "0926fcbc70240fd979c26ddca384f61f02ab50440658e5212a06eacf41995a99",
+      "quantity": 1,
+      "occurrences": [
+        "Control caps - legacy mesh references / F05-CAP-REF"
+      ],
+      "material": "TBD",
+      "role": "Control caps - legacy mesh references",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/CAP_C.stl",
+      "original_source": "models/enclosure/B16/FUSION/CAP_C_Rev_B16_Fusion01.stl",
+      "original_source_sha256": "0926fcbc70240fd979c26ddca384f61f02ab50440658e5212a06eacf41995a99",
+      "frame": "inherited local mesh, bytes unchanged",
+      "translation_mm": null,
+      "tessellation": "inherited, unknown",
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 44284,
+        "header_hex": "53544c42204154462031352e31352e302e3020434f4c4f523da0a0a0ff202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020",
+        "declared_triangle_count": 884,
+        "expected_file_size_bytes": 44284,
+        "file_size_consistent": true,
+        "triangle_count": 884,
+        "geometry": {
+          "finite_coordinate_triangle_count": 884,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              -7.5,
+              -3.966805934906006,
+              0.0
+            ],
+            "max_mm": [
+              7.5,
+              3.966805934906006,
+              12.0
+            ],
+            "size_mm": [
+              15.0,
+              7.933611869812012,
+              12.0
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 444,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 1326,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 1175.7941274021116,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/CAP_C_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "CAP_E": {
+      "filename": "CAP_E_Rev_B26_build123d03.stl",
+      "sha256": "cb5f72be8ceb9e4cdcee00165a97c2bc24370b56046e7c9e211207f4000861d2",
+      "quantity": 1,
+      "occurrences": [
+        "Control caps - legacy mesh references / E01-CAP-REF"
+      ],
+      "material": "TBD",
+      "role": "Control caps - legacy mesh references",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/CAP_E.stl",
+      "original_source": "models/enclosure/B16/FUSION/CAP_E_Rev_B16_Fusion01.stl",
+      "original_source_sha256": "cb5f72be8ceb9e4cdcee00165a97c2bc24370b56046e7c9e211207f4000861d2",
+      "frame": "inherited local mesh, bytes unchanged",
+      "translation_mm": null,
+      "tessellation": "inherited, unknown",
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 23484,
+        "header_hex": "53544c42204154462031352e31352e302e3020434f4c4f523da0a0a0ff202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020",
+        "declared_triangle_count": 468,
+        "expected_file_size_bytes": 23484,
+        "file_size_consistent": true,
+        "triangle_count": 468,
+        "geometry": {
+          "finite_coordinate_triangle_count": 468,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              -7.0,
+              -7.0,
+              0.0
+            ],
+            "max_mm": [
+              7.0,
+              7.0,
+              12.0
+            ],
+            "size_mm": [
+              14.0,
+              14.0,
+              12.0
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 236,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 702,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 1649.6064464010176,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/CAP_E_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "CAP-CUE40": {
+      "filename": "CAP-CUE40_Rev_B26_build123d03.stl",
+      "sha256": "b5f8374b7fe40e5e8d02d47cfbf4d6c739d020cb72bfb5ba36059ce4b38ce571",
+      "quantity": 2,
+      "occurrences": [
+        "Control caps - legacy mesh references / B11-CAP-REF",
+        "Control caps - legacy mesh references / B17-CAP-REF"
+      ],
+      "material": "TBD",
+      "role": "Control caps - legacy mesh references",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/CAP-CUE40.stl",
+      "original_source": "models/enclosure/B24/FUSION/KEYCAPS_K03/CAP-CUE40_Rev_K03_Fusion03.stl",
+      "original_source_sha256": "b5f8374b7fe40e5e8d02d47cfbf4d6c739d020cb72bfb5ba36059ce4b38ce571",
+      "frame": "inherited local mesh, bytes unchanged",
+      "translation_mm": null,
+      "tessellation": "inherited, unknown",
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 215284,
+        "header_hex": "53544c42204154462031352e31352e302e3020434f4c4f523da0a0a0ff202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020",
+        "declared_triangle_count": 4304,
+        "expected_file_size_bytes": 215284,
+        "file_size_consistent": true,
+        "triangle_count": 4304,
+        "geometry": {
+          "finite_coordinate_triangle_count": 4304,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              -20.0,
+              -19.999876022338867,
+              -4.599999904632568
+            ],
+            "max_mm": [
+              19.999502182006836,
+              19.999876022338867,
+              4.0
+            ],
+            "size_mm": [
+              39.999502182006836,
+              39.999752044677734,
+              8.599999904632568
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 2154,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 6456,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 5037.115235048579,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/CAP-CUE40_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "CAP-PP40": {
+      "filename": "CAP-PP40_Rev_B26_build123d03.stl",
+      "sha256": "59245a23c144f44d41961fe8b7d75fd3b78d0cc92ffb29293b260076498d332d",
+      "quantity": 2,
+      "occurrences": [
+        "Control caps - legacy mesh references / B12-CAP-REF",
+        "Control caps - legacy mesh references / B18-CAP-REF"
+      ],
+      "material": "TBD",
+      "role": "Control caps - legacy mesh references",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/CAP-PP40.stl",
+      "original_source": "models/enclosure/B24/FUSION/KEYCAPS_K03/CAP-PP40_Rev_K03_Fusion03.stl",
+      "original_source_sha256": "59245a23c144f44d41961fe8b7d75fd3b78d0cc92ffb29293b260076498d332d",
+      "frame": "inherited local mesh, bytes unchanged",
+      "translation_mm": null,
+      "tessellation": "inherited, unknown",
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 234484,
+        "header_hex": "53544c42204154462031352e31352e302e3020434f4c4f523da0a0a0ff202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020",
+        "declared_triangle_count": 4688,
+        "expected_file_size_bytes": 234484,
+        "file_size_consistent": true,
+        "triangle_count": 4688,
+        "geometry": {
+          "finite_coordinate_triangle_count": 4688,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              -20.0,
+              -19.999876022338867,
+              -4.599999904632568
+            ],
+            "max_mm": [
+              19.999502182006836,
+              19.999876022338867,
+              4.0
+            ],
+            "size_mm": [
+              39.999502182006836,
+              39.999752044677734,
+              8.599999904632568
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 2346,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 7032,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 5007.527269613323,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/CAP-PP40_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    },
+    "CAP-HC40": {
+      "filename": "CAP-HC40_Rev_B26_build123d03.stl",
+      "sha256": "a7d5ed2b3b24f522ea4d68b192ed64052bf3c69c7bc3b1e5eae24732725e0e31",
+      "quantity": 8,
+      "occurrences": [
+        "Control caps - legacy mesh references / B13-CAP-REF",
+        "Control caps - legacy mesh references / B14-CAP-REF",
+        "Control caps - legacy mesh references / B15-CAP-REF",
+        "Control caps - legacy mesh references / B16-CAP-REF",
+        "Control caps - legacy mesh references / B19-CAP-REF",
+        "Control caps - legacy mesh references / B20-CAP-REF",
+        "Control caps - legacy mesh references / B21-CAP-REF",
+        "Control caps - legacy mesh references / B22-CAP-REF"
+      ],
+      "material": "TBD",
+      "role": "Control caps - legacy mesh references",
+      "working_mesh_source": "tmp/b26-build123d03-preflight/mesh/run-xcyon4oz/CAP-HC40.stl",
+      "original_source": "models/enclosure/B24/FUSION/KEYCAPS_K03/CAP-HC40_Rev_K03_Fusion03.stl",
+      "original_source_sha256": "a7d5ed2b3b24f522ea4d68b192ed64052bf3c69c7bc3b1e5eae24732725e0e31",
+      "frame": "inherited local mesh, bytes unchanged",
+      "translation_mm": null,
+      "tessellation": "inherited, unknown",
+      "print_orientation": "TBD",
+      "checker": {
+        "format": "binary_stl",
+        "units_assumption": "mm (no conversion)",
+        "file_size_bytes": 455484,
+        "header_hex": "53544c42204154462031352e31352e302e3020434f4c4f523da0a0a0ff202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020",
+        "declared_triangle_count": 9108,
+        "expected_file_size_bytes": 455484,
+        "file_size_consistent": true,
+        "triangle_count": 9108,
+        "geometry": {
+          "finite_coordinate_triangle_count": 9108,
+          "nonfinite_coordinate_triangle_count": 0,
+          "nonfinite_normal_triangle_count": 0,
+          "bounding_box": {
+            "min_mm": [
+              -20.0,
+              -20.0,
+              -4.599999904632568
+            ],
+            "max_mm": [
+              20.0,
+              20.0,
+              4.0
+            ],
+            "size_mm": [
+              40.0,
+              40.0,
+              8.599999904632568
+            ],
+            "complete": true
+          },
+          "unique_vertex_count": 4556,
+          "zero_area_triangle_count": 0,
+          "duplicate_triangle_count": 0,
+          "unique_undirected_edge_count": 13662,
+          "boundary_edge_count": 0,
+          "nonmanifold_edge_count": 0,
+          "winding_conflict_edge_count": 0,
+          "edge_connected_surface_count": 1,
+          "signed_volume_mm3": 6371.915132429247,
+          "signed_volume_complete": true,
+          "samples": {
+            "nonfinite_coordinate_facets": [],
+            "nonfinite_normal_facets": [],
+            "zero_area_facets": [],
+            "duplicate_facets": [],
+            "boundary_edges": [],
+            "nonmanifold_edges": [],
+            "winding_conflict_edges": []
+          }
+        },
+        "errors": [],
+        "passes_requested_checks": true,
+        "limitations": [
+          "STL is unitless; coordinates are assumed mm without scaling.",
+          "Vertices weld only by exact numeric coordinate equality (+0 equals -0); no tolerance.",
+          "Surfaces connect through shared edges, not point-only contacts. Coincident or point-touching geometry can be ambiguous.",
+          "No self-intersection, vertex-link manifoldness, normal-direction, or source-model equivalence check.",
+          "Signed volume uses floating-point arithmetic and is meaningful as enclosed volume only for a closed consistently oriented surface."
+        ],
+        "path": "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/enclosure/B26/B26-build123d03_RELEASE/STL/CAP-HC40_Rev_B26_build123d03.stl"
+      },
+      "normal_conflicts": 0,
+      "zero_normals": 0
+    }
+  },
+  "final_mesh_sections": {
+    "section_z_cad_mm": 14.123,
+    "transverse_offsets_mm": [
+      0.137,
+      2.5
+    ],
+    "tolerance_mm": 0.0051,
+    "expected_pilot_radius_mm": 0.8,
+    "results": {
+      "F01": {
+        "shell": "C04",
+        "destination_sha256": "8b8742b32f59e4597dda2e30c888f2efb0b6c52eec9e94172ace49b294cb229a",
+        "wall_faces_u_mm": {
+          "0.137": [
+            -31.75,
+            31.75
+          ],
+          "2.5": [
+            -31.75,
+            31.75
+          ]
+        },
+        "pilots": [
+          {
+            "edges_u_mm": [
+              -34.738141276518576,
+              -33.16186024936033
+            ],
+            "center_u_mm": -33.95000076293945,
+            "radius_mm": 0.799959042167012
+          },
+          {
+            "edges_u_mm": [
+              33.161859295686014,
+              34.73814122355485
+            ],
+            "center_u_mm": 33.95000025962043,
+            "radius_mm": 0.7999594858687983
+          }
+        ]
+      },
+      "F02": {
+        "shell": "C06",
+        "destination_sha256": "c6089c2bd86e15fd79083cdcc4ae4d08185ce5fa41bcfafc64cdf108b4ad68b7",
+        "wall_faces_u_mm": {
+          "0.137": [
+            -31.75,
+            31.75
+          ],
+          "2.5": [
+            -31.75,
+            31.75
+          ]
+        },
+        "pilots": [
+          {
+            "edges_u_mm": [
+              -34.738141276518576,
+              -33.16186024936033
+            ],
+            "center_u_mm": -33.95000076293945,
+            "radius_mm": 0.799959042167012
+          },
+          {
+            "edges_u_mm": [
+              33.161859295686014,
+              34.73814122355485
+            ],
+            "center_u_mm": 33.95000025962043,
+            "radius_mm": 0.7999594858687983
+          }
+        ]
+      },
+      "F03": {
+        "shell": "C05",
+        "destination_sha256": "9c9bbf8b8bdfdff7a99c52554b26f1634e4c44f0bf8c63be1d608d43fb3eeca9",
+        "wall_faces_u_mm": {
+          "0.137": [
+            -31.75,
+            31.75
+          ],
+          "2.5": [
+            -31.75,
+            31.75
+          ]
+        },
+        "pilots": [
+          {
+            "edges_u_mm": [
+              -34.73813423426011,
+              -33.16185966222426
+            ],
+            "center_u_mm": -33.94999694824219,
+            "radius_mm": 0.7999558622897267
+          },
+          {
+            "edges_u_mm": [
+              33.161859662224266,
+              34.73814186365464
+            ],
+            "center_u_mm": 33.95000076293945,
+            "radius_mm": 0.7999596206287829
+          }
+        ]
+      },
+      "F04": {
+        "shell": "C05",
+        "destination_sha256": "9c9bbf8b8bdfdff7a99c52554b26f1634e4c44f0bf8c63be1d608d43fb3eeca9",
+        "wall_faces_u_mm": {
+          "0.137": [
+            -31.75,
+            31.75
+          ],
+          "2.5": [
+            -31.75,
+            31.75
+          ]
+        },
+        "pilots": [
+          {
+            "edges_u_mm": [
+              -34.73813371235342,
+              -33.16186018413095
+            ],
+            "center_u_mm": -33.94999694824219,
+            "radius_mm": 0.7999553480937076
+          },
+          {
+            "edges_u_mm": [
+              33.16186018413096,
+              34.73814134174795
+            ],
+            "center_u_mm": 33.95000076293945,
+            "radius_mm": 0.7999591064326907
+          }
+        ]
+      },
+      "F05": {
+        "shell": "C05",
+        "destination_sha256": "9c9bbf8b8bdfdff7a99c52554b26f1634e4c44f0bf8c63be1d608d43fb3eeca9",
+        "wall_faces_u_mm": {
+          "0.137": [
+            -31.599998474121094,
+            31.599998474121094
+          ],
+          "2.5": [
+            -31.599998474121094,
+            31.599998474121094
+          ]
+        },
+        "pilots": [
+          {
+            "edges_u_mm": [
+              -34.588140076851246,
+              -33.01185839726985
+            ],
+            "center_u_mm": -33.79999923706055,
+            "radius_mm": 0.799959363559168
+          },
+          {
+            "edges_u_mm": [
+              33.01185839726985,
+              34.588140076851246
+            ],
+            "center_u_mm": 33.79999923706055,
+            "radius_mm": 0.799959363559168
+          }
+        ]
+      }
+    }
+  }
+}

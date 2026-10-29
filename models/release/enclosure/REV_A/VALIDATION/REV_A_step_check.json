@@ -1,0 +1,26 @@
+{
+  "status": "reopened identical released STEP; bounds, volumes, validity and solid counts match recorded STEP evidence; P01 source-vs-STEP exceptions still fail",
+  "step_sha256": "be226639517a5e5042979a5c78039f82f4e40c89f9d92193f8bd150e7c0c258b",
+  "groups": 11,
+  "leaves": 476,
+  "solid_leaves": 444,
+  "non_solid_leaves": 32,
+  "max_bound_difference_mm": 0.0,
+  "max_repeat_step_volume_difference_mm3": 0.0,
+  "strict_p01_exceptions": [
+    {
+      "group": "Static jogs - printed",
+      "key": "left P01 platter and threaded rotor",
+      "strict_source_step_volume_difference_mm3": 0.6410915224987548
+    },
+    {
+      "group": "Static jogs - printed",
+      "key": "right P01 platter and threaded rotor",
+      "strict_source_step_volume_difference_mm3": 0.6410915224114433
+    }
+  ],
+  "limits": [
+    "Numeric branch/occurrence order and world bounds used, not potentially shared imported labels.",
+    "Recorded counts and bounds do not prove exact surfaces, physical fit, complete purchased geometry or safety."
+  ]
+}

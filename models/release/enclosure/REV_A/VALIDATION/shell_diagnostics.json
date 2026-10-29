@@ -1,0 +1,223 @@
+{
+  "input_sha256": {
+    "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/schematics/work/enclosure/B26-CONSOLIDATED-02/B26_CONSOLIDATED_02_complete_DRAFT.pdf": "35ab5a40ae0051ec4080cb6cfb287782c482859d1a6f666e9a8b0ccca00226c2",
+    "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/schematics/work/enclosure/B26-CONSOLIDATED-02/shell/shell_dataset_DRAFT.json": "1687a23e7c45b43ed2a21ff8acc0567f4d053a37da6891892131f3a0b2b30f57",
+    "/Users/krzysztof.pedrys/Projects/OWN/GIT/redController/models/release/enclosure/B26/B26-build123d03_RELEASE/STEP/B26-build123d03-trial-assembly.step": "be226639517a5e5042979a5c78039f82f4e40c89f9d92193f8bd150e7c0c258b"
+  },
+  "notes": [
+    "Numeric STEP path is an assembly occurrence, not a unique imported label. Both solids are in global CAD coordinates.",
+    "Invalid Boolean outputs and unavailable warning flags are not interpreted as empty results or actual geometric differences. Surface and occupancy samples are not proof of exact equality."
+  ],
+  "parts": {
+    "C03": {
+      "step_numeric_leaf_path": [
+        0,
+        2
+      ],
+      "step_label": "C03_lower_shell_PETG_B26-INTEGRATED-01_review",
+      "reconstructed_valid": true,
+      "step_valid": true,
+      "reconstructed_solids": 1,
+      "step_solids": 1,
+      "reconstructed_bounds_mm": [
+        [
+          380.0,
+          -140.0,
+          -1.1102230246251565e-16
+        ],
+        [
+          600.0,
+          4.440892098500626e-16,
+          83.37676641782176
+        ]
+      ],
+      "step_bounds_mm": [
+        [
+          380.0,
+          -140.0,
+          -1.110223024625e-16
+        ],
+        [
+          600.0000001,
+          4.440892098501e-16,
+          83.376766417822
+        ]
+      ],
+      "reconstructed_volume_mm3": 102085.7866541804,
+      "step_volume_mm3": 102085.78665417821,
+      "reconstructed_faces": 548,
+      "step_faces": 548,
+      "operations": {
+        "reconstruction_minus_STEP": {
+          "done": true,
+          "warning_status": "unavailable",
+          "error_status": "unavailable",
+          "valid": true,
+          "volume_mm3": 0,
+          "solids": 0,
+          "empty": true
+        },
+        "STEP_minus_reconstruction": {
+          "done": true,
+          "warning_status": "unavailable",
+          "error_status": "unavailable",
+          "valid": false,
+          "volume_mm3": 102042.8033071118,
+          "solids": 6,
+          "empty": false
+        },
+        "intersection_reconstruction_STEP": {
+          "done": true,
+          "warning_status": "unavailable",
+          "error_status": "unavailable",
+          "valid": true,
+          "volume_mm3": 102085.78665418048,
+          "solids": 1,
+          "empty": false
+        },
+        "intersection_STEP_reconstruction": {
+          "done": true,
+          "warning_status": "unavailable",
+          "error_status": "unavailable",
+          "valid": true,
+          "volume_mm3": 0,
+          "solids": 0,
+          "empty": true
+        }
+      },
+      "surface_samples": {
+        "reconstruction_to_STEP": {
+          "mesh_deflection_mm": 0.1,
+          "angular_tolerance_rad": 0.1,
+          "vertex_count": 54057,
+          "triangle_count": 55746,
+          "sample_count": 100,
+          "max_vertex_to_other_surface_mm": 5.5848659030743875e-12,
+          "mean_vertex_to_other_surface_mm": 1.1914823957373162e-13
+        },
+        "STEP_to_reconstruction": {
+          "mesh_deflection_mm": 0.1,
+          "angular_tolerance_rad": 0.1,
+          "vertex_count": 54057,
+          "triangle_count": 55746,
+          "sample_count": 100,
+          "max_vertex_to_other_surface_mm": 8.412826178937257e-12,
+          "mean_vertex_to_other_surface_mm": 1.4700053659288116e-13
+        }
+      },
+      "occupancy_samples": {
+        "sampling": "24 x 16 XY cell centres by 13 fixed Z levels, not a coverage proof",
+        "classifier_tolerance_mm": 1e-06,
+        "tested_points": 4992,
+        "reconstructed_inside": 1189,
+        "step_inside": 1189,
+        "disagreements": []
+      }
+    },
+    "C05": {
+      "step_numeric_leaf_path": [
+        0,
+        4
+      ],
+      "step_label": "C05_lower_shell_PETG_B26-INTEGRATED-01_review",
+      "reconstructed_valid": true,
+      "step_valid": true,
+      "reconstructed_solids": 1,
+      "step_solids": 1,
+      "reconstructed_bounds_mm": [
+        [
+          220.0,
+          -320.0,
+          -1.1102230246251565e-16
+        ],
+        [
+          380.0,
+          -140.0,
+          18.0
+        ]
+      ],
+      "step_bounds_mm": [
+        [
+          220.0,
+          -320.0,
+          -1.110223024625e-16
+        ],
+        [
+          380.0,
+          -140.0,
+          18.0
+        ]
+      ],
+      "reconstructed_volume_mm3": 95530.96312055507,
+      "step_volume_mm3": 95530.96312057477,
+      "reconstructed_faces": 1285,
+      "step_faces": 1285,
+      "operations": {
+        "reconstruction_minus_STEP": {
+          "done": true,
+          "warning_status": "unavailable",
+          "error_status": "unavailable",
+          "valid": true,
+          "volume_mm3": 0,
+          "solids": 0,
+          "empty": true
+        },
+        "STEP_minus_reconstruction": {
+          "done": true,
+          "warning_status": "unavailable",
+          "error_status": "unavailable",
+          "valid": false,
+          "volume_mm3": 95312.2125070811,
+          "solids": 21,
+          "empty": false
+        },
+        "intersection_reconstruction_STEP": {
+          "done": true,
+          "warning_status": "unavailable",
+          "error_status": "unavailable",
+          "valid": true,
+          "volume_mm3": 95530.96312055523,
+          "solids": 1,
+          "empty": false
+        },
+        "intersection_STEP_reconstruction": {
+          "done": true,
+          "warning_status": "unavailable",
+          "error_status": "unavailable",
+          "valid": true,
+          "volume_mm3": 0,
+          "solids": 0,
+          "empty": true
+        }
+      },
+      "surface_samples": {
+        "reconstruction_to_STEP": {
+          "mesh_deflection_mm": 0.1,
+          "angular_tolerance_rad": 0.1,
+          "vertex_count": 113965,
+          "triangle_count": 112954,
+          "sample_count": 100,
+          "max_vertex_to_other_surface_mm": 7.935343316860494e-11,
+          "mean_vertex_to_other_surface_mm": 9.397256500727618e-13
+        },
+        "STEP_to_reconstruction": {
+          "mesh_deflection_mm": 0.1,
+          "angular_tolerance_rad": 0.1,
+          "vertex_count": 113966,
+          "triangle_count": 112956,
+          "sample_count": 100,
+          "max_vertex_to_other_surface_mm": 2.101093011592209e-12,
+          "mean_vertex_to_other_surface_mm": 2.3124988880575172e-14
+        }
+      },
+      "occupancy_samples": {
+        "sampling": "24 x 16 XY cell centres by 13 fixed Z levels, not a coverage proof",
+        "classifier_tolerance_mm": 1e-06,
+        "tested_points": 4992,
+        "reconstructed_inside": 1296,
+        "step_inside": 1296,
+        "disagreements": []
+      }
+    }
+  }
+}

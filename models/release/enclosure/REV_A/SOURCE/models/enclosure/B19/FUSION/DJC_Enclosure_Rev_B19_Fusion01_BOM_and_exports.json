@@ -1,0 +1,1268 @@
+{
+  "revision": "B19-Fusion-01",
+  "engineer_nominal_model_export_approval": "Zatwierdzam B19-Fusion-01 do eksportu",
+  "units": "mm",
+  "distinct_STLs": 39,
+  "printed_quantity": 154,
+  "STL_surface_deviation_mm": 0.005,
+  "STL_normal_deviation_degrees": 5,
+  "part_axes": "BRep shell/panels use native axes translated to minimumXYZ=0. Unchanged parts retain their documented source frames; no print-orientation approval.",
+  "parts": [
+    {
+      "id": "PANEL_R01",
+      "kind": "BRep",
+      "quantity": 1,
+      "source_ids": [
+        "B16_DRAFT_Panel_R01"
+      ],
+      "native_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          220.0,
+          120.0,
+          7.959000624219965
+        ]
+      ],
+      "assembly_native_bounds_mm": [
+        [
+          0.0,
+          -120.0,
+          50.0
+        ],
+        [
+          220.0,
+          0.0,
+          57.95900062421996
+        ]
+      ],
+      "material": "PETG",
+      "filename": "PANEL_R01_Rev_B19_Fusion01.stl",
+      "path": "PANEL_R01_Rev_B19_Fusion01.stl",
+      "revision": "B19-Fusion-01",
+      "bytes": 14489284,
+      "sha256": "446c64cea045b54637e80a36d7ef57f0916aaf2a76bbca7a0c3b09e780ac7b75",
+      "export_frame": "Native assembly axes, translated to minimumXYZ=0 only; not approved slicing/support orientation."
+    },
+    {
+      "id": "PANEL_R04",
+      "kind": "BRep",
+      "quantity": 1,
+      "source_ids": [
+        "B16_DRAFT_Panel_R04"
+      ],
+      "native_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          220.0,
+          120.0,
+          7.959000624219971
+        ]
+      ],
+      "assembly_native_bounds_mm": [
+        [
+          380.0,
+          -120.0,
+          50.0
+        ],
+        [
+          600.0,
+          0.0,
+          57.95900062421997
+        ]
+      ],
+      "material": "PETG",
+      "filename": "PANEL_R04_Rev_B19_Fusion01.stl",
+      "path": "PANEL_R04_Rev_B19_Fusion01.stl",
+      "revision": "B19-Fusion-01",
+      "bytes": 14717684,
+      "sha256": "358133d2c5e3a033fa0dc54de69d475edf06cafe1100804f3fa01859ff1134e8",
+      "export_frame": "Native assembly axes, translated to minimumXYZ=0 only; not approved slicing/support orientation."
+    },
+    {
+      "id": "PANEL_R05",
+      "kind": "BRep",
+      "quantity": 1,
+      "source_ids": [
+        "B16_DRAFT_Panel_R05"
+      ],
+      "native_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          220.0,
+          179.99999999990166,
+          2.0000000000000018
+        ]
+      ],
+      "assembly_native_bounds_mm": [
+        [
+          0.0,
+          -300.0,
+          50.0
+        ],
+        [
+          220.0,
+          -120.00000000009834,
+          52.0
+        ]
+      ],
+      "material": "PETG",
+      "filename": "PANEL_R05_Rev_B19_Fusion01.stl",
+      "path": "PANEL_R05_Rev_B19_Fusion01.stl",
+      "revision": "B19-Fusion-01",
+      "bytes": 12212584,
+      "sha256": "fc8ef75873c8a1330ebd24f766e20778ca17891996e59bc4e3469614f614f7a4",
+      "export_frame": "Native assembly axes, translated to minimumXYZ=0 only; not approved slicing/support orientation."
+    },
+    {
+      "id": "PANEL_R06",
+      "kind": "BRep",
+      "quantity": 1,
+      "source_ids": [
+        "B16_DRAFT_Panel_R06"
+      ],
+      "native_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          160.0,
+          180.0,
+          2.400000000000002
+        ]
+      ],
+      "assembly_native_bounds_mm": [
+        [
+          220.0,
+          -300.0,
+          50.0
+        ],
+        [
+          380.0,
+          -120.0,
+          52.400000000000006
+        ]
+      ],
+      "material": "PETG",
+      "filename": "PANEL_R06_Rev_B19_Fusion01.stl",
+      "path": "PANEL_R06_Rev_B19_Fusion01.stl",
+      "revision": "B19-Fusion-01",
+      "bytes": 7465584,
+      "sha256": "4f208a8f6fc0cdf73cba9556d827caaca0dfb45c33f4ed8049d8d170ec037772",
+      "export_frame": "Native assembly axes, translated to minimumXYZ=0 only; not approved slicing/support orientation."
+    },
+    {
+      "id": "PANEL_R07",
+      "kind": "BRep",
+      "quantity": 1,
+      "source_ids": [
+        "B16_DRAFT_Panel_R07"
+      ],
+      "native_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          220.0,
+          179.999999999902,
+          2.0000000000000018
+        ]
+      ],
+      "assembly_native_bounds_mm": [
+        [
+          380.0,
+          -300.0,
+          50.0
+        ],
+        [
+          600.0,
+          -120.00000000009798,
+          52.0
+        ]
+      ],
+      "material": "PETG",
+      "filename": "PANEL_R07_Rev_B19_Fusion01.stl",
+      "path": "PANEL_R07_Rev_B19_Fusion01.stl",
+      "revision": "B19-Fusion-01",
+      "bytes": 12212584,
+      "sha256": "c1e751101f41b28e26f22df23bff4368eae7f42089999280985fbae107740074",
+      "export_frame": "Native assembly axes, translated to minimumXYZ=0 only; not approved slicing/support orientation."
+    },
+    {
+      "id": "C01_shell",
+      "kind": "BRep",
+      "quantity": 1,
+      "source_ids": [
+        "C01 lower shell"
+      ],
+      "native_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          220.0,
+          120.0,
+          56.0
+        ]
+      ],
+      "assembly_native_bounds_mm": [
+        [
+          0.0,
+          -120.0,
+          0.0
+        ],
+        [
+          220.0,
+          0.0,
+          56.0
+        ]
+      ],
+      "material": "PETG",
+      "filename": "C01_shell_Rev_B18_Fusion01.stl",
+      "path": "../../B18/FUSION/C01_shell_Rev_B18_Fusion01.stl",
+      "revision": "B18-Fusion-01",
+      "bytes": 52003684,
+      "sha256": "d3067f0594f2205ffc55dc2c9e3941b45cd23d59ef6eb8aaf33db3135c4b1e54",
+      "export_frame": "Native assembly axes, translated to minimumXYZ=0 only; not approved slicing/support orientation."
+    },
+    {
+      "id": "C02_shell",
+      "kind": "BRep",
+      "quantity": 1,
+      "source_ids": [
+        "C02 lower shell"
+      ],
+      "native_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          160.0,
+          120.0,
+          56.0
+        ]
+      ],
+      "assembly_native_bounds_mm": [
+        [
+          220.0,
+          -120.0,
+          0.0
+        ],
+        [
+          380.0,
+          0.0,
+          56.0
+        ]
+      ],
+      "material": "PETG",
+      "filename": "C02_shell_Rev_B18_Fusion01.stl",
+      "path": "../../B18/FUSION/C02_shell_Rev_B18_Fusion01.stl",
+      "revision": "B18-Fusion-01",
+      "bytes": 35023084,
+      "sha256": "92329cd9b6e08786c9b1d44fb0c7f28d42612677239124d94db86d6082371f68",
+      "export_frame": "Native assembly axes, translated to minimumXYZ=0 only; not approved slicing/support orientation."
+    },
+    {
+      "id": "C03_shell",
+      "kind": "BRep",
+      "quantity": 1,
+      "source_ids": [
+        "C03 lower shell"
+      ],
+      "native_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          220.0,
+          120.0,
+          56.0
+        ]
+      ],
+      "assembly_native_bounds_mm": [
+        [
+          380.0,
+          -120.0,
+          0.0
+        ],
+        [
+          600.0,
+          0.0,
+          56.0
+        ]
+      ],
+      "material": "PETG",
+      "filename": "C03_shell_Rev_B18_Fusion01.stl",
+      "path": "../../B18/FUSION/C03_shell_Rev_B18_Fusion01.stl",
+      "revision": "B18-Fusion-01",
+      "bytes": 80569784,
+      "sha256": "d308f84430f918b92fbb329649e03599a1fa2bdcc70012ad6404706d82dac71e",
+      "export_frame": "Native assembly axes, translated to minimumXYZ=0 only; not approved slicing/support orientation."
+    },
+    {
+      "id": "C04_shell",
+      "kind": "BRep",
+      "quantity": 1,
+      "source_ids": [
+        "C04 lower shell"
+      ],
+      "native_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          220.0,
+          180.0,
+          50.0
+        ]
+      ],
+      "assembly_native_bounds_mm": [
+        [
+          0.0,
+          -300.0,
+          0.0
+        ],
+        [
+          220.0,
+          -120.0,
+          50.0
+        ]
+      ],
+      "material": "PETG",
+      "filename": "C04_shell_Rev_B18_Fusion01.stl",
+      "path": "../../B18/FUSION/C04_shell_Rev_B18_Fusion01.stl",
+      "revision": "B18-Fusion-01",
+      "bytes": 61694284,
+      "sha256": "0fc8a75475d1067d9a3aed24329b516c8e21e46f68594b1157e7d29a73152943",
+      "export_frame": "Native assembly axes, translated to minimumXYZ=0 only; not approved slicing/support orientation."
+    },
+    {
+      "id": "C05_shell",
+      "kind": "BRep",
+      "quantity": 1,
+      "source_ids": [
+        "C05 lower shell"
+      ],
+      "native_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          160.0,
+          180.0,
+          50.0
+        ]
+      ],
+      "assembly_native_bounds_mm": [
+        [
+          220.0,
+          -300.0,
+          0.0
+        ],
+        [
+          380.0,
+          -120.0,
+          50.0
+        ]
+      ],
+      "material": "PETG",
+      "filename": "C05_shell_Rev_B18_Fusion01.stl",
+      "path": "../../B18/FUSION/C05_shell_Rev_B18_Fusion01.stl",
+      "revision": "B18-Fusion-01",
+      "bytes": 153135984,
+      "sha256": "fe6b1130fcde3f6d3b21bf041cbe7096b5bf27f6ff5c28cfa17c88de83a75446",
+      "export_frame": "Native assembly axes, translated to minimumXYZ=0 only; not approved slicing/support orientation."
+    },
+    {
+      "id": "C06_shell",
+      "kind": "BRep",
+      "quantity": 1,
+      "source_ids": [
+        "C06 lower shell"
+      ],
+      "native_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          220.0,
+          180.0,
+          50.0
+        ]
+      ],
+      "assembly_native_bounds_mm": [
+        [
+          380.0,
+          -300.0,
+          0.0
+        ],
+        [
+          600.0,
+          -120.0,
+          50.0
+        ]
+      ],
+      "material": "PETG",
+      "filename": "C06_shell_Rev_B18_Fusion01.stl",
+      "path": "../../B18/FUSION/C06_shell_Rev_B18_Fusion01.stl",
+      "revision": "B18-Fusion-01",
+      "bytes": 61694284,
+      "sha256": "a28bd09c9f715585e93ea3f3e0f07ceb7095135767d7b4cb0bcc66fb5694f536",
+      "export_frame": "Native assembly axes, translated to minimumXYZ=0 only; not approved slicing/support orientation."
+    },
+    {
+      "id": "PANEL_R02",
+      "kind": "BRep",
+      "quantity": 1,
+      "source_ids": [
+        "B16_DRAFT_Panel_R02"
+      ],
+      "native_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          160.0,
+          10.250000000000004,
+          2.4715006242199684
+        ]
+      ],
+      "assembly_native_bounds_mm": [
+        [
+          220.0,
+          -10.250000000000004,
+          55.4875
+        ],
+        [
+          380.0,
+          0.0,
+          57.95900062421997
+        ]
+      ],
+      "material": "PETG",
+      "filename": "PANEL_R02_Rev_B18_Fusion01.stl",
+      "path": "../../B18/FUSION/PANEL_R02_Rev_B18_Fusion01.stl",
+      "revision": "B18-Fusion-01",
+      "bytes": 5261084,
+      "sha256": "e84c7b3cd69b1125056a1de98fd01ae0e4e4af0c907b7cbdea6604d6874b4669",
+      "export_frame": "Native assembly axes, translated to minimumXYZ=0 only; not approved slicing/support orientation."
+    },
+    {
+      "id": "PANEL_R03",
+      "kind": "BRep",
+      "quantity": 1,
+      "source_ids": [
+        "B16_DRAFT_Panel_R03"
+      ],
+      "native_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          160.0,
+          37.75,
+          3.8874999999999993
+        ]
+      ],
+      "assembly_native_bounds_mm": [
+        [
+          220.0,
+          -120.0,
+          50.0
+        ],
+        [
+          380.0,
+          -82.25,
+          53.8875
+        ]
+      ],
+      "material": "PETG",
+      "filename": "PANEL_R03_Rev_B18_Fusion01.stl",
+      "path": "../../B18/FUSION/PANEL_R03_Rev_B18_Fusion01.stl",
+      "revision": "B18-Fusion-01",
+      "bytes": 832484,
+      "sha256": "14d30557aacbdd352cc9f6ac64eb8e9e18bb7ed16540be7bbcbba08743dd2bec",
+      "export_frame": "Native assembly axes, translated to minimumXYZ=0 only; not approved slicing/support orientation."
+    },
+    {
+      "id": "C07_bridge",
+      "kind": "BRep",
+      "quantity": 10,
+      "source_ids": [
+        "C07 bolted bridge PETG"
+      ],
+      "native_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          28.0,
+          10.0,
+          3.0000000000000004
+        ]
+      ],
+      "material": "PETG",
+      "filename": "C07_bridge_Rev_B16_Fusion01.stl",
+      "bytes": 433084,
+      "path": "../../B16/FUSION/C07_bridge_Rev_B16_Fusion01.stl",
+      "revision": "B16-Fusion-01",
+      "sha256": "bac0f67664f2447218e3b4f5e99a3c002d87633b114007364d6dbf0078a37b88"
+    },
+    {
+      "id": "MOUNT_B01-RETAINER",
+      "kind": "BRep",
+      "quantity": 30,
+      "source_ids": [
+        "B01-RETAINER",
+        "B02-RETAINER",
+        "B03-RETAINER",
+        "B04-RETAINER",
+        "B05-RETAINER",
+        "B06-RETAINER",
+        "B07-RETAINER",
+        "B08-RETAINER",
+        "B09-RETAINER",
+        "B10-RETAINER",
+        "B11-RETAINER",
+        "B12-RETAINER",
+        "B13-RETAINER",
+        "B14-RETAINER",
+        "B15-RETAINER",
+        "B16-RETAINER",
+        "B17-RETAINER",
+        "B18-RETAINER",
+        "B19-RETAINER",
+        "B20-RETAINER",
+        "B21-RETAINER",
+        "B22-RETAINER",
+        "B23-RETAINER",
+        "B24-RETAINER",
+        "T01-RETAINER",
+        "T02-RETAINER",
+        "T03-RETAINER",
+        "T04-RETAINER",
+        "T05-RETAINER",
+        "T06-RETAINER"
+      ],
+      "native_bounds_mm": [
+        [
+          0.0,
+          -5.551115123125783e-16,
+          0.0
+        ],
+        [
+          16.20000000000001,
+          22.799999999999997,
+          1.5000000000000036
+        ]
+      ],
+      "material": "PETG",
+      "filename": "MOUNT_B01-RETAINER_Rev_B16_Fusion01.stl",
+      "bytes": 529284,
+      "path": "../../B16/FUSION/MOUNT_B01-RETAINER_Rev_B16_Fusion01.stl",
+      "revision": "B16-Fusion-01",
+      "sha256": "26e5c0897329208eb8db717cf5590fdfc4784db7542d134924b53258eac3b896"
+    },
+    {
+      "id": "MOUNT_P01-RETAINER",
+      "kind": "BRep",
+      "quantity": 13,
+      "source_ids": [
+        "P01-RETAINER",
+        "P02-RETAINER",
+        "P03-RETAINER",
+        "P04-RETAINER",
+        "P05-RETAINER",
+        "P06-RETAINER",
+        "P07-RETAINER",
+        "P08-RETAINER",
+        "P09-RETAINER",
+        "P10-RETAINER",
+        "P11-RETAINER",
+        "P12-RETAINER",
+        "P13-RETAINER"
+      ],
+      "native_bounds_mm": [
+        [
+          -5.551115123125783e-16,
+          -5.551115123125783e-16,
+          0.0
+        ],
+        [
+          16.999999999999993,
+          18.1,
+          1.5000000000000036
+        ]
+      ],
+      "material": "PETG",
+      "filename": "MOUNT_P01-RETAINER_Rev_B16_Fusion01.stl",
+      "bytes": 1240884,
+      "path": "../../B16/FUSION/MOUNT_P01-RETAINER_Rev_B16_Fusion01.stl",
+      "revision": "B16-Fusion-01",
+      "sha256": "1bc16108d03dc6d33bc9554a5bb00cc85b0c0850e8396abcc99751a56b004577"
+    },
+    {
+      "id": "MOUNT_F01-RETAINER_1",
+      "kind": "BRep",
+      "quantity": 5,
+      "source_ids": [
+        "F01-RETAINER piece1",
+        "F02-RETAINER piece1",
+        "F03-RETAINER piece1",
+        "F04-RETAINER piece1",
+        "F05-RETAINER piece1"
+      ],
+      "native_bounds_mm": [
+        [
+          1.6653345369377348e-15,
+          0.0,
+          0.0
+        ],
+        [
+          6.200000000000023,
+          13.400000000000034,
+          1.5000000000000036
+        ]
+      ],
+      "material": "PETG",
+      "filename": "MOUNT_F01-RETAINER_1_Rev_B16_Fusion01.stl",
+      "bytes": 170184,
+      "path": "../../B16/FUSION/MOUNT_F01-RETAINER_1_Rev_B16_Fusion01.stl",
+      "revision": "B16-Fusion-01",
+      "sha256": "ffc863b3fc905f7330b0c9d14412d6b95bd2d01d5e38bf6481c1c9c67356a27e"
+    },
+    {
+      "id": "MOUNT_F01-RETAINER_2",
+      "kind": "BRep",
+      "quantity": 5,
+      "source_ids": [
+        "F01-RETAINER piece2",
+        "F02-RETAINER piece2",
+        "F03-RETAINER piece2",
+        "F04-RETAINER piece2",
+        "F05-RETAINER piece2"
+      ],
+      "native_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          6.199999999999985,
+          13.400000000000034,
+          1.5000000000000036
+        ]
+      ],
+      "material": "PETG",
+      "filename": "MOUNT_F01-RETAINER_2_Rev_B16_Fusion01.stl",
+      "bytes": 170184,
+      "path": "../../B16/FUSION/MOUNT_F01-RETAINER_2_Rev_B16_Fusion01.stl",
+      "revision": "B16-Fusion-01",
+      "sha256": "0b0c4a8cdd6004ec51f09cc54e0fae5e50fa5e7cc8308e356ee581cb414fc89b"
+    },
+    {
+      "id": "MOUNT_E01-body_retainer",
+      "kind": "BRep",
+      "quantity": 1,
+      "source_ids": [
+        "E01-body_retainer"
+      ],
+      "native_bounds_mm": [
+        [
+          0.0,
+          -5.551115123125783e-16,
+          0.0
+        ],
+        [
+          16.199999999999974,
+          25.599999999999973,
+          1.5000000000000036
+        ]
+      ],
+      "material": "PETG",
+      "filename": "MOUNT_E01-body_retainer_Rev_B16_Fusion01.stl",
+      "bytes": 457284,
+      "path": "../../B16/FUSION/MOUNT_E01-body_retainer_Rev_B16_Fusion01.stl",
+      "revision": "B16-Fusion-01",
+      "sha256": "bbc228021dc39d4a3792588d908e02751826f71df48c7ade9d61d7cccb208790"
+    },
+    {
+      "id": "MOUNT_D01-LR-removable_toe_template",
+      "kind": "BRep",
+      "quantity": 2,
+      "source_ids": [
+        "D01-LR-removable_toe_template",
+        "D01-RF-removable_toe_template"
+      ],
+      "native_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          9.000000000000004,
+          7.999999999999998,
+          3.9999999999999947
+        ]
+      ],
+      "material": "PETG",
+      "filename": "MOUNT_D01-LR-removable_toe_template_Rev_B16_Fusion01.stl",
+      "bytes": 217284,
+      "path": "../../B16/FUSION/MOUNT_D01-LR-removable_toe_template_Rev_B16_Fusion01.stl",
+      "revision": "B16-Fusion-01",
+      "sha256": "45bd1b46cf82b80399fddc615455400e1992c4c71bc42f6d081690624e8b7976"
+    },
+    {
+      "id": "MOUNT_D01-LF-removable_toe_template",
+      "kind": "BRep",
+      "quantity": 2,
+      "source_ids": [
+        "D01-LF-removable_toe_template",
+        "D01-RR-removable_toe_template"
+      ],
+      "native_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          9.000000000000004,
+          8.000000000000016,
+          3.999999999999999
+        ]
+      ],
+      "material": "PETG",
+      "filename": "MOUNT_D01-LF-removable_toe_template_Rev_B16_Fusion01.stl",
+      "bytes": 217284,
+      "path": "../../B16/FUSION/MOUNT_D01-LF-removable_toe_template_Rev_B16_Fusion01.stl",
+      "revision": "B16-Fusion-01",
+      "sha256": "12b62b2739e7a95ee9c3fd47a67320c8ced273a57c2212ff06b10fdd36101919"
+    },
+    {
+      "id": "MOUNT_JA-CL",
+      "kind": "BRep",
+      "quantity": 2,
+      "source_ids": [
+        "JA-CL",
+        "JB-CL"
+      ],
+      "native_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          14.2,
+          5.0000000000000355,
+          3.100000000000005
+        ]
+      ],
+      "material": "PETG",
+      "filename": "MOUNT_JA-CL_Rev_B16_Fusion01.stl",
+      "bytes": 110484,
+      "path": "../../B16/FUSION/MOUNT_JA-CL_Rev_B16_Fusion01.stl",
+      "revision": "B16-Fusion-01",
+      "sha256": "919d63c0b05cfafd004860c51230079bf2bd953caf4973ba8d4577d2a10e5daf"
+    },
+    {
+      "id": "MOUNT_JA-CR",
+      "kind": "BRep",
+      "quantity": 2,
+      "source_ids": [
+        "JA-CR",
+        "JB-CR"
+      ],
+      "native_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          14.2,
+          5.0000000000000355,
+          3.100000000000005
+        ]
+      ],
+      "material": "PETG",
+      "filename": "MOUNT_JA-CR_Rev_B16_Fusion01.stl",
+      "bytes": 110484,
+      "path": "../../B16/FUSION/MOUNT_JA-CR_Rev_B16_Fusion01.stl",
+      "revision": "B16-Fusion-01",
+      "sha256": "466bea7551b34dc9a8633431900ff31f6de63457b3e511708033f3407e194220"
+    },
+    {
+      "id": "MOUNT_JA-SW1-SADDLE",
+      "kind": "BRep",
+      "quantity": 2,
+      "source_ids": [
+        "JA-SW1-SADDLE",
+        "JB-SW1-SADDLE"
+      ],
+      "native_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          5.99999999999997,
+          6.999999999999993,
+          6.000000000000001
+        ]
+      ],
+      "material": "PETG",
+      "filename": "MOUNT_JA-SW1-SADDLE_Rev_B16_Fusion01.stl",
+      "bytes": 612284,
+      "path": "../../B16/FUSION/MOUNT_JA-SW1-SADDLE_Rev_B16_Fusion01.stl",
+      "revision": "B16-Fusion-01",
+      "sha256": "4e5c99fc8eb24b939e43e5eb592ad5e2fe6078c1e7d27a03e88e340eb12bcb4a"
+    },
+    {
+      "id": "MOUNT_JA-SW2-SADDLE",
+      "kind": "BRep",
+      "quantity": 2,
+      "source_ids": [
+        "JA-SW2-SADDLE",
+        "JB-SW2-SADDLE"
+      ],
+      "native_bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          6.000000000000014,
+          6.999999999999993,
+          6.000000000000001
+        ]
+      ],
+      "material": "PETG",
+      "filename": "MOUNT_JA-SW2-SADDLE_Rev_B16_Fusion01.stl",
+      "bytes": 612884,
+      "path": "../../B16/FUSION/MOUNT_JA-SW2-SADDLE_Rev_B16_Fusion01.stl",
+      "revision": "B16-Fusion-01",
+      "sha256": "1012e55b1f64fa6429945250af10d117ccade4e7363af5f45257cd7dd7e3088f"
+    },
+    {
+      "id": "JOG_P03_Housing",
+      "kind": "Mesh",
+      "quantity": 2,
+      "source_ids": [
+        "Housing F11 source mesh"
+      ],
+      "native_bounds_mm": [
+        [
+          -31.846787929534912,
+          -25.0,
+          0.0
+        ],
+        [
+          35.20000219345093,
+          36.000001430511475,
+          40.999999046325684
+        ]
+      ],
+      "material": "Retained source material scope; no new print-material selection",
+      "filename": "JOG_P03_Housing_Rev_B16_Fusion01.stl",
+      "bytes": 2829684,
+      "path": "../../B16/FUSION/JOG_P03_Housing_Rev_B16_Fusion01.stl",
+      "revision": "B16-Fusion-01",
+      "sha256": "b6612151b1f327a8e8024ac8cc3d0c84a2d4169e49fb9e7d548f6f54ab770e99"
+    },
+    {
+      "id": "JOG_P01_Platter",
+      "kind": "Mesh",
+      "quantity": 2,
+      "source_ids": [
+        "Platter F11 source mesh"
+      ],
+      "native_bounds_mm": [
+        [
+          -49.99949932098389,
+          -49.99987602233887,
+          40.0
+        ],
+        [
+          50.0,
+          49.99987602233887,
+          59.50000286102295
+        ]
+      ],
+      "material": "Retained source material scope; no new print-material selection",
+      "filename": "JOG_P01_Platter_Rev_B16_Fusion01.stl",
+      "bytes": 46696584,
+      "path": "../../B16/FUSION/JOG_P01_Platter_Rev_B16_Fusion01.stl",
+      "revision": "B16-Fusion-01",
+      "sha256": "34ce232caa840866a9af18bfbafffe187ad3fe553df5a65a997e11f11ae2d1cd"
+    },
+    {
+      "id": "JOG_P02_Carrier",
+      "kind": "Mesh",
+      "quantity": 2,
+      "source_ids": [
+        "Carrier F11 source mesh"
+      ],
+      "native_bounds_mm": [
+        [
+          -18.000000715255737,
+          -17.999963760375977,
+          22.999999523162842
+        ],
+        [
+          30.0,
+          17.999963760375977,
+          40.0
+        ]
+      ],
+      "material": "Retained source material scope; no new print-material selection",
+      "filename": "JOG_P02_Carrier_Rev_B16_Fusion01.stl",
+      "bytes": 3257084,
+      "path": "../../B16/FUSION/JOG_P02_Carrier_Rev_B16_Fusion01.stl",
+      "revision": "B16-Fusion-01",
+      "sha256": "3e394a6ab70d5ac9f2ef4224d22e8f42a204bc80de4ad2afa3efb0d6eef6612b"
+    },
+    {
+      "id": "JOG_P04_Magnet_Holder",
+      "kind": "Mesh",
+      "quantity": 2,
+      "source_ids": [
+        "Magnet holder F11 source mesh"
+      ],
+      "native_bounds_mm": [
+        [
+          -8.00000011920929,
+          -8.00000011920929,
+          12.000000476837158
+        ],
+        [
+          8.00000011920929,
+          8.00000011920929,
+          22.999999523162842
+        ]
+      ],
+      "material": "Retained source material scope; no new print-material selection",
+      "filename": "JOG_P04_Magnet_Holder_Rev_B16_Fusion01.stl",
+      "bytes": 690784,
+      "path": "../../B16/FUSION/JOG_P04_Magnet_Holder_Rev_B16_Fusion01.stl",
+      "revision": "B16-Fusion-01",
+      "sha256": "20960cf6c676a719f198a9aaf81a7ccb3ac6718091e6a705955ddc1c5836f640"
+    },
+    {
+      "id": "JOG_P05_Upper_Cover",
+      "kind": "Mesh",
+      "quantity": 2,
+      "source_ids": [
+        "Upper cover F11 source mesh"
+      ],
+      "native_bounds_mm": [
+        [
+          -18.000000715255737,
+          -17.999500036239624,
+          40.0
+        ],
+        [
+          18.000000715255737,
+          17.999500036239624,
+          42.00000286102295
+        ]
+      ],
+      "material": "Retained source material scope; no new print-material selection",
+      "filename": "JOG_P05_Upper_Cover_Rev_B16_Fusion01.stl",
+      "bytes": 697084,
+      "path": "../../B16/FUSION/JOG_P05_Upper_Cover_Rev_B16_Fusion01.stl",
+      "revision": "B16-Fusion-01",
+      "sha256": "3936c34fe83eb4cbb53d1786fbdbb366312a4e37bd13aab2f1b47baa52c47ce9"
+    },
+    {
+      "id": "JOG_P06_Lower_Cover",
+      "kind": "Mesh",
+      "quantity": 2,
+      "source_ids": [
+        "Lower cover F11 source mesh"
+      ],
+      "native_bounds_mm": [
+        [
+          -18.000000715255737,
+          -17.999500036239624,
+          21.000001430511475
+        ],
+        [
+          18.000000715255737,
+          17.999500036239624,
+          22.999999523162842
+        ]
+      ],
+      "material": "Retained source material scope; no new print-material selection",
+      "filename": "JOG_P06_Lower_Cover_Rev_B16_Fusion01.stl",
+      "bytes": 589084,
+      "path": "../../B16/FUSION/JOG_P06_Lower_Cover_Rev_B16_Fusion01.stl",
+      "revision": "B16-Fusion-01",
+      "sha256": "d6343dff39fcc587e7a2ccdd0411cf4288195bbe736d3662926657162a15f874"
+    },
+    {
+      "id": "JOG_M02_Bearing_Spacer",
+      "kind": "Mesh",
+      "quantity": 2,
+      "source_ids": [
+        "Bearing spacer F11 source mesh"
+      ],
+      "native_bounds_mm": [
+        [
+          -5.250000357627869,
+          -5.250000357627869,
+          30.0
+        ],
+        [
+          5.250000357627869,
+          5.250000357627869,
+          32.99999952316284
+        ]
+      ],
+      "material": "Retained source material scope; no new print-material selection",
+      "filename": "JOG_M02_Bearing_Spacer_Rev_B16_Fusion01.stl",
+      "bytes": 216084,
+      "path": "../../B16/FUSION/JOG_M02_Bearing_Spacer_Rev_B16_Fusion01.stl",
+      "revision": "B16-Fusion-01",
+      "sha256": "4fbb740f8d2ad585267b15a80fde4dba21cec3ddc3a1b91202a2e60000aa3b9e"
+    },
+    {
+      "id": "JOG_H05_Retainer",
+      "kind": "Mesh",
+      "quantity": 2,
+      "source_ids": [
+        "Retainer F11 source mesh"
+      ],
+      "native_bounds_mm": [
+        [
+          -1.4635001122951508,
+          -1.4635001122951508,
+          0.0
+        ],
+        [
+          1.4635001122951508,
+          1.4635001122951508,
+          12.000000476837158
+        ]
+      ],
+      "material": "PLA trial",
+      "filename": "JOG_H05_Retainer_Rev_B16_Fusion01.stl",
+      "bytes": 4074984,
+      "path": "../../B16/FUSION/JOG_H05_Retainer_Rev_B16_Fusion01.stl",
+      "revision": "B16-Fusion-01",
+      "sha256": "686bcc32242db76447e904672957660a4cc9fa7ad44a2d9a24404740b736a8b6"
+    },
+    {
+      "id": "CAP_B",
+      "kind": "Mesh",
+      "quantity": 24,
+      "source_ids": [
+        "B retained cap definition"
+      ],
+      "native_bounds_mm": [
+        [
+          -6.9999998807907104,
+          -6.9999998807907104,
+          -4.600000083446503
+        ],
+        [
+          6.9999998807907104,
+          6.9999998807907104,
+          4.000000059604645
+        ]
+      ],
+      "material": "Retained source material scope; no new print-material selection",
+      "filename": "CAP_B_Rev_B16_Fusion01.stl",
+      "bytes": 52284,
+      "path": "../../B16/FUSION/CAP_B_Rev_B16_Fusion01.stl",
+      "revision": "B16-Fusion-01",
+      "sha256": "37d5ff82b539e87fa27ffa795a6c2493bcc57afe4a1ff978b7a8fa7b99d8d87e"
+    },
+    {
+      "id": "CAP_T",
+      "kind": "BRep",
+      "quantity": 6,
+      "source_ids": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06"
+      ],
+      "native_bounds_mm": [
+        [
+          -9.436067977499787,
+          -6.418033988749895,
+          -4.599999785423279
+        ],
+        [
+          3.3999999999999995,
+          6.418033988749895,
+          4.0
+        ]
+      ],
+      "material": "Retained source material scope; no new print-material selection",
+      "filename": "CAP_T_Rev_B17_Fusion01.stl",
+      "bytes": 20884,
+      "path": "../../B17/FUSION/CAP_T_Rev_B17_Fusion01.stl",
+      "revision": "B17-Fusion-01",
+      "sha256": "8e0d93ec5d0d7b290face7c6e1e3f0654b98c07a7d0edf9917f895f48957b858"
+    },
+    {
+      "id": "CAP_P",
+      "kind": "Mesh",
+      "quantity": 13,
+      "source_ids": [
+        "P retained cap definition"
+      ],
+      "native_bounds_mm": [
+        [
+          -6.014534831047058,
+          -6.041127443313599,
+          0.0
+        ],
+        [
+          6.050000190734863,
+          6.041127443313599,
+          18.99999976158142
+        ]
+      ],
+      "material": "Retained source material scope; no new print-material selection",
+      "filename": "CAP_P_Rev_B16_Fusion01.stl",
+      "bytes": 102784,
+      "path": "../../B16/FUSION/CAP_P_Rev_B16_Fusion01.stl",
+      "revision": "B16-Fusion-01",
+      "sha256": "6bc7a516eeb4ba382fe5be5cce5e460289db7dfdfdd1eea1099107b9478309e3"
+    },
+    {
+      "id": "CAP_F",
+      "kind": "Mesh",
+      "quantity": 4,
+      "source_ids": [
+        "F retained cap definition"
+      ],
+      "native_bounds_mm": [
+        [
+          -6.000000238418579,
+          -5.0,
+          0.0
+        ],
+        [
+          6.000000238418579,
+          5.0,
+          10.600000619888306
+        ]
+      ],
+      "material": "Retained source material scope; no new print-material selection",
+      "filename": "CAP_F_Rev_B16_Fusion01.stl",
+      "bytes": 68484,
+      "path": "../../B16/FUSION/CAP_F_Rev_B16_Fusion01.stl",
+      "revision": "B16-Fusion-01",
+      "sha256": "5a92948fe01db726faa5b6867d5787b951b299b783bebac09769aca1e67bd7a9"
+    },
+    {
+      "id": "CAP_C",
+      "kind": "Mesh",
+      "quantity": 1,
+      "source_ids": [
+        "C retained cap definition"
+      ],
+      "native_bounds_mm": [
+        [
+          -7.5,
+          -3.966805934906006,
+          0.0
+        ],
+        [
+          7.5,
+          3.966805934906006,
+          12.000000476837158
+        ]
+      ],
+      "material": "Retained source material scope; no new print-material selection",
+      "filename": "CAP_C_Rev_B16_Fusion01.stl",
+      "bytes": 44284,
+      "path": "../../B16/FUSION/CAP_C_Rev_B16_Fusion01.stl",
+      "revision": "B16-Fusion-01",
+      "sha256": "0926fcbc70240fd979c26ddca384f61f02ab50440658e5212a06eacf41995a99"
+    },
+    {
+      "id": "CAP_E",
+      "kind": "Mesh",
+      "quantity": 1,
+      "source_ids": [
+        "E B16 native cap definition"
+      ],
+      "native_bounds_mm": [
+        [
+          -6.9999998807907104,
+          -6.9999998807907104,
+          0.0
+        ],
+        [
+          6.9999998807907104,
+          6.9999998807907104,
+          12.000000476837158
+        ]
+      ],
+      "material": "Retained source material scope; no new print-material selection",
+      "filename": "CAP_E_Rev_B16_Fusion01.stl",
+      "bytes": 23484,
+      "path": "../../B16/FUSION/CAP_E_Rev_B16_Fusion01.stl",
+      "revision": "B16-Fusion-01",
+      "sha256": "cb5f72be8ceb9e4cdcee00165a97c2bc24370b56046e7c9e211207f4000861d2"
+    }
+  ],
+  "source_fingerprint": "6a8c22715e05c00765e4f27dd30e94ad88bcd52a0c88ed7ff891295398b6c119",
+  "timeline": 970,
+  "cloud_save": false,
+  "changed_STL_definitions": 5,
+  "unchanged_STL_definitions_referenced": 34,
+  "R05_R07_identity_change": {
+    "prior": "PANEL_R05 quantity2 including R07",
+    "current": "Separate PANEL_R05/PANEL_R07 quantity1 each; different exterior sides",
+    "native_canonical_two_way_difference_mm3": [
+      28.369565722986543,
+      28.369565722995002
+    ]
+  }
+}

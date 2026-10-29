@@ -1,0 +1,63 @@
+{
+  "revision": "B24-JOINTS-02",
+  "status": "DRAFT / NOT APPROVED",
+  "units": "mm",
+  "drawing_approved": false,
+  "model_approved": false,
+  "Fusion_geometry_changed": false,
+  "scope": "Add exactly one existing-type C07 bridge to each single-connected bottom-shell pair. Retain all ten old bridges, all existing holes, hardware, equipment poses and every other interface.",
+  "basis_model": "B24-Fusion-04",
+  "basis_validation": "models/enclosure/B24/FUSION/DJC_Enclosure_Rev_B24_Fusion04_validation.json",
+  "basis_joints": "schematics/enclosure/B12/DJC_Enclosure_Rev_B12_definition.json",
+  "basis_native_builder": "models/enclosure/B22/FUSION/DJC_Enclosure_Rev_B22_fusion.py:210-244",
+  "authority": "Engineer explicitly requests two connections per named pair. Prior printed shell/joint dimensions and positions delegated in docs/APPROVALS.md#shell-dimensional-delegation-and-installed-height-inputs; named revision approvals remain mandatory.",
+  "datums": "Third-angle; rear-left floor underside origin. Table X right, Y toward operator, Z up; CAD=(X,-Y,Z). Positions are explicit design choices under recorded dimensional delegation, not measured or inferred from pixels.",
+  "shell": {"outer_XY_mm": [600,300], "floor_Z_mm": [0,2], "X_seams_mm": [220,380], "Y_seam_mm": 120},
+  "segments": [
+    {"id":"C01","X":[0,220],"Y":[0,120]},
+    {"id":"C02","X":[220,380],"Y":[0,120]},
+    {"id":"C03","X":[380,600],"Y":[0,120]},
+    {"id":"C04","X":[0,220],"Y":[120,300]},
+    {"id":"C05","X":[220,380],"Y":[120,300]},
+    {"id":"C06","X":[380,600],"Y":[120,300]}
+  ],
+  "retained_joints": [
+    {"id":"J01","normal":"X","centre":[220,101],"pair":["C01","C02"]},
+    {"id":"J02","normal":"X","centre":[220,160],"pair":["C04","C05"]},
+    {"id":"J03","normal":"X","centre":[220,230],"pair":["C04","C05"]},
+    {"id":"J04","normal":"X","centre":[380,101],"pair":["C02","C03"]},
+    {"id":"J05","normal":"X","centre":[380,160],"pair":["C05","C06"]},
+    {"id":"J06","normal":"X","centre":[380,230],"pair":["C05","C06"]},
+    {"id":"J07","normal":"Y","centre":[50,120],"pair":["C01","C04"]},
+    {"id":"J08","normal":"Y","centre":[263,120],"pair":["C02","C05"]},
+    {"id":"J09","normal":"Y","centre":[337,120],"pair":["C02","C05"]},
+    {"id":"J10","normal":"Y","centre":[550,120],"pair":["C03","C06"]}
+  ],
+  "added_joints": [
+    {"id":"J11","normal":"Y","centre":[170,120],"pair":["C01","C04"],"screw_axes_XY_mm":[[170,111],[170,129]],"reason":"Mirror the existing X50 joint within the X0..220 bay. Keep away from the X159.3 roof toe axis and retain existing X160 panel-post axis."},
+    {"id":"J12","normal":"Y","centre":[430,120],"pair":["C03","C06"],"screw_axes_XY_mm":[[430,111],[430,129]],"reason":"Mirror the existing X550 joint within the X380..600 bay. Keep away from the X440.7 roof toe axis."},
+    {"id":"J13","normal":"X","centre":[220,75],"pair":["C01","C02"],"screw_axes_XY_mm":[[211,75],[229,75]],"reason":"The existing Pi reference ends at tableY67.15. New bridge beginsY70 and pad beginsY70.5; conservative reference gap2.85, with existing J01 retained atY101. Earlier Y45 candidate rejected analytically as inside the Pi envelope."},
+    {"id":"J14","normal":"X","centre":[380,70],"pair":["C02","C03"],"screw_axes_XY_mm":[[371,70],[389,70]],"reason":"The existing PSU reference ends at tableY59.75. New bridge beginsY65 and pad beginsY65.5; conservative reference gap5.25, with existing J04 retained atY101. Earlier Y45 candidate rejected analytically as inside the PSU envelope. Gap is not a manufacturing or wiring clearance acceptance."}
+  ],
+  "bridge": {
+    "id":"C07", "role":"printed", "quantity_before":10, "quantity_after":14,
+    "size_mm":[28,10,3], "local_axes":"u across seam, v along seam, w=Z; local origin at plate centre in XY",
+    "plan_local_uv_mm":[[-14,-5],[14,5]], "assembled_Z_mm":[8,11],
+    "through_holes_D_mm":3.4, "hole_axes_local_uv_mm":[[-9,0],[9,0]],
+    "rounding":"Retain existing sharp bridge/pad geometry; no new rounding, chamfer, fit compensation or tolerance.",
+    "existing_STL":"models/enclosure/B24/FUSION/C07_bridge_Rev_B24_Fusion01.stl",
+    "existing_STL_sha256":"bac0f67664f2447218e3b4f5e99a3c002d87633b114007364d6dbf0078a37b88"
+  },
+  "pads": {"new_quantity":8,"role":"Integral printed regions of their owning C01-C06 shells, not separate parts", "D_mm":9,"Z_mm":[2,8],"pilot_D_mm":2.5,"pilot_Z_mm":[2.5,8],"pilot_depth_mm":5.5,"floor_below_pilot_mm":2.5,"seam_to_pad_axis_mm":9,"seam_to_pad_edge_mm":4.5},
+  "screws": {"role":"purchased","designation":"Retained M3x8 ISO4762 nominal socket-head reference, not the panel countersunk BN616 screw", "bridge_quantity_before":20,"bridge_quantity_after":28,"added_quantity":8,"shaft_D_mm":3,"head_D_mm":5.5,"head_H_mm":3,"shaft_Z_mm":[3,11],"head_Z_mm":[11,14],"nominal_pilot_engagement_mm":5,"pilot_bottom_tip_reserve_mm":0.5,"thread_detail":"No invented helical thread or socket geometry; reference envelope is not printed hardware."},
+  "changed_shell_pad_counts": {"C01":2,"C02":2,"C03":2,"C04":1,"C05":0,"C06":1},
+  "assembly": "Join all six shell segments and tighten14 bridges/28 screws vertically before installing equipment, complete roof or upper panels. No purchased part is split. New supports stay wholly on owning shells. Preserve all existing equipment and service constraints.",
+  "print": {"material":"PETG intent retained", "machine_nominal_mm":[250,250,250], "orientation":"Retain floor-down shell proposal; C07 broad28x10 face down. Added supports remain within existing shell bounds.", "nozzle_mm":0.4, "layer_height_mm":null,"usable_margins_mm":null,"supports_brim_raft":null,"fit_calibration":null,"release":"No new print-process, strength or physical-thread qualification."},
+  "native_inspection": {"document":"DJC Enclosure B24-Fusion-04 DRAFT", "lineage":"urn:adsk.wipprod:dm.lineage:aqH6GLfwQIWoBbNycsFHjQ", "isSaved":true,"isModified":true,"units":"mm","timeline":1397,"unhealthy":[],"repository_filesystem_shared":true,"observed_existing_C07_occurrences":10,"existing_unsaved_changes":"Preserved; no save/close/discard or model mutation requested by inspection."},
+  "validation_limits": [
+    "Read-only prospective TemporaryBRep screening completed for all four final positions:20 new bridge/pad/screw solids versus407 existing bodies/sheets,8140 pairs,40 positive-AABB candidates explicitly intersected,zero positive solid intersections above1e-6mm3. Original geometry/poses/visibility/camera/save flags preserved;1397 healthy entries.",
+    "Eight conservative driver cylinders D7.332348 atZ14..64 were screened versus407 bodies/sheets. J11/J12 hit only removable PANEL_R01/R05 and PANEL_R04/R07 respectively; J13/J14 have no positive hits. Upper panels must be removed for joint installation. This sampled straight driver envelope does not certify hand/tool insertion or connected service access.",
+    "Existing reference envelopes omit real wiring/service geometry; real minimum accepted clearance and physical joint/thread strength remain engineer-owned. No all-assembly collision-free or manufacturing-ready claim.",
+    "No active-document cloud save, overwrite, close/discard, new Fusion model, STL, STEP or F3D export at this stage."
+  ]
+}

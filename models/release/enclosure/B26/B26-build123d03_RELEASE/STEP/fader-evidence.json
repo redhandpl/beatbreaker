@@ -1,0 +1,78 @@
+{
+  "step_sha256": "be226639517a5e5042979a5c78039f82f4e40c89f9d92193f8bd150e7c0c258b",
+  "results": {
+    "F01": [
+      {
+        "axis_u_mm": -33.95,
+        "retainer": "F01-RETAINER-2",
+        "probe_count": 64,
+        "flush_wall_and_old_axis": true
+      },
+      {
+        "axis_u_mm": 33.95,
+        "retainer": "F01-RETAINER-1",
+        "probe_count": 64,
+        "flush_wall_and_old_axis": true
+      }
+    ],
+    "F02": [
+      {
+        "axis_u_mm": -33.95,
+        "retainer": "F02-RETAINER-2",
+        "probe_count": 64,
+        "flush_wall_and_old_axis": true
+      },
+      {
+        "axis_u_mm": 33.95,
+        "retainer": "F02-RETAINER-1",
+        "probe_count": 64,
+        "flush_wall_and_old_axis": true
+      }
+    ],
+    "F03": [
+      {
+        "axis_u_mm": -33.95,
+        "retainer": "F03-RETAINER-2",
+        "probe_count": 64,
+        "flush_wall_and_old_axis": true
+      },
+      {
+        "axis_u_mm": 33.95,
+        "retainer": "F03-RETAINER-1",
+        "probe_count": 64,
+        "flush_wall_and_old_axis": true
+      }
+    ],
+    "F04": [
+      {
+        "axis_u_mm": -33.95,
+        "retainer": "F04-RETAINER-2",
+        "probe_count": 64,
+        "flush_wall_and_old_axis": true
+      },
+      {
+        "axis_u_mm": 33.95,
+        "retainer": "F04-RETAINER-1",
+        "probe_count": 64,
+        "flush_wall_and_old_axis": true
+      }
+    ],
+    "F05": [
+      {
+        "axis_u_mm": -33.8,
+        "retainer": "F05-RETAINER-1",
+        "probe_count": 64,
+        "flush_wall_and_old_axis": true
+      },
+      {
+        "axis_u_mm": 33.8,
+        "retainer": "F05-RETAINER-2",
+        "probe_count": 64,
+        "flush_wall_and_old_axis": true
+      }
+    ]
+  },
+  "total_pilot_and_countersink_probes": 640,
+  "status": "FADER_PROBES_PASS",
+  "limitation": "Five fader interfaces only; not physical fit, print validation or production approval"
+}

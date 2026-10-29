@@ -1,0 +1,951 @@
+{
+  "units": "STL unitless; interpreted as mm",
+  "welding": "exact numeric coordinates; +0 and -0 equivalent",
+  "normal_opposition_cosine_threshold": -1e-05,
+  "degenerate_cross_magnitude_threshold_mm2": 1e-12,
+  "parts": {
+    "C01": {
+      "filename": "C01_Rev_B26_build123d03.stl",
+      "sha256": "757d2f5752f487c40157707e8c269f707ade67a6ec966e2e5f05e254a70277ae",
+      "quantity": 1,
+      "triangles": 38912,
+      "bounds_mm": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          221.0,
+          141.0,
+          84.37677001953125
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "C02": {
+      "filename": "C02_Rev_B26_build123d03.stl",
+      "sha256": "fcfc4ab49bba1d4d406f938514391df1a851844f472170e65baba9a26c02446e",
+      "quantity": 1,
+      "triangles": 34554,
+      "bounds_mm": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          161.0,
+          141.0,
+          84.37677001953125
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "C03": {
+      "filename": "C03_Rev_B26_build123d03.stl",
+      "sha256": "95dddf1448132e095796895690affccb24b1ba8aff0870ac4836091d11a680cd",
+      "quantity": 1,
+      "triangles": 64534,
+      "bounds_mm": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          221.0,
+          141.0,
+          84.37677001953125
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "C04": {
+      "filename": "C04_Rev_B26_build123d03.stl",
+      "sha256": "8b8742b32f59e4597dda2e30c888f2efb0b6c52eec9e94172ace49b294cb229a",
+      "quantity": 1,
+      "triangles": 46986,
+      "bounds_mm": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          221.0,
+          181.0,
+          19.0
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "C05": {
+      "filename": "C05_Rev_B26_build123d03.stl",
+      "sha256": "9c9bbf8b8bdfdff7a99c52554b26f1634e4c44f0bf8c63be1d608d43fb3eeca9",
+      "quantity": 1,
+      "triangles": 128976,
+      "bounds_mm": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          161.0,
+          181.0,
+          19.0
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "C06": {
+      "filename": "C06_Rev_B26_build123d03.stl",
+      "sha256": "c6089c2bd86e15fd79083cdcc4ae4d08185ce5fa41bcfafc64cdf108b4ad68b7",
+      "quantity": 1,
+      "triangles": 46406,
+      "bounds_mm": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          221.0,
+          181.0,
+          19.0
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "PANEL_R01": {
+      "filename": "PANEL_R01_Rev_B26_build123d03.stl",
+      "sha256": "699690fb30844cd2ce096f2f9ce5a22682488d350ea9dc12b3fed9a3d046d961",
+      "quantity": 1,
+      "triangles": 16582,
+      "bounds_mm": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          221.0,
+          166.0,
+          3.0
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "PANEL_R03": {
+      "filename": "PANEL_R03_Rev_B26_build123d03.stl",
+      "sha256": "180cfc709814d26afe49e593cdb3e9cd5a1e734db9a4be1ae3c6df19d896f7db",
+      "quantity": 1,
+      "triangles": 3248,
+      "bounds_mm": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          161.0,
+          40.653564453125,
+          3.0
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "PANEL_R04": {
+      "filename": "PANEL_R04_Rev_B26_build123d03.stl",
+      "sha256": "81a3cbbaad0aa6b917c1af393ab181ade47862a8dc329196523cbfdb5cb4e19a",
+      "quantity": 1,
+      "triangles": 18562,
+      "bounds_mm": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          221.0,
+          166.0,
+          3.4000000953674316
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "PANEL_R05": {
+      "filename": "PANEL_R05_Rev_B26_build123d03.stl",
+      "sha256": "7a48a3c8fbf07ea00df66a9b6245f769bbf2f9e92640bfb58b1dc67dde30f733",
+      "quantity": 1,
+      "triangles": 21516,
+      "bounds_mm": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          221.0,
+          181.0,
+          3.0
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "PANEL_R06": {
+      "filename": "PANEL_R06_Rev_B26_build123d03.stl",
+      "sha256": "ed218ec62cf685d151763d3840a53885b09edeb265bbbc140b689094f793312a",
+      "quantity": 1,
+      "triangles": 21176,
+      "bounds_mm": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          161.0,
+          181.0,
+          3.4000000953674316
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "PANEL_R07": {
+      "filename": "PANEL_R07_Rev_B26_build123d03.stl",
+      "sha256": "7844ff15723a65181ea2fc19aa8a7b8b53357e513e34d36a0e5fd13800d9d7e1",
+      "quantity": 1,
+      "triangles": 21516,
+      "bounds_mm": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          221.0,
+          181.0,
+          3.0
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "D02L": {
+      "filename": "D02L_Rev_B26_build123d03.stl",
+      "sha256": "81cd97b003fe39e0a90af368c36039496add44ff2a1a2e9b162c824698a81926",
+      "quantity": 1,
+      "triangles": 7168,
+      "bounds_mm": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          192.4499969482422,
+          117.0,
+          77.00115203857422
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "D02R": {
+      "filename": "D02R_Rev_B26_build123d03.stl",
+      "sha256": "00218ccdc8b63314b8574c9d82e12b6a3f95a815458b90a4690da9f227214169",
+      "quantity": 1,
+      "triangles": 7304,
+      "bounds_mm": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          112.44999694824219,
+          117.0,
+          77.00115203857422
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "C07_bridge": {
+      "filename": "C07_bridge_Rev_B26_build123d03.stl",
+      "sha256": "1e04ff3bdd9ca5b2dbe57dfcd3a23f4ea617df613bdf9d10e06c796952e674e7",
+      "quantity": 16,
+      "triangles": 1172,
+      "bounds_mm": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          29.0,
+          11.0,
+          4.0
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "button_retainer": {
+      "filename": "button_retainer_Rev_B26_build123d03.stl",
+      "sha256": "669cca54d4e42671d900722b346b27502bcb583110e381d3e7d35bbe371fe38e",
+      "quantity": 30,
+      "triangles": 3912,
+      "bounds_mm": [
+        [
+          1.0,
+          1.0003756284713745,
+          1.0
+        ],
+        [
+          17.200000762939453,
+          23.799623489379883,
+          2.5
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "pot_retainer": {
+      "filename": "pot_retainer_Rev_B26_build123d03.stl",
+      "sha256": "91e98459116b7157ba2b72eaaa9aafad47473aa7e302d85afe8e06714ff43b93",
+      "quantity": 13,
+      "triangles": 7032,
+      "bounds_mm": [
+        [
+          1.0000059604644775,
+          1.0000059604644775,
+          1.0
+        ],
+        [
+          17.9999942779541,
+          19.099994659423828,
+          2.5
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "fader_retainer": {
+      "filename": "fader_retainer_Rev_B26_build123d03.stl",
+      "sha256": "98af5cc6e24944580debf33a59b1a2e7ba7bfa43900099cd1d9185fd4f44a2db",
+      "quantity": 10,
+      "triangles": 1464,
+      "bounds_mm": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          14.399999618530273,
+          9.399999618530273,
+          2.5
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "encoder_retainer": {
+      "filename": "encoder_retainer_Rev_B26_build123d03.stl",
+      "sha256": "301ed7cccae18e429c9fa7e3b155a0c1dfdf11e77079356b95d48795f905b9a2",
+      "quantity": 1,
+      "triangles": 3896,
+      "bounds_mm": [
+        [
+          1.0,
+          1.0003756284713745,
+          1.0
+        ],
+        [
+          17.200000762939453,
+          26.599624633789062,
+          2.5
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "display_toe": {
+      "filename": "display_toe_Rev_B26_build123d03.stl",
+      "sha256": "7560d102fc1d93cf61718563553ffd60a552ad3a1e54a4dc08de018ec4742f91",
+      "quantity": 4,
+      "triangles": 600,
+      "bounds_mm": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          8.699999809265137,
+          9.26731014251709,
+          9.66191291809082
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "jog_P01_rotor": {
+      "filename": "jog_P01_rotor_Rev_B26_build123d03.stl",
+      "sha256": "c6acc7084ff1f253730bea0e5a37fc215be74a8d6100fcf71aac336981a248d3",
+      "quantity": 2,
+      "triangles": 167614,
+      "bounds_mm": [
+        [
+          1.0000001192092896,
+          1.0024924278259277,
+          1.0000001192092896
+        ],
+        [
+          111.0,
+          110.99750518798828,
+          34.400001525878906
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "jog_P02_carrier": {
+      "filename": "jog_P02_carrier_Rev_B26_build123d03.stl",
+      "sha256": "7897694ab5e2c87ceb8276658575388d0ee474bab76444b028ceeab975fdc60b",
+      "quantity": 2,
+      "triangles": 9820,
+      "bounds_mm": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          64.69306182861328,
+          59.99979019165039,
+          19.5
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "jog_P04_collar": {
+      "filename": "jog_P04_collar_Rev_B26_build123d03.stl",
+      "sha256": "2139857402add59c21bcb090f836522589dc76c84881d015c2268ca74ae7b411",
+      "quantity": 2,
+      "triangles": 5532,
+      "bounds_mm": [
+        [
+          1.0000001192092896,
+          1.0001356601715088,
+          1.0000001192092896
+        ],
+        [
+          33.168914794921875,
+          33.19986343383789,
+          2.5
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "jog_cover": {
+      "filename": "jog_cover_Rev_B26_build123d03.stl",
+      "sha256": "2f83ff910ebc623d5629074aa0246b31f2901196b3942e23e93c9829ce1b9327",
+      "quantity": 4,
+      "triangles": 6382,
+      "bounds_mm": [
+        [
+          1.0005868673324585,
+          1.0002105236053467,
+          1.0
+        ],
+        [
+          49.5,
+          46.99979019165039,
+          2.5
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "jog_P07_collar": {
+      "filename": "jog_P07_collar_Rev_B26_build123d03.stl",
+      "sha256": "50e1f1e8f5eb1adc5c959f547deb4b0d6adaeab2bbb775035004e13c33927c1c",
+      "quantity": 2,
+      "triangles": 4160,
+      "bounds_mm": [
+        [
+          1.0000001192092896,
+          1.0001356601715088,
+          1.0000001192092896
+        ],
+        [
+          33.168914794921875,
+          33.19986343383789,
+          2.0
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "jog_sensor_plate": {
+      "filename": "jog_sensor_plate_Rev_B26_build123d03.stl",
+      "sha256": "f6f9c80c0d96d51ad523ce4e22eea0c1c9867e25f29102232ea6f07eb375adf5",
+      "quantity": 2,
+      "triangles": 4424,
+      "bounds_mm": [
+        [
+          1.0019841194152832,
+          1.000030755996704,
+          1.0
+        ],
+        [
+          50.99789810180664,
+          50.999732971191406,
+          4.0
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "jog_toe": {
+      "filename": "jog_toe_Rev_B26_build123d03.stl",
+      "sha256": "8aa4fbb70aa8cdfe1c2ae39494dadb99ea4586fd1843f17bcee7677e720cb360",
+      "quantity": 4,
+      "triangles": 1172,
+      "bounds_mm": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          8.130126953125,
+          8.34974193572998,
+          2.299999952316284
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "CAP_B": {
+      "filename": "CAP_B_Rev_B26_build123d03.stl",
+      "sha256": "37d5ff82b539e87fa27ffa795a6c2493bcc57afe4a1ff978b7a8fa7b99d8d87e",
+      "quantity": 12,
+      "triangles": 1044,
+      "bounds_mm": [
+        [
+          -7.0,
+          -7.0,
+          -4.599999904632568
+        ],
+        [
+          7.0,
+          7.0,
+          4.0
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "CAP_T": {
+      "filename": "CAP_T_Rev_B26_build123d03.stl",
+      "sha256": "8e0d93ec5d0d7b290face7c6e1e3f0654b98c07a7d0edf9917f895f48957b858",
+      "quantity": 6,
+      "triangles": 416,
+      "bounds_mm": [
+        [
+          -9.436067581176758,
+          -6.418034076690674,
+          -4.599999904632568
+        ],
+        [
+          3.4000000953674316,
+          6.418034076690674,
+          4.0
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "CAP_P": {
+      "filename": "CAP_P_Rev_B26_build123d03.stl",
+      "sha256": "6bc7a516eeb4ba382fe5be5cce5e460289db7dfdfdd1eea1099107b9478309e3",
+      "quantity": 13,
+      "triangles": 2054,
+      "bounds_mm": [
+        [
+          -6.0145344734191895,
+          -6.0411272048950195,
+          0.0
+        ],
+        [
+          6.050000190734863,
+          6.0411272048950195,
+          19.0
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "CAP_F": {
+      "filename": "CAP_F_Rev_B26_build123d03.stl",
+      "sha256": "5a92948fe01db726faa5b6867d5787b951b299b783bebac09769aca1e67bd7a9",
+      "quantity": 4,
+      "triangles": 1368,
+      "bounds_mm": [
+        [
+          -6.0,
+          -5.0,
+          0.0
+        ],
+        [
+          6.0,
+          5.0,
+          10.600000381469727
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "CAP_C": {
+      "filename": "CAP_C_Rev_B26_build123d03.stl",
+      "sha256": "0926fcbc70240fd979c26ddca384f61f02ab50440658e5212a06eacf41995a99",
+      "quantity": 1,
+      "triangles": 884,
+      "bounds_mm": [
+        [
+          -7.5,
+          -3.966805934906006,
+          0.0
+        ],
+        [
+          7.5,
+          3.966805934906006,
+          12.0
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "CAP_E": {
+      "filename": "CAP_E_Rev_B26_build123d03.stl",
+      "sha256": "cb5f72be8ceb9e4cdcee00165a97c2bc24370b56046e7c9e211207f4000861d2",
+      "quantity": 1,
+      "triangles": 468,
+      "bounds_mm": [
+        [
+          -7.0,
+          -7.0,
+          0.0
+        ],
+        [
+          7.0,
+          7.0,
+          12.0
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "CAP-CUE40": {
+      "filename": "CAP-CUE40_Rev_B26_build123d03.stl",
+      "sha256": "b5f8374b7fe40e5e8d02d47cfbf4d6c739d020cb72bfb5ba36059ce4b38ce571",
+      "quantity": 2,
+      "triangles": 4304,
+      "bounds_mm": [
+        [
+          -20.0,
+          -19.999876022338867,
+          -4.599999904632568
+        ],
+        [
+          19.999502182006836,
+          19.999876022338867,
+          4.0
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "CAP-PP40": {
+      "filename": "CAP-PP40_Rev_B26_build123d03.stl",
+      "sha256": "59245a23c144f44d41961fe8b7d75fd3b78d0cc92ffb29293b260076498d332d",
+      "quantity": 2,
+      "triangles": 4688,
+      "bounds_mm": [
+        [
+          -20.0,
+          -19.999876022338867,
+          -4.599999904632568
+        ],
+        [
+          19.999502182006836,
+          19.999876022338867,
+          4.0
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    },
+    "CAP-HC40": {
+      "filename": "CAP-HC40_Rev_B26_build123d03.stl",
+      "sha256": "a7d5ed2b3b24f522ea4d68b192ed64052bf3c69c7bc3b1e5eae24732725e0e31",
+      "quantity": 8,
+      "triangles": 9108,
+      "bounds_mm": [
+        [
+          -20.0,
+          -20.0,
+          -4.599999904632568
+        ],
+        [
+          20.0,
+          20.0,
+          4.0
+        ]
+      ],
+      "max_bound_error_mm": 0.0,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "winding_conflicts": 0,
+      "edge_connected_components": 1,
+      "degenerate_triangles": 0,
+      "zero_stored_normals": 0,
+      "opposed_stored_normals": 0
+    }
+  },
+  "limits": [
+    "No self-intersection or vertex-link manifold test.",
+    "Stored normals are checked for finiteness and non-opposition; they are not assumed unit length.",
+    "Connected surfaces are edge-connected components; no physical-fit or slicer validation."
+  ],
+  "total_definitions": 36,
+  "total_occurrences": 155
+}

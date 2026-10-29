@@ -1,0 +1,2136 @@
+{
+  "units": {
+    "length": "mm",
+    "volume": "mm3",
+    "angle": "degrees"
+  },
+  "coverage_denominator": 18,
+  "results": [
+    {
+      "operand_reconstructed": "left P01",
+      "operand_step_evidence_name": "left P01 platter and threaded rotor",
+      "numeric_ordinal": 0,
+      "imported_label": "right_P01_platter_and_threaded_rotor",
+      "step_numeric_path": [
+        9,
+        0
+      ],
+      "evidence_bounds_max_delta_mm": 0.0,
+      "step_solid_count": 1,
+      "step_valid": true,
+      "reconstructed_solid_count": 1,
+      "reconstructed_valid": true,
+      "reconstructed_bounds_mm": [
+        [
+          54.9999999,
+          -220.0000001,
+          4.9999999
+        ],
+        [
+          165.0000001,
+          -109.9999999,
+          38.4000001
+        ]
+      ],
+      "step_bounds_mm": [
+        [
+          54.99999989999999,
+          -220.0000001,
+          4.999999899999918
+        ],
+        [
+          165.0000001,
+          -109.9999999,
+          38.400000100000824
+        ]
+      ],
+      "bounds_max_abs_delta_mm": 8.242295734817162e-13,
+      "reconstructed_volume_mm3": 137542.11865854624,
+      "step_volume_mm3": 137542.75975006862,
+      "volume_abs_delta_mm3": 0.6410915223823395,
+      "reconstruction_minus_step_mm3": 0,
+      "step_minus_reconstruction_mm3": 0
+    },
+    {
+      "operand_reconstructed": "left P02",
+      "operand_step_evidence_name": "left P02 carrier F13-STATIC-04",
+      "numeric_ordinal": 1,
+      "imported_label": "right_P02_carrier_F13-STATIC-04",
+      "step_numeric_path": [
+        9,
+        1
+      ],
+      "evidence_bounds_max_delta_mm": 0.0,
+      "step_solid_count": 1,
+      "step_valid": true,
+      "reconstructed_solid_count": 1,
+      "reconstructed_valid": true,
+      "reconstructed_bounds_mm": [
+        [
+          78.1532124826824,
+          -201.0,
+          3.0
+        ],
+        [
+          141.8467875173176,
+          -142.0,
+          21.5
+        ]
+      ],
+      "step_bounds_mm": [
+        [
+          78.1532124826858,
+          -200.9999999999934,
+          3.0
+        ],
+        [
+          141.8467875173212,
+          -142.0,
+          21.5
+        ]
+      ],
+      "bounds_max_abs_delta_mm": 6.59383658785373e-12,
+      "reconstructed_volume_mm3": 5167.291967157218,
+      "step_volume_mm3": 5167.291967156708,
+      "volume_abs_delta_mm3": 5.102265276946127e-10,
+      "reconstruction_minus_step_mm3": 0,
+      "step_minus_reconstruction_mm3": 0
+    },
+    {
+      "operand_reconstructed": "left P05",
+      "operand_step_evidence_name": "left P05 upper cover",
+      "numeric_ordinal": 2,
+      "imported_label": "right_P05_upper_cover",
+      "step_numeric_path": [
+        9,
+        2
+      ],
+      "evidence_bounds_max_delta_mm": 0.0,
+      "step_solid_count": 1,
+      "step_valid": true,
+      "reconstructed_solid_count": 1,
+      "reconstructed_valid": true,
+      "reconstructed_bounds_mm": [
+        [
+          84.5,
+          -188.0,
+          21.5
+        ],
+        [
+          133.0,
+          -142.0,
+          23.0
+        ]
+      ],
+      "step_bounds_mm": [
+        [
+          84.50000000000009,
+          -188.0,
+          21.5
+        ],
+        [
+          133.0,
+          -142.0,
+          23.000000000000004
+        ]
+      ],
+      "bounds_max_abs_delta_mm": 8.526512829121202e-14,
+      "reconstructed_volume_mm3": 621.287522555471,
+      "step_volume_mm3": 621.2875225555747,
+      "volume_abs_delta_mm3": 1.0368239600211382e-10,
+      "reconstruction_minus_step_mm3": 0,
+      "step_minus_reconstruction_mm3": 0
+    },
+    {
+      "operand_reconstructed": "left P06",
+      "operand_step_evidence_name": "left P06 lower cover",
+      "numeric_ordinal": 3,
+      "imported_label": "right_P06_lower_cover",
+      "step_numeric_path": [
+        9,
+        3
+      ],
+      "evidence_bounds_max_delta_mm": 0.0,
+      "step_solid_count": 1,
+      "step_valid": true,
+      "reconstructed_solid_count": 1,
+      "reconstructed_valid": true,
+      "reconstructed_bounds_mm": [
+        [
+          84.5,
+          -188.0,
+          6.0
+        ],
+        [
+          133.0,
+          -142.0,
+          7.5
+        ]
+      ],
+      "step_bounds_mm": [
+        [
+          84.50000000000009,
+          -188.0,
+          6.0
+        ],
+        [
+          133.0,
+          -142.0,
+          7.5
+        ]
+      ],
+      "bounds_max_abs_delta_mm": 8.526512829121202e-14,
+      "reconstructed_volume_mm3": 621.2875225554708,
+      "step_volume_mm3": 621.2875225555633,
+      "volume_abs_delta_mm3": 9.254108590539545e-11,
+      "reconstruction_minus_step_mm3": 0,
+      "step_minus_reconstruction_mm3": 0
+    },
+    {
+      "operand_reconstructed": "left plate",
+      "operand_step_evidence_name": "left sensor plate F13-STATIC-02",
+      "numeric_ordinal": 4,
+      "imported_label": "right_sensor_plate_F13-STATIC-02",
+      "step_numeric_path": [
+        9,
+        4
+      ],
+      "evidence_bounds_max_delta_mm": 0.0,
+      "step_solid_count": 1,
+      "step_valid": true,
+      "reconstructed_solid_count": 1,
+      "reconstructed_valid": true,
+      "reconstructed_bounds_mm": [
+        [
+          85.0,
+          -190.0,
+          2.0
+        ],
+        [
+          135.0,
+          -140.0,
+          5.0
+        ]
+      ],
+      "step_bounds_mm": [
+        [
+          85.0,
+          -190.0,
+          2.0
+        ],
+        [
+          135.0,
+          -140.0,
+          5.0
+        ]
+      ],
+      "bounds_max_abs_delta_mm": 0.0,
+      "reconstructed_volume_mm3": 1772.3980113701107,
+      "step_volume_mm3": 1772.3980113700381,
+      "volume_abs_delta_mm3": 7.253220246639103e-11,
+      "reconstruction_minus_step_mm3": 0,
+      "step_minus_reconstruction_mm3": 0
+    },
+    {
+      "operand_reconstructed": "left toe_right",
+      "operand_step_evidence_name": "left P08 toe right",
+      "numeric_ordinal": 5,
+      "imported_label": "right_P08_toe_right",
+      "step_numeric_path": [
+        9,
+        5
+      ],
+      "evidence_bounds_max_delta_mm": 0.0,
+      "step_solid_count": 1,
+      "step_valid": true,
+      "reconstructed_solid_count": 1,
+      "reconstructed_valid": true,
+      "reconstructed_bounds_mm": [
+        [
+          111.2349364905389,
+          -160.36102725426582,
+          5.0
+        ],
+        [
+          118.3650635094611,
+          -153.01128499307296,
+          6.3
+        ]
+      ],
+      "step_bounds_mm": [
+        [
+          111.23493649054046,
+          -160.36102725426704,
+          5.0
+        ],
+        [
+          118.36506350946318,
+          -153.01128499307384,
+          6.300000000000001
+        ]
+      ],
+      "bounds_max_abs_delta_mm": 2.0889956431346945e-12,
+      "reconstructed_volume_mm3": 31.311667098735718,
+      "step_volume_mm3": 31.311667098735203,
+      "volume_abs_delta_mm3": 5.151434834260726e-13,
+      "reconstruction_minus_step_mm3": 0,
+      "step_minus_reconstruction_mm3": 0
+    },
+    {
+      "operand_reconstructed": "left toe_left",
+      "operand_step_evidence_name": "left P08 toe left",
+      "numeric_ordinal": 6,
+      "imported_label": "right_P08_toe_left",
+      "step_numeric_path": [
+        9,
+        6
+      ],
+      "evidence_bounds_max_delta_mm": 0.0,
+      "step_solid_count": 1,
+      "step_valid": true,
+      "reconstructed_solid_count": 1,
+      "reconstructed_valid": true,
+      "reconstructed_bounds_mm": [
+        [
+          101.6349364905389,
+          -176.98871500692704,
+          5.0
+        ],
+        [
+          108.7650635094611,
+          -169.63897274573418,
+          6.3
+        ]
+      ],
+      "step_bounds_mm": [
+        [
+          101.63493649053682,
+          -176.98871500692616,
+          5.0
+        ],
+        [
+          108.76506350945954,
+          -169.63897274573296,
+          6.300000000000001
+        ]
+      ],
+      "bounds_max_abs_delta_mm": 2.0889956431346945e-12,
+      "reconstructed_volume_mm3": 31.311667098735725,
+      "step_volume_mm3": 31.311667098735203,
+      "volume_abs_delta_mm3": 5.222489107836736e-13,
+      "reconstruction_minus_step_mm3": 0,
+      "step_minus_reconstruction_mm3": 0
+    },
+    {
+      "operand_reconstructed": "left P04",
+      "operand_step_evidence_name": "left P04 threaded retaining collar",
+      "numeric_ordinal": 7,
+      "imported_label": "right_P04_threaded_retaining_collar",
+      "step_numeric_path": [
+        9,
+        7
+      ],
+      "evidence_bounds_max_delta_mm": 0.0,
+      "step_solid_count": 1,
+      "step_valid": true,
+      "reconstructed_solid_count": 1,
+      "reconstructed_valid": true,
+      "reconstructed_bounds_mm": [
+        [
+          93.93108581098946,
+          -181.1000001,
+          5.999999899999823
+        ],
+        [
+          126.10000009999999,
+          -148.8999999,
+          7.5000001
+        ]
+      ],
+      "step_bounds_mm": [
+        [
+          93.93108581098893,
+          -181.1000001,
+          5.9999998999997874
+        ],
+        [
+          126.10000009999999,
+          -148.8999999,
+          7.500000100000065
+        ]
+      ],
+      "bounds_max_abs_delta_mm": 5.258016244624741e-13,
+      "reconstructed_volume_mm3": 173.87939430203895,
+      "step_volume_mm3": 173.87939430237282,
+      "volume_abs_delta_mm3": 3.338698206789559e-10,
+      "reconstruction_minus_step_mm3": 0,
+      "step_minus_reconstruction_mm3": 0
+    },
+    {
+      "operand_reconstructed": "left P07",
+      "operand_step_evidence_name": "left P07 threaded jam collar",
+      "numeric_ordinal": 8,
+      "imported_label": "right_P07_threaded_jam_collar",
+      "step_numeric_path": [
+        9,
+        8
+      ],
+      "evidence_bounds_max_delta_mm": 0.0,
+      "step_solid_count": 1,
+      "step_valid": true,
+      "reconstructed_solid_count": 1,
+      "reconstructed_valid": true,
+      "reconstructed_bounds_mm": [
+        [
+          93.93108581098946,
+          -181.1000001,
+          4.9999999
+        ],
+        [
+          126.10000009999999,
+          -148.8999999,
+          6.0000001000001735
+        ]
+      ],
+      "step_bounds_mm": [
+        [
+          93.93108581098893,
+          -181.1000001,
+          4.9999998999999145
+        ],
+        [
+          126.10000009999999,
+          -148.8999999,
+          6.000000100000411
+        ]
+      ],
+      "bounds_max_abs_delta_mm": 5.258016244624741e-13,
+      "reconstructed_volume_mm3": 115.9195962148389,
+      "step_volume_mm3": 115.9195962149449,
+      "volume_abs_delta_mm3": 1.0599876532069175e-10,
+      "reconstruction_minus_step_mm3": 0,
+      "step_minus_reconstruction_mm3": 0
+    },
+    {
+      "operand_reconstructed": "right P01",
+      "operand_step_evidence_name": "right P01 platter and threaded rotor",
+      "numeric_ordinal": 9,
+      "imported_label": "right_P01_platter_and_threaded_rotor",
+      "step_numeric_path": [
+        9,
+        9
+      ],
+      "evidence_bounds_max_delta_mm": 0.0,
+      "step_solid_count": 1,
+      "step_valid": true,
+      "reconstructed_solid_count": 1,
+      "reconstructed_valid": true,
+      "reconstructed_bounds_mm": [
+        [
+          434.9999999,
+          -220.0000001,
+          4.9999999
+        ],
+        [
+          545.0000001,
+          -109.9999999,
+          38.4000001
+        ]
+      ],
+      "step_bounds_mm": [
+        [
+          434.9999999,
+          -220.0000001,
+          4.999999899999918
+        ],
+        [
+          545.0000001,
+          -109.9999999,
+          38.400000100000824
+        ]
+      ],
+      "bounds_max_abs_delta_mm": 8.242295734817162e-13,
+      "reconstructed_volume_mm3": 137542.11865854624,
+      "step_volume_mm3": 137542.7597500686,
+      "volume_abs_delta_mm3": 0.6410915223532356,
+      "reconstruction_minus_step_mm3": 0,
+      "step_minus_reconstruction_mm3": 0
+    },
+    {
+      "operand_reconstructed": "right P02",
+      "operand_step_evidence_name": "right P02 carrier F13-STATIC-04",
+      "numeric_ordinal": 10,
+      "imported_label": "right_P02_carrier_F13-STATIC-04",
+      "step_numeric_path": [
+        9,
+        10
+      ],
+      "evidence_bounds_max_delta_mm": 0.0,
+      "step_solid_count": 1,
+      "step_valid": true,
+      "reconstructed_solid_count": 1,
+      "reconstructed_valid": true,
+      "reconstructed_bounds_mm": [
+        [
+          458.1532124826824,
+          -201.0,
+          3.0
+        ],
+        [
+          521.8467875173176,
+          -142.0,
+          21.5
+        ]
+      ],
+      "step_bounds_mm": [
+        [
+          458.1532124826858,
+          -200.9999999999934,
+          3.0
+        ],
+        [
+          521.8467875173212,
+          -142.0,
+          21.5
+        ]
+      ],
+      "bounds_max_abs_delta_mm": 6.59383658785373e-12,
+      "reconstructed_volume_mm3": 5167.291967157219,
+      "step_volume_mm3": 5167.291967156706,
+      "volume_abs_delta_mm3": 5.129550117999315e-10,
+      "reconstruction_minus_step_mm3": 0,
+      "step_minus_reconstruction_mm3": 0
+    },
+    {
+      "operand_reconstructed": "right P05",
+      "operand_step_evidence_name": "right P05 upper cover",
+      "numeric_ordinal": 11,
+      "imported_label": "right_P05_upper_cover",
+      "step_numeric_path": [
+        9,
+        11
+      ],
+      "evidence_bounds_max_delta_mm": 0.0,
+      "step_solid_count": 1,
+      "step_valid": true,
+      "reconstructed_solid_count": 1,
+      "reconstructed_valid": true,
+      "reconstructed_bounds_mm": [
+        [
+          464.5,
+          -188.0,
+          21.5
+        ],
+        [
+          513.0,
+          -142.0,
+          23.0
+        ]
+      ],
+      "step_bounds_mm": [
+        [
+          464.50000000000006,
+          -188.0,
+          21.5
+        ],
+        [
+          513.0,
+          -142.0,
+          23.000000000000004
+        ]
+      ],
+      "bounds_max_abs_delta_mm": 5.684341886080802e-14,
+      "reconstructed_volume_mm3": 621.2875225554711,
+      "step_volume_mm3": 621.2875225555745,
+      "volume_abs_delta_mm3": 1.0334133548894897e-10,
+      "reconstruction_minus_step_mm3": 0,
+      "step_minus_reconstruction_mm3": 0
+    },
+    {
+      "operand_reconstructed": "right P06",
+      "operand_step_evidence_name": "right P06 lower cover",
+      "numeric_ordinal": 12,
+      "imported_label": "right_P06_lower_cover",
+      "step_numeric_path": [
+        9,
+        12
+      ],
+      "evidence_bounds_max_delta_mm": 0.0,
+      "step_solid_count": 1,
+      "step_valid": true,
+      "reconstructed_solid_count": 1,
+      "reconstructed_valid": true,
+      "reconstructed_bounds_mm": [
+        [
+          464.5,
+          -188.0,
+          6.0
+        ],
+        [
+          513.0,
+          -142.0,
+          7.5
+        ]
+      ],
+      "step_bounds_mm": [
+        [
+          464.50000000000006,
+          -188.0,
+          6.0
+        ],
+        [
+          513.0,
+          -142.0,
+          7.5
+        ]
+      ],
+      "bounds_max_abs_delta_mm": 5.684341886080802e-14,
+      "reconstructed_volume_mm3": 621.2875225554706,
+      "step_volume_mm3": 621.2875225555636,
+      "volume_abs_delta_mm3": 9.299583325628191e-11,
+      "reconstruction_minus_step_mm3": 0,
+      "step_minus_reconstruction_mm3": 0
+    },
+    {
+      "operand_reconstructed": "right plate",
+      "operand_step_evidence_name": "right sensor plate F13-STATIC-02",
+      "numeric_ordinal": 13,
+      "imported_label": "right_sensor_plate_F13-STATIC-02",
+      "step_numeric_path": [
+        9,
+        13
+      ],
+      "evidence_bounds_max_delta_mm": 0.0,
+      "step_solid_count": 1,
+      "step_valid": true,
+      "reconstructed_solid_count": 1,
+      "reconstructed_valid": true,
+      "reconstructed_bounds_mm": [
+        [
+          465.0,
+          -190.0,
+          2.0
+        ],
+        [
+          515.0,
+          -140.0,
+          5.0
+        ]
+      ],
+      "step_bounds_mm": [
+        [
+          465.0,
+          -190.0,
+          2.0
+        ],
+        [
+          515.0,
+          -140.0,
+          5.0
+        ]
+      ],
+      "bounds_max_abs_delta_mm": 0.0,
+      "reconstructed_volume_mm3": 1772.3980113701111,
+      "step_volume_mm3": 1772.3980113700386,
+      "volume_abs_delta_mm3": 7.253220246639103e-11,
+      "reconstruction_minus_step_mm3": 0,
+      "step_minus_reconstruction_mm3": 0
+    },
+    {
+      "operand_reconstructed": "right toe_right",
+      "operand_step_evidence_name": "right P08 toe right",
+      "numeric_ordinal": 14,
+      "imported_label": "right_P08_toe_right",
+      "step_numeric_path": [
+        9,
+        14
+      ],
+      "evidence_bounds_max_delta_mm": 0.0,
+      "step_solid_count": 1,
+      "step_valid": true,
+      "reconstructed_solid_count": 1,
+      "reconstructed_valid": true,
+      "reconstructed_bounds_mm": [
+        [
+          491.23493649053887,
+          -160.36102725426582,
+          5.0
+        ],
+        [
+          498.3650635094611,
+          -153.01128499307296,
+          6.3
+        ]
+      ],
+      "step_bounds_mm": [
+        [
+          491.23493649054046,
+          -160.36102725426704,
+          5.0
+        ],
+        [
+          498.3650635094632,
+          -153.01128499307384,
+          6.300000000000001
+        ]
+      ],
+      "bounds_max_abs_delta_mm": 2.1032064978498966e-12,
+      "reconstructed_volume_mm3": 31.311667098735718,
+      "step_volume_mm3": 31.311667098735203,
+      "volume_abs_delta_mm3": 5.151434834260726e-13,
+      "reconstruction_minus_step_mm3": 0,
+      "step_minus_reconstruction_mm3": 0
+    },
+    {
+      "operand_reconstructed": "right toe_left",
+      "operand_step_evidence_name": "right P08 toe left",
+      "numeric_ordinal": 15,
+      "imported_label": "right_P08_toe_left",
+      "step_numeric_path": [
+        9,
+        15
+      ],
+      "evidence_bounds_max_delta_mm": 0.0,
+      "step_solid_count": 1,
+      "step_valid": true,
+      "reconstructed_solid_count": 1,
+      "reconstructed_valid": true,
+      "reconstructed_bounds_mm": [
+        [
+          481.6349364905389,
+          -176.98871500692704,
+          5.0
+        ],
+        [
+          488.76506350946113,
+          -169.63897274573418,
+          6.3
+        ]
+      ],
+      "step_bounds_mm": [
+        [
+          481.6349364905368,
+          -176.98871500692616,
+          5.0
+        ],
+        [
+          488.76506350945954,
+          -169.63897274573296,
+          6.300000000000001
+        ]
+      ],
+      "bounds_max_abs_delta_mm": 2.1032064978498966e-12,
+      "reconstructed_volume_mm3": 31.311667098735715,
+      "step_volume_mm3": 31.311667098735203,
+      "volume_abs_delta_mm3": 5.115907697472721e-13,
+      "reconstruction_minus_step_mm3": 0,
+      "step_minus_reconstruction_mm3": 0
+    },
+    {
+      "operand_reconstructed": "right P04",
+      "operand_step_evidence_name": "right P04 threaded retaining collar",
+      "numeric_ordinal": 16,
+      "imported_label": "right_P04_threaded_retaining_collar",
+      "step_numeric_path": [
+        9,
+        16
+      ],
+      "evidence_bounds_max_delta_mm": 0.0,
+      "step_solid_count": 1,
+      "step_valid": true,
+      "reconstructed_solid_count": 1,
+      "reconstructed_valid": true,
+      "reconstructed_bounds_mm": [
+        [
+          473.93108581098943,
+          -181.1000001,
+          5.999999899999823
+        ],
+        [
+          506.10000010000005,
+          -148.8999999,
+          7.5000001
+        ]
+      ],
+      "step_bounds_mm": [
+        [
+          473.9310858109889,
+          -181.1000001,
+          5.9999998999997874
+        ],
+        [
+          506.10000010000005,
+          -148.8999999,
+          7.500000100000065
+        ]
+      ],
+      "bounds_max_abs_delta_mm": 5.115907697472721e-13,
+      "reconstructed_volume_mm3": 173.8793943020391,
+      "step_volume_mm3": 173.87939430237276,
+      "volume_abs_delta_mm3": 3.3367086871294305e-10,
+      "reconstruction_minus_step_mm3": 0,
+      "step_minus_reconstruction_mm3": 0
+    },
+    {
+      "operand_reconstructed": "right P07",
+      "operand_step_evidence_name": "right P07 threaded jam collar",
+      "numeric_ordinal": 17,
+      "imported_label": "right_P07_threaded_jam_collar",
+      "step_numeric_path": [
+        9,
+        17
+      ],
+      "evidence_bounds_max_delta_mm": 0.0,
+      "step_solid_count": 1,
+      "step_valid": true,
+      "reconstructed_solid_count": 1,
+      "reconstructed_valid": true,
+      "reconstructed_bounds_mm": [
+        [
+          473.93108581098943,
+          -181.1000001,
+          4.9999999
+        ],
+        [
+          506.10000010000005,
+          -148.8999999,
+          6.0000001000001735
+        ]
+      ],
+      "step_bounds_mm": [
+        [
+          473.9310858109889,
+          -181.1000001,
+          4.9999998999999145
+        ],
+        [
+          506.10000010000005,
+          -148.8999999,
+          6.000000100000411
+        ]
+      ],
+      "bounds_max_abs_delta_mm": 5.115907697472721e-13,
+      "reconstructed_volume_mm3": 115.91959621483902,
+      "step_volume_mm3": 115.91959621494433,
+      "volume_abs_delta_mm3": 1.0531664429436205e-10,
+      "reconstruction_minus_step_mm3": 0,
+      "step_minus_reconstruction_mm3": 0
+    }
+  ],
+  "errors": [],
+  "phase": [
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 30,
+      "local_z_mm": 3.541666666666667,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 30,
+      "local_z_mm": 3.791666666666667,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 30,
+      "local_z_mm": 4.041666666666667,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 30,
+      "local_z_mm": 4.291666666666667,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 30,
+      "local_z_mm": 4.541666666666666,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 30,
+      "local_z_mm": 4.791666666666666,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 90,
+      "local_z_mm": 3.625,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 90,
+      "local_z_mm": 3.875,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 90,
+      "local_z_mm": 4.125,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 90,
+      "local_z_mm": 4.375,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 90,
+      "local_z_mm": 4.625,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 90,
+      "local_z_mm": 4.875,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 150,
+      "local_z_mm": 3.708333333333333,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 150,
+      "local_z_mm": 3.958333333333333,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 150,
+      "local_z_mm": 4.208333333333333,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 150,
+      "local_z_mm": 4.458333333333333,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 150,
+      "local_z_mm": 4.708333333333334,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 150,
+      "local_z_mm": 4.958333333333334,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 210,
+      "local_z_mm": 3.791666666666667,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 210,
+      "local_z_mm": 4.041666666666667,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 210,
+      "local_z_mm": 4.291666666666667,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 210,
+      "local_z_mm": 4.541666666666667,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 210,
+      "local_z_mm": 4.791666666666666,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 210,
+      "local_z_mm": 5.041666666666666,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 270,
+      "local_z_mm": 3.875,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 270,
+      "local_z_mm": 4.125,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 270,
+      "local_z_mm": 4.375,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 270,
+      "local_z_mm": 4.625,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 270,
+      "local_z_mm": 4.875,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 270,
+      "local_z_mm": 5.125,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 330,
+      "local_z_mm": 3.958333333333333,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 330,
+      "local_z_mm": 4.208333333333333,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 330,
+      "local_z_mm": 4.458333333333333,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 330,
+      "local_z_mm": 4.708333333333333,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 330,
+      "local_z_mm": 4.958333333333334,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "left P01 platter and threaded rotor",
+      "local_angle_deg": 330,
+      "local_z_mm": 5.208333333333334,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "left P04 threaded retaining collar",
+      "local_angle_deg": 30,
+      "local_z_mm": 4.541666666666666,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "left P04 threaded retaining collar",
+      "local_angle_deg": 30,
+      "local_z_mm": 4.791666666666666,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "left P04 threaded retaining collar",
+      "local_angle_deg": 30,
+      "local_z_mm": 5.041666666666666,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "left P04 threaded retaining collar",
+      "local_angle_deg": 30,
+      "local_z_mm": 5.291666666666666,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "left P04 threaded retaining collar",
+      "local_angle_deg": 90,
+      "local_z_mm": 4.625,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "left P04 threaded retaining collar",
+      "local_angle_deg": 90,
+      "local_z_mm": 4.875,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "left P04 threaded retaining collar",
+      "local_angle_deg": 90,
+      "local_z_mm": 5.125,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "left P04 threaded retaining collar",
+      "local_angle_deg": 90,
+      "local_z_mm": 5.375,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "left P04 threaded retaining collar",
+      "local_angle_deg": 150,
+      "local_z_mm": 4.708333333333334,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "left P04 threaded retaining collar",
+      "local_angle_deg": 150,
+      "local_z_mm": 4.958333333333334,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "left P04 threaded retaining collar",
+      "local_angle_deg": 150,
+      "local_z_mm": 5.208333333333334,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "left P04 threaded retaining collar",
+      "local_angle_deg": 150,
+      "local_z_mm": 5.458333333333334,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "left P04 threaded retaining collar",
+      "local_angle_deg": 210,
+      "local_z_mm": 4.791666666666666,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "left P04 threaded retaining collar",
+      "local_angle_deg": 210,
+      "local_z_mm": 5.041666666666666,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "left P04 threaded retaining collar",
+      "local_angle_deg": 210,
+      "local_z_mm": 5.291666666666666,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "left P04 threaded retaining collar",
+      "local_angle_deg": 270,
+      "local_z_mm": 4.875,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "left P04 threaded retaining collar",
+      "local_angle_deg": 270,
+      "local_z_mm": 5.125,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "left P04 threaded retaining collar",
+      "local_angle_deg": 270,
+      "local_z_mm": 5.375,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "left P04 threaded retaining collar",
+      "local_angle_deg": 330,
+      "local_z_mm": 4.958333333333334,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "left P04 threaded retaining collar",
+      "local_angle_deg": 330,
+      "local_z_mm": 5.208333333333334,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "left P07 threaded jam collar",
+      "local_angle_deg": 30,
+      "local_z_mm": 3.541666666666667,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "left P07 threaded jam collar",
+      "local_angle_deg": 30,
+      "local_z_mm": 3.791666666666667,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "left P07 threaded jam collar",
+      "local_angle_deg": 90,
+      "local_z_mm": 3.625,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "left P07 threaded jam collar",
+      "local_angle_deg": 90,
+      "local_z_mm": 3.875,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "left P07 threaded jam collar",
+      "local_angle_deg": 150,
+      "local_z_mm": 3.708333333333333,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "left P07 threaded jam collar",
+      "local_angle_deg": 150,
+      "local_z_mm": 3.958333333333333,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "left P07 threaded jam collar",
+      "local_angle_deg": 210,
+      "local_z_mm": 3.791666666666667,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "left P07 threaded jam collar",
+      "local_angle_deg": 270,
+      "local_z_mm": 3.875,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 30,
+      "local_z_mm": 3.541666666666667,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 30,
+      "local_z_mm": 3.791666666666667,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 30,
+      "local_z_mm": 4.041666666666667,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 30,
+      "local_z_mm": 4.291666666666667,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 30,
+      "local_z_mm": 4.541666666666666,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 30,
+      "local_z_mm": 4.791666666666666,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 90,
+      "local_z_mm": 3.625,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 90,
+      "local_z_mm": 3.875,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 90,
+      "local_z_mm": 4.125,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 90,
+      "local_z_mm": 4.375,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 90,
+      "local_z_mm": 4.625,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 90,
+      "local_z_mm": 4.875,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 150,
+      "local_z_mm": 3.708333333333333,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 150,
+      "local_z_mm": 3.958333333333333,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 150,
+      "local_z_mm": 4.208333333333333,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 150,
+      "local_z_mm": 4.458333333333333,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 150,
+      "local_z_mm": 4.708333333333334,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 150,
+      "local_z_mm": 4.958333333333334,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 210,
+      "local_z_mm": 3.791666666666667,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 210,
+      "local_z_mm": 4.041666666666667,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 210,
+      "local_z_mm": 4.291666666666667,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 210,
+      "local_z_mm": 4.541666666666667,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 210,
+      "local_z_mm": 4.791666666666666,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 210,
+      "local_z_mm": 5.041666666666666,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 270,
+      "local_z_mm": 3.875,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 270,
+      "local_z_mm": 4.125,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 270,
+      "local_z_mm": 4.375,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 270,
+      "local_z_mm": 4.625,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 270,
+      "local_z_mm": 4.875,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 270,
+      "local_z_mm": 5.125,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 330,
+      "local_z_mm": 3.958333333333333,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 330,
+      "local_z_mm": 4.208333333333333,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 330,
+      "local_z_mm": 4.458333333333333,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 330,
+      "local_z_mm": 4.708333333333333,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 330,
+      "local_z_mm": 4.958333333333334,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "right P01 platter and threaded rotor",
+      "local_angle_deg": 330,
+      "local_z_mm": 5.208333333333334,
+      "radius_mm": 14.9,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P04 threaded retaining collar",
+      "local_angle_deg": 30,
+      "local_z_mm": 4.541666666666666,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P04 threaded retaining collar",
+      "local_angle_deg": 30,
+      "local_z_mm": 4.791666666666666,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "right P04 threaded retaining collar",
+      "local_angle_deg": 30,
+      "local_z_mm": 5.041666666666666,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P04 threaded retaining collar",
+      "local_angle_deg": 30,
+      "local_z_mm": 5.291666666666666,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "right P04 threaded retaining collar",
+      "local_angle_deg": 90,
+      "local_z_mm": 4.625,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P04 threaded retaining collar",
+      "local_angle_deg": 90,
+      "local_z_mm": 4.875,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "right P04 threaded retaining collar",
+      "local_angle_deg": 90,
+      "local_z_mm": 5.125,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P04 threaded retaining collar",
+      "local_angle_deg": 90,
+      "local_z_mm": 5.375,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "right P04 threaded retaining collar",
+      "local_angle_deg": 150,
+      "local_z_mm": 4.708333333333334,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P04 threaded retaining collar",
+      "local_angle_deg": 150,
+      "local_z_mm": 4.958333333333334,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "right P04 threaded retaining collar",
+      "local_angle_deg": 150,
+      "local_z_mm": 5.208333333333334,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P04 threaded retaining collar",
+      "local_angle_deg": 150,
+      "local_z_mm": 5.458333333333334,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "right P04 threaded retaining collar",
+      "local_angle_deg": 210,
+      "local_z_mm": 4.791666666666666,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P04 threaded retaining collar",
+      "local_angle_deg": 210,
+      "local_z_mm": 5.041666666666666,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "right P04 threaded retaining collar",
+      "local_angle_deg": 210,
+      "local_z_mm": 5.291666666666666,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P04 threaded retaining collar",
+      "local_angle_deg": 270,
+      "local_z_mm": 4.875,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P04 threaded retaining collar",
+      "local_angle_deg": 270,
+      "local_z_mm": 5.125,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "right P04 threaded retaining collar",
+      "local_angle_deg": 270,
+      "local_z_mm": 5.375,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P04 threaded retaining collar",
+      "local_angle_deg": 330,
+      "local_z_mm": 4.958333333333334,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P04 threaded retaining collar",
+      "local_angle_deg": 330,
+      "local_z_mm": 5.208333333333334,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "right P07 threaded jam collar",
+      "local_angle_deg": 30,
+      "local_z_mm": 3.541666666666667,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P07 threaded jam collar",
+      "local_angle_deg": 30,
+      "local_z_mm": 3.791666666666667,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "right P07 threaded jam collar",
+      "local_angle_deg": 90,
+      "local_z_mm": 3.625,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P07 threaded jam collar",
+      "local_angle_deg": 90,
+      "local_z_mm": 3.875,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "right P07 threaded jam collar",
+      "local_angle_deg": 150,
+      "local_z_mm": 3.708333333333333,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P07 threaded jam collar",
+      "local_angle_deg": 150,
+      "local_z_mm": 3.958333333333333,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0.25,
+      "ideal_expected_inside": true,
+      "reconstruction_inside": true,
+      "step_inside": true
+    },
+    {
+      "operand": "right P07 threaded jam collar",
+      "local_angle_deg": 210,
+      "local_z_mm": 3.791666666666667,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    },
+    {
+      "operand": "right P07 threaded jam collar",
+      "local_angle_deg": 270,
+      "local_z_mm": 3.875,
+      "radius_mm": 15.0,
+      "phase_offset_mm": 0,
+      "ideal_expected_inside": false,
+      "reconstruction_inside": false,
+      "step_inside": false
+    }
+  ],
+  "input_sha256": {
+    "schematics/work/enclosure/B26-CONSOLIDATED-02/B26_CONSOLIDATED_02_complete_DRAFT.pdf": "35ab5a40ae0051ec4080cb6cfb287782c482859d1a6f666e9a8b0ccca00226c2",
+    "schematics/work/enclosure/B26-CONSOLIDATED-02/jog/jog_data.json": "fb522c07afe6be372b6833ceae93182ed7592ea97a30b85345ae3f6800f34e4d",
+    "models/release/enclosure/B26/B26-build123d03_RELEASE/STEP/B26-build123d03-trial-assembly.step": "be226639517a5e5042979a5c78039f82f4e40c89f9d92193f8bd150e7c0c258b",
+    "models/release/enclosure/B26/B26-build123d03_RELEASE/STEP/assembly-evidence.json": "369aedab02ec3d7fc09b42bcb02d60ae3ae89ce362a0e4e5e525042c91f6ba6c"
+  },
+  "limits": "Purchased jog references are incomplete nominal envelopes; no physical, safety, manufacturing or new model approval. P01 strict release comparison failed 0.641091522 mm3 per rotor against 0.0001 mm3; its bounded exception is unpowered trial only, not surface identity.",
+  "tolerances": {
+    "bounds_mm": 0.0001,
+    "volume_mm3": 0.0001,
+    "point_classification_mm": 1e-06
+  },
+  "import_leaf_count": 476,
+  "identity_note": "STEP import uses referred-shape labels, collapsing left/right identities; numeric printed-group child index and independently recorded world bounds and solid count establish occurrence mapping, not the imported label.",
+  "summary": {
+    "constructed_local_parts": [
+      "P01",
+      "P02",
+      "P05",
+      "P06",
+      "plate",
+      "toe_right",
+      "toe_left",
+      "P04",
+      "P07"
+    ],
+    "occurrences_compared": 18,
+    "occurrence_denominator": 18,
+    "phase_samples": 128,
+    "phase_model_ideal_mismatches": 0,
+    "phase_step_ideal_mismatches": 0,
+    "boolean_errors": 0
+  }
+}

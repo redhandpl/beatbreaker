@@ -1,0 +1,37 @@
+{
+  "revision": "B26-CONSOLIDATED-02",
+  "status": "DRAFT, incomplete modeled references only; not actual vendor parts or fit certification",
+  "units": "mm",
+  "table_and_cad": "Table (X,Y,Z) maps to CAD (X,-Y,Z). X right, Y toward operator, Z up. Reference boxes below are axis-aligned table-coordinate intervals; all quantities are one unless specified.",
+  "equipment_boxes": [
+    {"id":"PI-envelope", "centre_XY":[217.5,57.95], "size_XY":[88.99,58.4], "z":[3.9,23.8]},
+    {"id":"DAC-envelope", "centre_XY":[305.5,57.75], "size_XY":[65,58], "z":[3.9,23.8]},
+    {"id":"PSU-envelope", "centre_XY":[388,54.25], "size_XY":[78,51], "z":[3,31]},
+    {"id":"U1-envelope", "centre_XY":[28.75,170], "size_XY":[25.4,62.74], "z":[3,14]},
+    {"id":"U2-envelope", "centre_XY":[181,185], "size_XY":[32,21], "z":[3,14]},
+    {"id":"U3-envelope", "centre_XY":[419,170], "size_XY":[32,21], "z":[3,14]},
+    {"id":"U4-envelope", "centre_XY":[571.25,170], "size_XY":[18,41], "z":[8,11.6]}
+  ],
+  "equipment_other": [
+    "J01-body: union CAD cylinders along +Y axis at X101 Z10: radius 4.075 from Y=-318 to -306.2 and radius 3 from Y=-322.5 to -318. J01-nut: CAD cylinder radius 4, Y=-321.8..-320; subtract coaxial radius 3, Y=-321.81..-319.99. These are round nominal envelopes, not complete hardware.",
+    "D01-front-plane: set c=cos(49 degrees), s=sin(49 degrees), CY=96-40*c, H=23+40*s. Four CAD vertices (300+u, -CY-c*v, H-s*v), in order (u,v)=(-138,-38),(-138,38),(138,38),(138,-38); face only, no thickness.",
+    "RCA-front-plane: four CAD vertices (28.85,0,0.05), (28.85,0,19.95), (80.55,0,19.95), (80.55,0,0.05); face only, no depth."
+  ],
+  "control_reference_construction": [
+    "For each of the 49 distinct owners, use the local-to-table 4x4 transform in the corresponding FIXED group of shell/shell_dataset_DRAFT.json; for E01 use E01-fixed_cage. Evaluate the following local primitives in (u,v,w), transform to table and negate resulting table Y for CAD. These are incomplete purchased references, not printed retainer geometry.",
+    "B01-B24 and T01-T06: box u[-6,6], v[-6,6], w[0,4.3]. A separate zero-thickness nominal tip face has vertices (-1.9,-1.9,7.3),(-1.9,1.9,7.3),(1.9,1.9,7.3),(1.9,-1.9,7.3); apply the same transform.",
+    "P01-P13: box u[-5.7,5.7], v[-5.5,7], w[0,6.8].",
+    "F01-F05: union box u[-30,30], v[-4.5,4.5], w[0,6] and box u[-2,2], v[-0.5,0.5], w[6,21].",
+    "E01: union box u[-5.9,5.9], v[-7,7.5], w[0,6.5], cylinder radius 3.5 w[6.5,13.5] and cylinder radius 3 w[13.5,21.5]; subtract box u[-5,5], v[1.5,5], w[14.5,21.51]. Cylinders on u=v=0."
+  ],
+  "source": [
+    "B26-build123d03_RELEASE/SOURCE/models/enclosure/B26/BUILD123D03/b26_equipment.py and b26_controls.py",
+    "B26-build123d03_RELEASE/SOURCE/models/enclosure/B24/BUILD123D/reference_equipment.py and reference_controls.py",
+    "B26-build123d03_RELEASE/SOURCE/schematics/enclosure/B22/DJC_Enclosure_Rev_B22_definition.json and B25-ELEC-02/DJC_Enclosure_Rev_B25_ELEC_02_definition.json"
+  ],
+  "limitations": [
+    "Not complete geometry of purchased controls, bearings, boards, display, jack, connectors or cables. U4 is body-only; U1-U4 mounts are intentionally omitted.",
+    "Numerical data describe model placeholders, not permission to infer actual dimensions, mating fits, electrical clearance or safety.",
+    "P01 rotor STEP strict default volume comparison failed; the accepted bounded exception applies only to the released unpowered mechanical trial."
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "title": "B26-CONSOLIDATED-02 / STATIC JOG / DRAFT — NOT APPROVED / NOT FOR MANUFACTURE",
+  "authority": [
+    "SOURCE-TRANSCRIPTION CROSS-CHECK: independently reread f13_jog.py lines 22-278 against the entire 01 jog_data.json ordered schedule. This checks transcription, not BRep reconstruction, Boolean equivalence, or manufacturing fitness.",
+    "Nominal trial-model construction authority: models/release/enclosure/B26/B26-build123d03_RELEASE/SOURCE/models/enclosure/B26/BUILD123D03/f13_jog.py, lines 22-278; source snapshot selected by SOURCE/source-manifest.json.",
+    "F13-STATIC-01 sheets 2-3, F13-STATIC-02 sheets 1-2, F13-STATIC-04 sheet 1 and F12-D05 sheets 6 and 10 are historical visual references only: the feature definitions below supersede their incompatible text and features.",
+    "The approved trial model is not a manufacturing approval; this new consolidated drawing has no approval. No physical, electrical, safety, fit or strength approval is implied.",
+    "P01 STEP strict default-volume comparison failed for BOTH rotors: 0.641091522 mm3 each versus 0.0001 mm3 threshold. Accepted bounded exception applies to the unpowered trial representation only; not a strict pass, STL waiver, surface identity or approval of this drawing. Release handoff records adaptive integration difference 0.000001609 mm3, directed zero-volume cuts and sampled comparisons, not exact equality.",
+    "Purchased parts are nominal envelopes only, not complete measured hardware. PCB mounts elsewhere in the enclosure are intentionally omitted. No general tolerance is specified."
+  ],
+  "datum": [
+    "All lengths mm; third-angle projection. Local jog O is the axis at floor top; +X/+Y as source, +Z up; angles counterclockwise from local +X.",
+    "Enclosure drawing datum rear-left, X right, Y toward front, Z up. CAD coordinates are (X,-Y,Z). Local point p maps to CAD (Xj,-165,2) + Rz(+60 degrees)p; Xj=110 left and 490 right.",
+    "Thus case point is (Xj + x cos60 - y sin60, 165 - x sin60 - y cos60, 2+z). Both jogs have identical local geometry and phase.",
+    "The R31 ear centres, in enclosure drawing XY, are left (83.153212,149.5), (110,196), (136.846788,149.5); add 380 to X for right. Correspondence to local angles 90,210,330 is respectively first, second, third. These decimal values are rounded to 6 places; exact coordinates use the stated trigonometric transform."
+  ],
+  "construction_conventions": [
+    "C(r,z0,z1,x,y): solid cylinder radius r, axis +Z at (x,y), from z0 through z1; omit x,y for (0,0). K(r0,r1,z0,z1,x,y): coaxial cone frustum bottom/top radii r0/r1.",
+    "B(x0,x1,y0,y1,z0,z1): axis-aligned closed box. RB(a,u0,u1,v0,v1,z0,z1): B(u0,u1,v0,v1,z0,z1) rotated +a about Z. XY(r,a)=(r cos a,r sin a).",
+    "All union, subtraction, intersection, rotation and fillet operations are ordered; the subordinate constructions are built independently before insertion. Only the explicitly identified fillets occur in f13_jog.py. The source is nominal construction authority; text and diagrams are not evidence of BRep equivalence."
+  ],
+  "parts": [
+    {
+      "id": "P01 rotor",
+      "quantity_per_jog": 1,
+      "features": [
+        "Platter K(55,52.5,21.4,36.4), D110 lower / D105 upper; 12 recesses at a=0+30k, k=0..11. Subtract horizontal cylinder R5, axis radial +X, start (50.25,0,28.9), length 9.75; fillet its start circular edge R1 before rotating each tool about Z.",
+        "Top C-groove is ruled loft of the two exact planar profiles below at Z35.6 and Z36.4, subtracted from platter. No generic offset approximation: use the following arc-centre construction.",
+        "For profile offset d=0 at Z35.6, d=0.8 at Z36.4: O=19.2+d; I=16.8-d; xc=2.8; yo=sqrt(18.4^2-xc^2); yi=sqrt(17.6^2-xc^2). OL=(-xc,yo), OR=(xc,yo), IL=(-xc,yi), IR=(xc,yi). rad(P,r)=P*r/|P|.",
+        "Boundary in order: CCW arc centre (0,0) rad(OL,O) to rad(OR,O); CCW arc centre OR to (2-d,yo); line to (2-d,yi); CCW arc centre IR to rad(IR,I); clockwise arc centre (0,0) to rad(IL,I); CCW arc centre IL to (-2+d,yi); line to (-2+d,yo); CCW arc centre OL to rad(OL,O). Arc sweep is modulo 360 in indicated direction. Each arc radius is distance from its centre to its start. All four arc destinations are explicitly listed in the original sequence: arc OR ends at right_up=(2-d,yo); arc IR starts at right_low=(2-d,yi) and ends at rad(IR,I); arc IL starts at rad(IL,I) and ends at left_low=(-2+d,yi); arc OL starts at left_up=(-2+d,yo) and ends at rad(OL,O). The first centre-O arc is the long CCW arc, not the short arc across the opening.",
+        "Shaft: union C(14.725,3,5.5), T30 ridge offset 0 (see T30), C(14.975,5.5,21.4), C(16.1,19.5,21.4); subtract C(13,3,21.4). Fillet R0.2 the circular shaft/shoulder root at Z19.5, circumference 2*pi*14.975.",
+        "Union C(6,6.6,21.4) and platter; subtract magnet socket C(4.1,6.6,10.8). Magnet D8x4 is a reference, not part of P01."
+      ]
+    },
+    {
+      "id": "P02 fixed carrier",
+      "quantity_per_jog": 1,
+      "features": [
+        "Union C(23,5.5,19.5); for a=0,120,240 union C(2.5,5.5,9.5,XY(23,a)) and C(2.5,15.5,19.5,XY(23,a)).",
+        "For a=90,210,330 union C(5,6,9,XY(31,a)), RB(a,22,31,-5,5,6,9), RB(a,22,25.7,-2,2,1,3.8), RB(a,24,25.7,-2,2,3.8,9).",
+        "Subtract C(21.075,5.5,19.5); for a=0,120,240 subtract C(0.8,5.5,8.5,XY(23,a)) and C(0.8,16.5,19.5,XY(23,a)); for a=90,210,330 subtract C(1,6,9,XY(31,a))."
+      ]
+    },
+    {
+      "id": "P04 / P07 collars",
+      "quantity_per_jog": "1 each",
+      "features": [
+        "P04 z0=4,z1=5.5; P07 z0=3,z1=4. For each: C(16.1,z0,z1) subtract C(14.775,z0,z1), subtract T30 ridge offset 0.05, subtract RB(a,15.6,16.2,-1,1,z0,z1) for a=0,120,240.",
+        "Same global local-Z T30 phase as P01; no phase reset to collar bottom. They are custom printed threads, not a claimed ISO fit."
+      ]
+    },
+    {
+      "id": "P05 / P06 bearing covers",
+      "quantity_per_jog": "1 each",
+      "features": [
+        "P05 z0=19.5,z1=21; P06 z0=4,z1=5.5. For each union C(23,z0,z1) and C(2.5,z0,z1,XY(23,a)) for a=0,120,240; subtract C(20,z0,z1), then C(1.2,z0,z1,XY(23,a)).",
+        "P05 countersinks: subtract K(1.2,2.1,20.1,21,XY(23,a)); P06 countersinks: subtract K(2.1,1.2,4,4.9,XY(23,a)), same three axes. No F12 spring reliefs."
+      ]
+    },
+    {
+      "id": "Sensor plate",
+      "quantity_per_jog": 1,
+      "features": [
+        "Union C(25,0,1); for s=-1,+1 union C(0.9,1,2.5,6s,0), and B(-12.4,-7.6,-3,3,1,3) for s=-1 or B(7.6,12.4,-3,3,1,3) for s=+1.",
+        "Subtract B(23.8,25.1,-1.2,1.2,0,1) and B(-5,5,-26,-3,0,1). The cut is limited to Z0..1; ignore F12's taller exit.",
+        "For x=-10,+10 subtract regular hexagonal prism AF4.1 centered (x,0), vertices at angles 30+60i, i=0..5, Z0.6..2.3; subtract B(x-2.1,x+2.1,0,8,0.6,2.3); subtract C(1.1,0.2,3,x,0)."
+      ]
+    },
+    {
+      "id": "P08 opposed toe",
+      "quantity_per_jog": 2,
+      "features": [
+        "Right: B(6.8,12.4,-2.5,2.5,3,4.3) subtract C(1.1,3,4.3,10,0) and K(1.1,1.3,4.1,4.3,10,0). Left is the same shape rotated 180 degrees about local Z."
+      ]
+    }
+  ],
+  "t30": [
+    "Exact nominal source ridge before trim: radial offset d=0 for male and d=0.05 for female cutting tool. root=14.725+d; crest=14.975+d; h=0.03125+0.25/sqrt(3). Ordered (radius, axial offset) vertices: (root-0.025,-h), (root,-h), (crest,-0.03125), (crest,+0.03125), (root,+h), (root-0.025,+h).",
+    "For every vertex construct RH helix of pitch 0.5, axial height 3.5, start (r,0,2.5+axial offset), around +Z. Join corresponding adjacent helices, including last to first, by ruled faces; cap both ends at Z offset 0 and 3.5 with polygonal faces; form closed solid and intersect with C(16,3,5.5).",
+    "The common ridge centre phase is Zc=2.5+0.5*(theta/360+n), n integer, for unwrapped theta on the +Z right-handed helix; +X at Z=2.5 is the start, and at theta=180 degrees ridge centres occur Z=2.75+0.5n. Wrap t=Z-2.5-0.5*theta/360 to [-0.25,0.25); ideal profile crest |t|<=0.03125 and root at |t|=h=0.03125+0.25/sqrt(3) (~0.1755875673). This is an ideal interior analytic interpretation, not proof of ruled surface parameterization, finite ends or boolean output. Female tool offset is +0.05 radial and both collars use the identical absolute phase; no ISO fit is implied.",
+    "Helix hand and positive winding are sourced to installed build123d topology/one_d.py make_helix lines 2546-2607: normal +Z, lefthand=False, positive 2*pi per positive pitch. Source P01 check probes (-14.97,0,4.25) and collar check probes (-15,0,z0+0.25); these internal checks do not independently validate geometry."
+  ],
+  "reference_bom_per_jog": [
+    "Printed: P01 x1, P02 x1, P04 x1, P07 x1, P05 x1, P06 x1, sensor plate x1, P08 x2 (9 printed occurrences). Two jogs total 18.",
+    "Bearing SKF 61806-2RS1 x2: simplified annular envelopes R15..21, Z5.5..12.5 and 12.5..19.5; actual internal geometry, corners and seals absent.",
+    "Diametric magnet D8 x4 x1: C(4,6.6,10.6); AS5048A PCB x1: C(9,1,3) intersect B(-7.5,7.5,-8.5,8.5,1,3), subtract D2.2 holes at x=+/-6,y=0. Components, connector, wiring absent.",
+    "M2 nuts x2: nominal threadless hex AF4 at x=+/-10, z0.65..2.25 minus R1 bore. M2x4 cap screws x2: R1 shank z0.3..4.3 plus R1.9 head z4.3..6.3; no drive/thread modeled.",
+    "ETTINGER M2.5x8 floor screws x3 at R31/90,210,330: R1.25 shank z0.5..8.5 plus R2.25 head z-2..0.5. M2x4 DIN7991 screws x6 at R23/0,120,240: upper shank R1 z17..20 and cone R1 to R2 z20..21; lower shank R1 z5..8 and cone R2 to R1 z4..5. All screws are threadless nominal envelopes, not complete hardware."
+  ],
+  "limits": [
+    "Rotor, collar and thread geometry describe nominal trial-source construction, not physical fit or manufacturing tolerances. Bounded STEP volume acceptance is not surface identity; no geometric equivalence claim.",
+    "No proof of tool access, wire clearance, bearing fit, magnet retention, preload, printability, strength, motion or electrical performance. Actual sensor components and connector are unknown.",
+    "Drawing 01 sheet 2 rings and R5 circles, sheet 3 ear section, sheet 4 sensor section, and sheet 5 collar circles/thread profile are explanatory approximations, not true projected Boolean contours. The sheet 5 2h and crest bars are schematic, not scaled profile geometry. Exact operations, not those sketches, govern reconstruction.",
+    "Electrical schematic references for actual sensor PCB components, connector, wiring and interfacing remain incomplete; do not infer them from the nominal contour. Unknown materials, fits and tolerances remain TBD; no new 3D, STEP or STL made."
+  ],
+  "cross_check_trace": [
+    "f13_jog.py:22-47 primitives, transforms and AF hex; 49-96 P01 groove and platter; 99-118 six helices, ruled faces, end caps and cylinder intersection; 121-156 rotor and collars; 159-180 carrier; 183-198 covers; 201-222 plate and toes; 225-235 reference board and bearing; 238-278 build, quantities, reference fasteners and placement.",
+    "Groove boundary consists of eight oriented elements, with major CCW outer and major clockwise inner circular arcs; 01 circles are not the groove. Segment endpoint definitions and d=0/d=0.8 profiles are in P01 feature schedule.",
+    "P01 source guard checks shaft before final boss and platter; collar guard checks groove after slot cuts. These are source checks only and were not executed in this documentation task.",
+    "The 01 source-manifest recorded source SHA-256 8fa9d5a7f6bb4ae8c6cde7079d26bf9a2b58bec395b94c31ae3c97e89cb0d65e; 01 jog_data SHA-256 25fb51f4c89d606da5440d86cb76dc22663ec153232b01fd81755f2a3100e388; 01 jog PDF SHA-256 722cfad1f2ab7597c9f0a7667963a1de202ba465b336969c3394403dc6f4c6ac, as documented in 01 validation."
+  ]
+}
