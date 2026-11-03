@@ -5,7 +5,7 @@
 beatbreaker is a two-deck DJ/MIDI controller: an ESP32-S3 reads controls and drives indicators, and a Raspberry Pi 4 runs Mixxx. The enclosure and jog mechanisms are FDM/FFF prototypes.
 
 - `DESIGN.md`: product facts and decisions; `TODO.md`: the only active work queue.
-- `docs/APPROVALS.md`: the engineer's named decisions and their scope. `docs/ARTIFACTS.md`: historical artifact index. `docs/history/SESSION-HANDOFF.md` is dated context, not a current task list.
+- `docs/APPROVALS.md` and `docs/ARTIFACTS.md` cover the current release and its scoped approvals. `work/APPROVALS.md` and `work/ARTIFACTS.md` retain the local historical decision log and artifact index. `docs/history/SESSION-HANDOFF.md` is dated context, not a current task list.
 - The current mechanical release is [REV_B](models/REV_B/beatbreaker_REV_B_validation.json): an unpowered trial only. Use its [complete drawing](schematics/REV_B/beatbreaker_REV_B_drawing.pdf), [standalone build123d source](models/REV_B/beatbreaker_REV_B.py) and consolidated validation/BOM/handoff JSON as the entry point; older releases and historical "current" statements are not the current release.
 - Discuss work with the engineer in Polish; write code and project documentation in English.
 
@@ -14,7 +14,7 @@ beatbreaker is a two-deck DJ/MIDI controller: an ESP32-S3 reads controls and dri
 - `work/models/<subsystem>/<revision>/` and `work/schematics/<subsystem>/<revision>/` are the only destinations for new working CAD sources, drafts, studies and validation files. Existing historical inputs and approved snapshots retained there are not current release deliveries; relocation does not revoke their scoped approvals.
 - `models/<release>/` and `schematics/<release>/` are release-only destinations. They currently contain only `REV_B/`; do not put working files, preparation packages or incremental amendments there.
 - The preserved REV_A package is under `work/models/enclosure/REV_A/` with drawings under `work/schematics/enclosure/REV_A/`. It retains approved B26-CONSOLIDATED-02/B26-build123d03 geometry and its self-contained `SOURCE/` layout.
-- Historical `models/work/` and `schematics/work/` paths map to `work/models/` and `work/schematics/`. Former `models/release/enclosure/REV_B/` and `schematics/release/enclosure/REV_B/` map to `models/REV_B/` and `schematics/REV_B/`; use the [current relocation map](docs/ARTIFACTS.md#artifact-relocation-map) for other verified historical relocations. Never rewrite frozen source, drawing, JSON or manifest bytes/hashes to fix stored paths. Inspect dependencies and use non-destructive staging for older generators.
+- Historical `models/work/` and `schematics/work/` paths map to `work/models/` and `work/schematics/`. Former `models/release/enclosure/REV_B/` and `schematics/release/enclosure/REV_B/` map to `models/REV_B/` and `schematics/REV_B/`; use the [local historical relocation map](work/ARTIFACTS.md#artifact-relocation-map) for other verified historical relocations. Never rewrite frozen source, drawing, JSON or manifest bytes/hashes to fix stored paths. Inspect dependencies and use non-destructive staging for older generators.
 - `.gitignore` excludes `work/`, `tmp/` and `docs/history/`. Their locally present contents are not necessarily available in a clone; preserve approved local artifacts and distinguish an absent source from an invalid approval.
 - Keep supplied references in `elements/`; leave `old_case/`, existing SVGs and legacy directories intact. Do not create SVG deliverables or alternate-format copies of drawings.
 

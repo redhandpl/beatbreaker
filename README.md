@@ -44,16 +44,12 @@ These are design targets and selected components, not evidence of a working inte
 | Printable parts and quantities | [37STL definitions](models/REV_B/STL/) · `printed_parts` in the validation JSON |
 | Assembly model | [STEP](models/REV_B/beatbreaker_REV_B_assembly.step) · [standalone build123d Python](models/REV_B/beatbreaker_REV_B.py) · [isometric view](models/REV_B/beatbreaker_REV_B_isometric_build123d-view.png) · [holder inspection view](models/REV_B/beatbreaker_REV_B_holders_build123d-view.png) |
 | Current trial drawing | [Complete REV_B PDF](schematics/REV_B/beatbreaker_REV_B_drawing.pdf); no historical amendment or companion geometry-data files required |
-| Working CAD sources and checks | [work/models/](work/models/) |
-| Working drawings and studies | [work/schematics/](work/schematics/) |
 | Electrical draft | E01 schematic: **TBD for publication**; not approved for complete wiring or energizing |
 | ESP32-S3 diagnostic | [Bench firmware and instructions](firmware/bench_inputs/README.md) |
 | Mixxx skin assets | [ShadeRemix](mixxx_skin/ShadeRemix/) |
 | Decisions and open work | [Design](DESIGN.md) · [TODO](TODO.md) · [approvals](docs/APPROVALS.md) · [artifact register](docs/ARTIFACTS.md) |
 
-`models/<release>/` and `schematics/<release>/` are reserved for releases; only `REV_B/` is currently published there. Put all new working files in `work/models/<subsystem>/<revision>/` or `work/schematics/<subsystem>/<revision>/`. Historical packages retained under `work/` keep their original approval scope and are not current releases.
-
-Older records and frozen artifacts may contain publication-time paths. The pre-holder REV_B is preserved under `work/models/enclosure/REV_B-PRE-PCB11/`, with its drawing under `work/schematics/enclosure/REV_B-PRE-PCB11/`; its original `drawing.path` remains unchanged. Use the [artifact register](docs/ARTIFACTS.md) for historical lookup/staging; do not modify frozen package contents or hashes. The repository `.gitignore` excludes `work/`, `tmp/` and `docs/history/`; local working/history material may therefore be absent from a clone.
+`models/<release>/` and `schematics/<release>/` are reserved for releases; only `REV_B/` is currently published there.
 
 ## Parts
 
