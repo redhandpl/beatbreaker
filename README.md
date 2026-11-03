@@ -6,7 +6,7 @@ A DIY two-deck DJ/MIDI controller under development, combining physical controls
 
 *Actual CAD model view, not a photograph of an assembled controller. Prototype photos and demo video: **TBD**.*
 
-Special thanks to [DJC-DIY by mandiclab](https://github.com/mandiclab/djc-diy). Without it, beatbreaker would not exist.
+*Special thanks to [DJC-DIY by mandiclab](https://github.com/mandiclab/djc-diy). Without it, beatbreaker would not exist.*
 
 ## Project status
 
